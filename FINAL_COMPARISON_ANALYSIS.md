@@ -158,8 +158,6 @@
 
 ## Implementation Verification
 
-### ✅ Correctly Implemented (After Fix)
-
 1. **Multi-View Seed Retrieval** ✅
 
    - Sub-question generation ✅
@@ -180,9 +178,9 @@
    - Token budget constraint ✅
    - Selects from restricted pool only ✅
 
-### Implementation Matches Proposal ✅
+### Implementation
 
-The experimental pipeline now correctly implements:
+The experimental pipeline now implements:
 
 - ✅ Multi-view seed retrieval (per sub-question)
 - ✅ KG expansion (1-hop from seeds)
@@ -228,25 +226,7 @@ The experimental pipeline now correctly implements:
 
 ---
 
-## Comparison with Previous Results
-
-### Before Bug Fix (Unfair)
-
-- Experimental: 76.0%
-- Original: 62.0%
-- Difference: +14.0% (inflated)
-
-### After Bug Fix (Fair)
-
-- Experimental: 68.0%
-- Original: 62.0%
-- Difference: +6.0% (realistic)
-
-**Key Insight:** The +6% improvement is **real and meaningful**, not inflated by implementation bugs.
-
----
-
-## Recommendations
+## Next Steps (May be?)
 
 ### 1. Validate on Larger Sample
 
@@ -276,7 +256,7 @@ The experimental pipeline now correctly implements:
 
 ## Conclusion
 
-The experimental pipeline demonstrates **realistic and meaningful improvements** after the bug fix:
+The experimental pipeline demonstrates **realistic and meaningful improvements**:
 
 ✅ **+6% overall accuracy** - Significant improvement  
 ✅ **+3% exact matches** - Better precision  
@@ -285,13 +265,6 @@ The experimental pipeline demonstrates **realistic and meaningful improvements**
 ✅ **-6% failure rate** - Fewer complete failures
 
 **The experimental approach (multi-view retrieval + knapsack selection) is a clear improvement over the original KG²RAG pipeline, with realistic gains of ~6%.**
-
-### Key Takeaways
-
-1. **Bug fix was necessary** - Removed unfair advantage
-2. **Real improvements confirmed** - +6% is meaningful
-3. **Implementation is correct** - Matches project proposal
-4. **Both components contribute** - Multi-view + knapsack work together
 
 ---
 
