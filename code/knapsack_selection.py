@@ -53,32 +53,29 @@ def count_tokens(text: str, tokenizer=None) -> int:
 def compute_coverage_bonus(
     passage_text: str,
     question_entities: Set[str],
-    subquestion_keywords: Set[str]
+    subquestion_keywords: Set[str] = None  # Kept for backward compatibility but not used
 ) -> float:
     """
-    Compute coverage bonus: how many question entities/keywords appear in passage.
+    Compute coverage bonus: how many question entities appear in passage.
+    
+    As per proposal: coverage(c) = |ent(q) ∩ ent(c)| / |ent(q)|
     
     Args:
         passage_text: Passage text
         question_entities: Entities from question
-        subquestion_keywords: Keywords from sub-questions
+        subquestion_keywords: (Optional, kept for compatibility) Keywords from sub-questions
     
     Returns:
         Coverage score [0, 1]
     """
+    if not question_entities:
+        return 0.0
+    
     passage_entities = extract_entities(passage_text.lower())
-    passage_words = set(passage_text.lower().split())
     
-    # Entity coverage
+    # Entity coverage as per proposal: |ent(q) ∩ ent(c)| / |ent(q)|
     entity_overlap = len(question_entities & passage_entities)
-    entity_coverage = entity_overlap / len(question_entities) if question_entities else 0.0
-    
-    # Keyword coverage
-    keyword_overlap = len(subquestion_keywords & passage_words)
-    keyword_coverage = keyword_overlap / len(subquestion_keywords) if subquestion_keywords else 0.0
-    
-    # Combined coverage
-    coverage = (entity_coverage + keyword_coverage) / 2.0
+    coverage = entity_overlap / len(question_entities)
     
     return min(coverage, 1.0)
 

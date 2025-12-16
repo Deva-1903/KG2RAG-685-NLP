@@ -295,7 +295,24 @@ def process_sample_enhanced(args, sample, kg, subquestion_generator):
         text = nws.node.text
         candidates.append((doc_id, text))
     
-    print(f'Sample {sample_id}: Candidate pool size: {len(candidates)} (seeds + KG-expanded)')
+    # Cap pool size to ≤ 60 chunks as per proposal
+    MAX_POOL_SIZE = 60
+    if len(candidates) > MAX_POOL_SIZE:
+        # Keep seeds first, then top expanded by score
+        seed_ids = {doc_id for doc_id, _, _ in seed_passages}
+        seed_candidates = [(doc_id, text) for doc_id, text in candidates if doc_id in seed_ids]
+        expanded_candidates = [(doc_id, text) for doc_id, text in candidates if doc_id not in seed_ids]
+        
+        # If we have seeds, prioritize them; otherwise take top by order
+        if seed_candidates:
+            remaining_slots = MAX_POOL_SIZE - len(seed_candidates)
+            candidates = seed_candidates + expanded_candidates[:max(0, remaining_slots)]
+        else:
+            candidates = candidates[:MAX_POOL_SIZE]
+        
+        print(f'Sample {sample_id}: Candidate pool capped from {len(expanded_nodes)} to {len(candidates)} (max {MAX_POOL_SIZE})')
+    else:
+        print(f'Sample {sample_id}: Candidate pool size: {len(candidates)} (seeds + KG-expanded)')
 
     # Step 5: Knapsack selection
     # Extract entities from question

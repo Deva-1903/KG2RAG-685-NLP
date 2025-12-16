@@ -554,7 +554,7 @@
       "question_id":"5a8c7595554299585d9e36b6",
       "question":"What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
       "ground_truth":"Chief of Protocol",
-      "prediction":"United States Ambassador.",
+      "prediction":"Shirley Temple, the actress who portrayed Corliss Archer in the film Kiss and Tell, later served as Chief of Protocol of the United States.",
       "supporting_facts":[
         [
           "Kiss and Tell (1945 film)",
@@ -662,7 +662,7 @@
       "question_id":"5adbf0a255429947ff17385a",
       "question":"Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
       "ground_truth":"no",
-      "prediction":"Yes. Both are located in the Ortak\u00f6y neighborhood of Istanbul, Turkey.",
+      "prediction":"Yes.",
       "supporting_facts":[
         [
           "Esma Sultan Mansion",
@@ -725,6 +725,14 @@
           3
         ],
         [
+          "Nola (film)",
+          0
+        ],
+        [
+          "Nola (film)",
+          2
+        ],
+        [
           "Just Another Romantic Wrestling Comedy",
           0
         ],
@@ -745,7 +753,7 @@
           0
         ],
         [
-          "Hamish and Andy's Gap Year",
+          "Adriana Trigiani",
           1
         ]
       ]
@@ -1090,7 +1098,7 @@
       "question_id":"5ab3b0bf5542992ade7c6e39",
       "question":"What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
       "ground_truth":"1999",
-      "prediction":"1999.",
+      "prediction":"1999",
       "supporting_facts":[
         [
           "Oh My God (Guns N' Roses song)",
@@ -1174,7 +1182,7 @@
       "question_id":"5ab6d09255429954757d337d",
       "question":"The football manager who recruited David Beckham managed Manchester United during what timeframe?",
       "ground_truth":"from 1986 to 2013",
-      "prediction":"1986-2013.",
+      "prediction":"1992-2013.",
       "supporting_facts":[
         [
           "Alex Ferguson",
@@ -1270,7 +1278,7 @@
       "question_id":"5ab3e45655429976abd1bcd4",
       "question":"The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
       "ground_truth":"the North Atlantic Conference",
-      "prediction":"The Northeast Conference.",
+      "prediction":"The America East Conference was formerly known as the North Atlantic Conference (NAC) from 1988 to 1996.",
       "supporting_facts":[
         [
           "Vermont Catamounts men's soccer",
@@ -1289,12 +1297,12 @@
           0
         ],
         [
-          "Vermont Catamounts men's ice hockey",
-          3
+          "2016\u201317 Vermont Catamounts men's basketball team",
+          1
         ],
         [
           "2016\u201317 Vermont Catamounts men's basketball team",
-          1
+          4
         ],
         [
           "2010\u201311 Vermont Catamounts men's basketball team",
@@ -1389,8 +1397,8 @@
           0
         ],
         [
-          "Robert Hormats",
-          3
+          "Office of Population Affairs",
+          0
         ]
       ]
     },
@@ -1533,12 +1541,16 @@
           1
         ],
         [
+          "Hip Hip Pooh-Ray!",
+          3
+        ],
+        [
           "Heffalumps and Woozles",
           0
         ],
         [
           "Winnie the Pooh and the Blustery Day",
-          0
+          2
         ],
         [
           "Winnie the Pooh and the Blustery Day",
@@ -1550,31 +1562,23 @@
         ],
         [
           "Jim Cummings",
-          1
-        ],
-        [
-          "Kate Higgins",
           0
         ],
         [
-          "Kate Higgins",
+          "Jim Cummings",
           1
         ],
         [
-          "Kate Higgins",
+          "Jim Cummings",
           2
         ],
         [
-          "Kate Higgins",
+          "Jim Cummings",
           3
         ],
         [
-          "Kate Higgins",
+          "Jim Cummings",
           4
-        ],
-        [
-          "Kate Higgins",
-          5
         ]
       ]
     },
@@ -1622,7 +1626,7 @@
         ],
         [
           "Apple Remote Desktop",
-          0
+          1
         ]
       ]
     },
@@ -1630,7 +1634,7 @@
       "question_id":"5ae2070a5542994d89d5b313",
       "question":"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
       "ground_truth":"Badly Drawn Boy",
-      "prediction":"One-person act (Badly Drawn Boy) vs four-person act (Wolf Alice).",
+      "prediction":"Badly Drawn Boy.",
       "supporting_facts":[
         [
           "The Hour of Bewilderbeast",
@@ -1674,7 +1678,7 @@
       "question_id":"5ae22b8d554299234fd0440f",
       "question":"What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
       "ground_truth":"World's Best Goalkeeper",
-      "prediction":"World's Best Goalkeeper.",
+      "prediction":"The World's Best Goalkeeper.",
       "supporting_facts":[
         [
           "Peter Schmeichel",
@@ -1714,7 +1718,7 @@
       "question_id":"5a722b8655429971e9dc9329",
       "question":"Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
       "ground_truth":"Barton Lee Hazlewood",
-      "prediction":"Lee Hazlewood wrote \"These Boots Are Made for Walkin'\", and Nancy Sinatra's father, Frank Sinatra, did not die in 2007.",
+      "prediction":"Lee Hazlewood. He wrote \"These Boots Are Made for Walkin'\" and died in 2007.",
       "supporting_facts":[
         [
           "These Boots Are Made for Walkin'",
@@ -1958,7 +1962,7 @@
       "question_id":"5ac23ff0554299636651994d",
       "question":"When was Poison's album \"Shut Up, Make Love\" released?",
       "ground_truth":"2000",
-      "prediction":"2000. (Note: According to the context information, it's not actually an album by Poison, but rather a song from their album \"Crack a Smile...and More!\")",
+      "prediction":"2000.",
       "supporting_facts":[
         [
           "Shut Up, Make Love",
@@ -2125,28 +2129,16 @@
           0
         ],
         [
-          "Hackers (film)",
-          0
-        ],
-        [
-          "Hackers (film)",
+          "Freakonomics Radio",
           1
         ],
         [
-          "Hackers (film)",
-          2
-        ],
-        [
-          "Hackers (film)",
+          "Freakonomics Radio",
           3
         ],
         [
           "Hackers (film)",
-          4
-        ],
-        [
-          "Hackers (film)",
-          5
+          1
         ]
       ]
     },
@@ -2171,6 +2163,10 @@
         [
           "Screaming Trees",
           1
+        ],
+        [
+          "Screaming Trees",
+          3
         ],
         [
           "Screaming Trees discography",
@@ -2217,10 +2213,6 @@
           1
         ],
         [
-          "Mad Season (band)",
-          0
-        ],
-        [
           "Truly",
           0
         ],
@@ -2242,7 +2234,7 @@
       "question_id":"5abf63f15542997ec76fd3ea",
       "question":"Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
       "ground_truth":"October 1922",
-      "prediction":"1922.",
+      "prediction":"1922",
       "supporting_facts":[
         [
           "Russian Civil War",
@@ -2551,6 +2543,10 @@
         [
           "Florence Nagle",
           4
+        ],
+        [
+          "Teddy Roosevelt Terrier",
+          5
         ]
       ]
     },
@@ -2558,7 +2554,7 @@
       "question_id":"5a74106b55429979e288289e",
       "question":"Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
       "ground_truth":"Mumbai",
-      "prediction":"Mumbai.",
+      "prediction":"Mumbai, Maharashtra.",
       "supporting_facts":[
         [
           "Sachin Warrier",
@@ -2601,10 +2597,6 @@
           1
         ],
         [
-          "Wes McKinney",
-          3
-        ],
-        [
           "Muthuchippi Poloru",
           0
         ],
@@ -2623,6 +2615,10 @@
         [
           "Muthuchippi Poloru",
           4
+        ],
+        [
+          "Alec Muffett",
+          2
         ]
       ]
     },
@@ -2630,7 +2626,7 @@
       "question_id":"5a79311755429970f5fffe67",
       "question":"A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
       "ground_truth":"1962",
-      "prediction":"1962. Masakazu Katsura was born in 1962.",
+      "prediction":"Masakazu Katsura (born 1962).",
       "supporting_facts":[
         [
           "I&quot;s",
@@ -2682,7 +2678,7 @@
       "question_id":"5ab2d3df554299194fa9352c",
       "question":"The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
       "ground_truth":"sovereignty",
-      "prediction":"Ethiopian sovereignty.",
+      "prediction":"Sovereignty.",
       "supporting_facts":[
         [
           "Giuseppe Arimondi",
@@ -2881,8 +2877,32 @@
           3
         ],
         [
-          "Mono Masters",
+          "Nashville Rebel (box set)",
+          0
+        ],
+        [
+          "Nashville Rebel (box set)",
           1
+        ],
+        [
+          "Nashville Rebel (box set)",
+          2
+        ],
+        [
+          "Nashville Rebel (box set)",
+          3
+        ],
+        [
+          "Nashville Rebel (box set)",
+          4
+        ],
+        [
+          "Nashville Rebel (box set)",
+          5
+        ],
+        [
+          "Nashville Rebel (box set)",
+          6
         ],
         [
           "Mono Masters",
@@ -2891,10 +2911,6 @@
         [
           "Mono Masters",
           6
-        ],
-        [
-          "Nashville Rebel (box set)",
-          2
         ]
       ]
     },
@@ -2902,7 +2918,7 @@
       "question_id":"5add61d65542995b365fab21",
       "question":"What type of forum did a former Soviet statesman initiate?",
       "ground_truth":"Organizations could come together to address global issues",
-      "prediction":"The World Summit of Nobel Peace Laureates.",
+      "prediction":"World Summit of Nobel Peace Laureates.",
       "supporting_facts":[
         [
           "Mikhail Gorbachev",
@@ -3118,7 +3134,7 @@
       "question_id":"5a8e1027554299653c1aa15f",
       "question":"Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
       "ground_truth":"2009 Big 12 Conference",
-      "prediction":"2009 Big 12 Conference.",
+      "prediction":"2009, Big 12.",
       "supporting_facts":[
         [
           "2015 Colorado Buffaloes football team",
@@ -3158,7 +3174,7 @@
       "question_id":"5ab84bf555429916710eb01f",
       "question":"In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
       "ground_truth":"1,462",
-      "prediction":"Carrefour (1,462)",
+      "prediction":"Carrefour (1,462).",
       "supporting_facts":[
         [
           "Euromarch\u00e9",
@@ -3254,15 +3270,15 @@
         ],
         [
           "Carolina Dodge Dealers 400",
-          1
-        ],
-        [
-          "Carolina Dodge Dealers 400",
           4
         ],
         [
           "Orange County Fair Speedway",
           6
+        ],
+        [
+          "Johnny Rutherford",
+          1
         ]
       ]
     },
@@ -3270,7 +3286,7 @@
       "question_id":"5a87c13f5542996e4f30890c",
       "question":"In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
       "ground_truth":"Rome",
-      "prediction":"Rome.",
+      "prediction":"Rome. Franco Corelli starred in the 1956 film Tosca, based on the opera by Giacomo Puccini, at Cinecitt\u00e0 in Rome.",
       "supporting_facts":[
         [
           "Franco Corelli",
@@ -3322,7 +3338,7 @@
       "question_id":"5ab96ab755429970cfb8eacd",
       "question":"Ellie Goulding worked with what other writers on her third studio album, Delirium?",
       "ground_truth":"Max Martin, Savan Kotecha and Ilya Salmanzadeh",
-      "prediction":"Fraser T Smith.",
+      "prediction":"Fraser T Smith and Jonny Lattimer.",
       "supporting_facts":[
         [
           "Delirium (Ellie Goulding album)",
@@ -3361,12 +3377,12 @@
           0
         ],
         [
-          "Love Me like You Do",
+          "List of songs recorded by Ellie Goulding",
           4
         ],
         [
-          "List of songs recorded by Ellie Goulding",
-          4
+          "Halcyon (album)",
+          2
         ]
       ]
     },
@@ -3423,10 +3439,6 @@
         [
           "Concho Indian Boarding School",
           3
-        ],
-        [
-          "Grennaskolan",
-          1
         ]
       ]
     },
@@ -3514,7 +3526,7 @@
         ],
         [
           "Jerry Glanville",
-          1
+          2
         ],
         [
           "Jerry Glanville",
@@ -3626,7 +3638,7 @@
       "question_id":"5a8b20335542996c9b8d5fb3",
       "question":"What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
       "ground_truth":"shortest player ever to play in the National Basketball Association",
-      "prediction":"Shortest player in NBA history.",
+      "prediction":"Shortest player ever to play in the National Basketball Association.",
       "supporting_facts":[
         [
           "Muggsy Bogues",
@@ -3773,12 +3785,12 @@
           3
         ],
         [
-          "Orlando: A Biography",
-          0
+          "Me! I'm Afraid of Virginia Woolf",
+          4
         ],
         [
-          "Jane Marcus",
-          1
+          "Orlando: A Biography",
+          0
         ]
       ]
     },
@@ -3786,7 +3798,7 @@
       "question_id":"5a77152355429966f1a36c2e",
       "question":"What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
       "ground_truth":"821",
-      "prediction":"The answer is: Unknown (not mentioned). The context information only mentions the Roud Folk Song Index numbers for various nursery rhymes, but not \"What Are Little Girls Made Of\".",
+      "prediction":"The answer is: Unknown. There is no mention of a specific nursery rhyme for \"What Are Little Girls Made Of?\", only references to other rhymes with Roud Folk Song Index numbers.",
       "supporting_facts":[
         [
           "What Are Little Girls Made Of?",
@@ -3901,10 +3913,6 @@
           2
         ],
         [
-          "Jawbreaker (film)",
-          3
-        ],
-        [
           "Rose McGowan",
           0
         ],
@@ -3918,7 +3926,43 @@
         ],
         [
           "Charmed (season 4)",
+          0
+        ],
+        [
+          "Charmed (season 4)",
+          1
+        ],
+        [
+          "Charmed (season 4)",
           2
+        ],
+        [
+          "Charmed (season 4)",
+          3
+        ],
+        [
+          "Charmed",
+          0
+        ],
+        [
+          "Charmed",
+          1
+        ],
+        [
+          "Charmed",
+          2
+        ],
+        [
+          "Charmed",
+          3
+        ],
+        [
+          "Charmed",
+          4
+        ],
+        [
+          "Charmed",
+          5
         ],
         [
           "Charmed",
@@ -3934,7 +3978,7 @@
       "question_id":"5a8361b65542992ef85e22a0",
       "question":"Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
       "ground_truth":"International Boxing Hall of Fame",
-      "prediction":"The International Boxing Federation (IBF).",
+      "prediction":"International Boxing Hall of Fame (IBHOF).",
       "supporting_facts":[
         [
           "Vince Phillips",
@@ -4173,6 +4217,10 @@
           0
         ],
         [
+          "EFL Cup",
+          1
+        ],
+        [
           "List of Wigan Borough F.C. players",
           3
         ],
@@ -4274,7 +4322,7 @@
       "question_id":"5ae1f4cb554299234fd0436d",
       "question":"What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
       "ground_truth":"276,170 inhabitants",
-      "prediction":"276,170.",
+      "prediction":"276,170. (The 122nd SS-Standarte was formed in Strasbourg during World War II, and according to the context information, the city proper had a population of 276,170 inhabitants in 2014.)",
       "supporting_facts":[
         [
           "122nd SS-Standarte",
@@ -4406,11 +4454,19 @@
         ],
         [
           "James Gunn",
+          0
+        ],
+        [
+          "James Gunn",
           1
         ],
         [
           "James Gunn",
           4
+        ],
+        [
+          "Romeo and Juliet on screen",
+          1
         ],
         [
           "Romeo \u00d7 Juliet",
@@ -4421,8 +4477,12 @@
           0
         ],
         [
-          "The Tragedy of Romeo and Juliet (film)",
-          0
+          "Romeo",
+          1
+        ],
+        [
+          "Romeo",
+          2
         ]
       ]
     },
@@ -4570,7 +4630,7 @@
       "question_id":"5a713ea95542994082a3e6e4",
       "question":"Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
       "ground_truth":"Apalachees",
-      "prediction":"Ais.",
+      "prediction":"The Ais.",
       "supporting_facts":[
         [
           "Alvaro Mexia",
@@ -4681,11 +4741,11 @@
           0
         ],
         [
-          "1965 Birthday Honours",
-          0
+          "Birthday Honours",
+          1
         ],
         [
-          "1965 Birthday Honours",
+          "2017 Birthday Honours",
           1
         ]
       ]
@@ -4718,11 +4778,11 @@
         ],
         [
           "Carroll County, New Hampshire",
-          0
+          2
         ],
         [
-          "Carroll County, New Hampshire",
-          2
+          "Sullivan County, New Hampshire",
+          0
         ],
         [
           "Sullivan County, New Hampshire",
@@ -4738,7 +4798,7 @@
       "question_id":"5abdf12255429976d4830a2f",
       "question":"The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
       "ground_truth":"Bob Seger",
-      "prediction":"Bob Seger",
+      "prediction":"Bob Seger.",
       "supporting_facts":[
         [
           "Against the Wind (album)",
@@ -4786,7 +4846,7 @@
       "question_id":"5a88658955429938390d3f47",
       "question":"Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
       "ground_truth":"Conscription",
-      "prediction":"Drafting men only.",
+      "prediction":"Requiring only men to register for the draft.",
       "supporting_facts":[
         [
           "Rostker v. Goldberg",
@@ -4835,10 +4895,6 @@
         [
           "Armed Forces Covenant",
           0
-        ],
-        [
-          "Armed Forces Covenant",
-          2
         ]
       ]
     },
@@ -4881,20 +4937,20 @@
           3
         ],
         [
+          "Robert's American Gourmet Food",
+          0
+        ],
+        [
           "Twisties",
           3
         ],
         [
           "Snack Foods Limited",
+          1
+        ],
+        [
+          "Snackbox Food Holdings",
           0
-        ],
-        [
-          "Snack Foods Limited",
-          1
-        ],
-        [
-          "Robert's American Gourmet Food",
-          1
         ]
       ]
     },
@@ -4925,40 +4981,24 @@
           0
         ],
         [
-          "Lewinsky scandal",
-          1
-        ],
-        [
-          "Lewinsky scandal",
-          2
-        ],
-        [
-          "Lewinsky scandal",
-          3
-        ],
-        [
-          "Lewinsky scandal",
-          4
-        ],
-        [
-          "Lewinsky scandal",
-          5
-        ],
-        [
-          "Lewinsky scandal",
-          6
-        ],
-        [
           "Once Upon a Secret",
           0
         ],
         [
+          "Once Upon a Secret",
+          1
+        ],
+        [
           "The White House Doctor",
           0
         ],
         [
           "The White House Doctor",
           1
+        ],
+        [
+          "The White House Doctor",
+          2
         ]
       ]
     },
@@ -5030,7 +5070,7 @@
       "question_id":"5ae005b555429942ec259bec",
       "question":"In what year was the novel that Louren\u00e7o Mutarelli based \"Nina\" on based first published?",
       "ground_truth":"1866",
-      "prediction":"1866 (Crime and Punishment)",
+      "prediction":"1866 (Crime and Punishment by Dostoyevsky)",
       "supporting_facts":[
         [
           "Louren\u00e7o Mutarelli",
@@ -5118,7 +5158,7 @@
       "question_id":"5a835478554299123d8c20ed",
       "question":"How many copies of Roald Dahl's variation on a popular anecdote sold?",
       "ground_truth":"250 million",
-      "prediction":"Unknown. The context only mentions the story \"Mrs. Bixby and the Colonel's Coat\", but it doesn't provide sales figures for that specific story.",
+      "prediction":"I think there might be some confusion! The context information doesn't mention Scott Derrickson, Ed Wood, Emma Bull, or Virginia Woolf. It only talks about Roald Dahl and his works.\n\nHowever, if you meant to ask how many copies of \"Mrs. Bixby and the Colonel's Coat\" sold, I'd say that information is not provided in the context.\n\nIf you could rephrase the question or provide more context, I'd be happy to help!",
       "supporting_facts":[
         [
           "Roald Dahl",
@@ -5158,7 +5198,7 @@
       "question_id":"5aba749055429901930fa7d8",
       "question":"What occupation do Chris Menges and Aram Avakian share?",
       "ground_truth":"director",
-      "prediction":"Film director.",
+      "prediction":"Film directors.",
       "supporting_facts":[
         [
           "Aram Avakian",
@@ -5281,16 +5321,16 @@
           2
         ],
         [
+          "Independent Spirit Award for Best Cinematography",
+          0
+        ],
+        [
           "28th Independent Spirit Awards",
           2
         ],
         [
           "John Waters",
           0
-        ],
-        [
-          "Mihai M\u0103laimare Jr.",
-          3
         ]
       ]
     },
@@ -5298,7 +5338,7 @@
       "question_id":"5ae53b545542990ba0bbb23c",
       "question":"Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
       "ground_truth":"Las Vegas Strip in Paradise",
-      "prediction":"The Flamingo Hotel.",
+      "prediction":"The Flamingo Hotel in Las Vegas, Nevada.",
       "supporting_facts":[
         [
           "Why Is There Air?",
@@ -5345,12 +5385,12 @@
           1
         ],
         [
-          "Inside the Mind of Bill Cosby",
-          2
-        ],
-        [
           "At Last Bill Cosby Really Sings",
           1
+        ],
+        [
+          "The Original Jam Sessions 1969",
+          0
         ]
       ]
     },
@@ -5398,7 +5438,7 @@
       "question_id":"5ae2b770554299495565db0f",
       "question":"In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
       "ground_truth":"March and April",
-      "prediction":"March\/April. (London International Documentary Festival)",
+      "prediction":"March\/April. (The London International Documentary Festival is held in March and April.)",
       "supporting_facts":[
         [
           "London International Documentary Festival",
@@ -5454,7 +5494,7 @@
       "question_id":"5a80b3a9554299485f5986cc",
       "question":"Tysons Galleria is located in what county?",
       "ground_truth":"Fairfax County",
-      "prediction":"Fairfax County.",
+      "prediction":"Fairfax.",
       "supporting_facts":[
         [
           "Tysons Galleria",
@@ -5506,7 +5546,7 @@
       "question_id":"5a8e0a005542995085b373a1",
       "question":"Bordan Tkachuk was the CEO of a company that provides what sort of products?",
       "ground_truth":"IT products and services",
-      "prediction":"Medical supplies.",
+      "prediction":"Computer hardware. (Viglen is a British computer manufacturer.)",
       "supporting_facts":[
         [
           "Bordan Tkachuk",
@@ -5565,10 +5605,6 @@
           0
         ],
         [
-          "Lev Kuleshov",
-          2
-        ],
-        [
           "Pamela Gilbert",
           0
         ],
@@ -5579,6 +5615,10 @@
         [
           "Aryanto Yuniawan",
           3
+        ],
+        [
+          "Pamela B. Davis",
+          2
         ]
       ]
     },
@@ -5586,7 +5626,7 @@
       "question_id":"5adccd795542990d50227d2c",
       "question":"In which city is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China based?",
       "ground_truth":"Beijing",
-      "prediction":"Beijing.",
+      "prediction":"Rabat.",
       "supporting_facts":[
         [
           "Moroccan Ambassador to China",
@@ -5667,189 +5707,189 @@
     {
       "sample_id":"5a8b57f25542995d1e6f1371",
       "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "Was Scott Derrickson born in a country other than his parents' birthplace?",
-        "What was the nationality of Ed Wood's parents or place of birth?"
+        "Here are three sub-questions that can help answer the original question:",
+        "What was Scott Derrickson's nationality?",
+        "What was Ed Wood's nationality?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-7.1817364516
+      "total_value":-7.6727949664
     },
     {
       "sample_id":"5a8c7595554299585d9e36b6",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who played Corliss Archer in the film Kiss and Tell?",
-        "What is the name of the woman who played Corliss Archer?"
+        "Here are the sub-questions:",
+        "Who portrayed Corliss Archer in the film Kiss and Tell?",
+        "What was the name of the government position held by this actress?"
       ],
       "num_seeds":8,
       "num_selected":14,
-      "total_value":-43.1957035335
+      "total_value":-44.5214568166
     },
     {
       "sample_id":"5a85ea095542994775f606a8",
       "sub_questions":[
         "Here are three sub-questions that can help answer the original question:",
         "What science fantasy young adult series is told in first person?",
-        "What is the specific aspect of this series that involves companion books?"
+        "What is the focus of the companion books in this series? (e.g., stories of enslaved worlds, alien species)"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-20.6377894489
+      "total_value":-20.9327496067
     },
     {
       "sample_id":"5adbf0a255429947ff17385a",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are the sub-questions that would help answer the original question:",
         "What is the location of Laleli Mosque?",
         "What is the location of Esma Sultan Mansion?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-8.4565565345
+      "total_value":-7.4938977758
     },
     {
       "sample_id":"5a8e3ea95542995a26add48d",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are 2-3 sub-questions that can help answer the original question:",
         "Who is the director of the romantic comedy \"Big Stone Gap\"?",
-        "What is the nationality or place of origin of this director?"
+        "What city in New York does the director have a base or connection?"
       ],
       "num_seeds":8,
-      "num_selected":11,
-      "total_value":-12.7552666334
+      "num_selected":13,
+      "total_value":-27.2465838045
     },
     {
       "sample_id":"5abd94525542992ac4f382d2",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the title of the debut album released by the South Korean boy group in 2014?",
-        "Who is the management agency or entertainment company responsible for forming and producing the South Korean boy group?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What is the name of the South Korean boy group whose debut album is 2014 S\/S?",
+        "Who formed this South Korean boy group?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":21.9204596244
+      "total_value":23.9449129385
     },
     {
       "sample_id":"5a85b2d95542997b5ce40028",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "What was Aladin's stage name?",
-        "Who is a consultant known for helping organizations improve their performance?"
+        "Who helped organizations improve their performance as a consultant?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-59.5403156566
+      "total_value":-60.8979115206
     },
     {
       "sample_id":"5a87ab905542996e4f3088c1",
       "sub_questions":[
         "Here are three single-hop sub-questions that would help answer the original question:",
         "What was the name of the arena where the Lewiston Maineiacs played their home games?",
-        "What is the seating capacity of the arena mentioned in the previous sub-question?"
+        "What is the typical seating capacity of an arena like [Name]?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-11.9049407742
+      "total_value":-11.5058724813
     },
     {
       "sample_id":"5a7bbb64554299042af8f7cc",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "* Who is Annie Morton?",
-        "* What is Terry Richardson's date of birth?"
+        "Here are three sub-questions that can help answer the original question:",
+        "Who was Annie Morton born?",
+        "When was Terry Richardson born?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-1.686654634
+      "total_value":-1.5032383129
     },
     {
       "sample_id":"5a8db19d5542994ba4e3dd00",
       "sub_questions":[
-        "Here are the sub-questions that help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Local H?",
-        "Is For Against a musical group?"
+        "Is For Against a band known for its music style and sound, rather than its nationality or geographical location?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-58.4227907579
+      "total_value":-59.6726949323
     },
     {
       "sample_id":"5a7166395542994082a3e814",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What university has its main campus in Lawrence, Kansas?",
-        "What is the name of the fight song associated with this university?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What is the name of the university whose main campus is located in Lawrence, Kansas?",
+        "Which metropolitan area is home to one or more branch campuses of this university?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":6.9669993349
+      "total_value":7.4484996711
     },
     {
       "sample_id":"5a877e5d5542993e715abf7d",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the title of the film starring Nicolas Cage and T\u00e9a Leoni?",
-        "Who co-wrote this film with Nicolas Cage and T\u00e9a Leoni?"
+        "\u2022 Who is the screenwriter credited with writing \"Evolution\"?",
+        "\u2022 Which film starring Nicolas Cage features T\u00e9a Leoni in a role?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-18.2358394563
+      "total_value":-18.2445815504
     },
     {
       "sample_id":"5ab3b0bf5542992ade7c6e39",
       "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "\u2022 What movie stars Arnold Schwarzenegger as a former New York Police detective?",
-        "\u2022 In what year did Guns N' Roses perform a promo or promotional material for this movie?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What movie starring Arnold Schwarzenegger as a former New York Police detective was released?",
+        "In what year did Guns N' Roses perform a promo?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":3.8257341921
+      "total_value":3.6076255694
     },
     {
       "sample_id":"5ab56e32554299637185c594",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are the decomposed sub-questions:",
         "What is the primary use of Random House Tower?",
-        "What is the primary use of 888 7th Avenue?"
+        "Is 888 7th Avenue a commercial building?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":5.0890629705
+      "total_value":5.0987965877
     },
     {
       "sample_id":"5ab6d09255429954757d337d",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is the football manager who recruited David Beckham?",
-        "When did this manager start managing Manchester United?"
+        "What was the timeframe during which this manager managed Manchester United?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":20.152425382
+      "total_value":21.1841544005
     },
     {
       "sample_id":"5a75e05c55429976ec32bc5f",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "* What is the name of the country where Brown State Fishing Lake is located?",
-        "* What is the population of [name of the country]?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What country is Brown State Fishing Lake located in?",
+        "What is the population of [Country name]?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-42.5590986685
+      "total_value":-42.6872983947
     },
     {
       "sample_id":"5ab3e45655429976abd1bcd4",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the conference currently competed by the Vermont Catamounts men's soccer team?",
-        "When did the Vermont Catamounts men's soccer team change conferences?"
+        "Here are three sub-questions that can help answer the original question:",
+        "What was the name of the conference that the Vermont Catamounts men's soccer team currently competes in?",
+        "What year did the Vermont Catamounts men's soccer team join this conference?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":41.4327972128
+      "total_value":40.9069849423
     },
     {
       "sample_id":"5ab29c24554299449642c932",
@@ -5860,337 +5900,337 @@
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":9.6198124163
+      "total_value":8.9240846932
     },
     {
       "sample_id":"5ae0d4c9554299603e418468",
       "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "Who was Roger O. Egeberg?",
-        "What position did Roger O. Egeberg hold during his time in government?"
+        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
+        "Who was the president that Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs?",
+        "What were the years during which Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":-13.5182678066
+      "total_value":-18.2749261473
     },
     {
       "sample_id":"5a8133725542995ce29dcbdb",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Henry Roth?",
-        "Where was Robert Erskine Childers from?"
+        "What is Robert Erskine Childers known for?"
       ],
       "num_seeds":8,
       "num_selected":19,
-      "total_value":12.6170809831
+      "total_value":10.917685227
     },
     {
       "sample_id":"5ae7a8175542993210983ed8",
       "sub_questions":[
         "Here are three sub-questions that can help answer the original question:",
         "Who is the Force India driver born in 1990?",
-        "Which Mexican Formula One race car drivers have held a podium position?"
+        "Which other Mexican Formula One race car drivers have held a podium position throughout their careers?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":18.3193861197
+      "total_value":17.4328017665
     },
     {
       "sample_id":"5ae6050f55429929b0807a5e",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is the singer of \"A Rather Blustery Day\"?",
-        "In what animated film does this hedgehog appear as a character?"
+        "What song or album features a character voiced by this singer?"
       ],
       "num_seeds":8,
-      "num_selected":13,
-      "total_value":-41.1891622926
+      "num_selected":12,
+      "total_value":-44.5547775789
     },
     {
       "sample_id":"5adddccd5542997dc7907069",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are three sub-questions that help decompose the original question:",
         "What was Apple Remote originally designed to interact with?",
-        "What other devices are capable of controlling this program?"
+        "Is there another device that can control this program?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":29.4358875932
+      "total_value":31.2411495894
     },
     {
       "sample_id":"5ae2070a5542994d89d5b313",
       "sub_questions":[
-        "Here are the sub-questions that can help answer the original question:",
-        "What is the typical instrumentation used by Badly Drawn Boy in their performances?",
-        "What is the typical instrumentation used by Wolf Alice in their performances?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What is the typical number of people in Badly Drawn Boy's live performance act?",
+        "What instruments do Wolf Alice typically use during their live performances, and how many musicians play them?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-46.0504415284
+      "total_value":-43.7480365336
     },
     {
       "sample_id":"5ae22b8d554299234fd0440f",
       "sub_questions":[
-        "Here are the 2-3 single-hop sub-questions that would help answer the original question:",
+        "Here are the sub-questions that can help answer the original question:",
         "Who is Kasper Schmeichel?",
-        "What was the IFFHS in 1992?"
+        "What was IFFHS (International Federation of Football History & Statistics)?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-5.488485442
+      "total_value":-6.5324440897
     },
     {
       "sample_id":"5a722b8655429971e9dc9329",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is the writer of the song \"These Boots Are Made for Walkin'\"?",
-        "What was the date of death for this person in 2007?"
+        "What is the name of the artist who died in 2007?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":29.7789930731
+      "total_value":28.528527528
     },
     {
       "sample_id":"5adf37a95542995ec70e8f97",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the university represented by the 2011\u201312 VCU Rams men's basketball team?",
-        "When was Virginia Commonwealth University founded?"
+        "Who is the head coach of the 2011\u201312 VCU Rams men's basketball team?",
+        "What year was Virginia Commonwealth University founded?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":62.9033741824
+      "total_value":62.9659747505
     },
     {
       "sample_id":"5abd259d55429924427fcf1a",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is Dictyosperma?",
-        "Is Huernia a genus in the botanical sense?"
+        "Here are 2-3 single-hop sub-questions that help answer the original question:",
+        "Is Dictyosperma a genus in botanical classification?",
+        "Is Huernia a genus in botanical classification?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":15.2360246287
+      "total_value":15.7707479166
     },
     {
       "sample_id":"5a828c8355429966c78a6a50",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "Who founded Kaiser Ventures corporation?",
-        "What was this American industrialist known for?"
+        "What is the American industrialist known for?"
       ],
       "num_seeds":8,
       "num_selected":14,
-      "total_value":24.340588967
+      "total_value":26.2627873222
     },
     {
       "sample_id":"5a8a3e745542996c9b8d5e70",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
-        "* What is \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
-        "* What kind of adventure or content exists within the game \"Tunnels and Trolls\"?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What is \"Tunnels and Trolls\"?",
+        "Who designed \"Tunnels and Trolls\"?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":48.969871894
+      "total_value":51.7230341995
     },
     {
       "sample_id":"5ac23ff0554299636651994d",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "Who is the band Poison?",
-        "What is the title of Poison's album featuring the song \"Shut Up, Make Love\"?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What was the name of Poison's album that features the song \"Shut Up, Make Love\"?",
+        "When did Poison release their album with this song?"
       ],
       "num_seeds":8,
       "num_selected":12,
-      "total_value":40.859825234
+      "total_value":39.4792451755
     },
     {
       "sample_id":"5ae4a3265542995ad6573de5",
       "sub_questions":[
         "Here are three sub-questions that can help answer the original question:",
         "Who is Buck-Tick?",
-        "What kind of music does Hayden make?"
+        "What type of artist or band is Buck-Tick?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-0.4747379174
+      "total_value":0.3723365565
     },
     {
       "sample_id":"5ae0361155429925eb1afc2c",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was the French ace pilot?",
-        "What was L'Oiseau Blanc, and what is its significance in aviation history?"
+        "Who is the French ace pilot?",
+        "What is L'Oiseau Blanc?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":48.9836977411
+      "total_value":49.5999704202
     },
     {
       "sample_id":"5abc0a5d5542993f40c73c64",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is \"Freakonomics\" an American documentary?",
-        "Is \"In the Realm of the Hackers\" an American documentary?"
+        "Here are the decomposed sub-questions:",
+        "Is Freakonomics a documentary?",
+        "What is the nationality of the creators\/production company behind Freakonomics?"
       ],
       "num_seeds":8,
-      "num_selected":13,
-      "total_value":-49.051061043
+      "num_selected":10,
+      "total_value":-33.3977800608
     },
     {
       "sample_id":"5a7cc50e554299452d57ba3e",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What were the official member lineups for both Letters to Cleo and Screaming Trees?",
-        "How many members were in each of these bands during their most popular or well-known periods?"
+        "Here are the sub-questions that can help answer the original question:",
+        "How many members were in Letters to Cleo?",
+        "How many members were in Screaming Trees?"
       ],
       "num_seeds":8,
       "num_selected":20,
-      "total_value":-83.4655404827
+      "total_value":-82.472158535
     },
     {
       "sample_id":"5abf63f15542997ec76fd3ea",
       "sub_questions":[
         "Here are three sub-questions that can help answer the original question:",
         "Who was Alexander Kerensky?",
-        "What was the civil war fought over?"
+        "What was the outcome of the civil war in which Alexander Kerensky was defeated?"
       ],
       "num_seeds":8,
       "num_selected":15,
-      "total_value":-15.1657078267
+      "total_value":-15.7755811246
     },
     {
       "sample_id":"5a8ef2a75542995a26add583",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
         "Who wrote \"Seven Brief Lessons on Physics\"?",
-        "What is the nationality of this author?"
+        "What is the nationality of this physicist?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-14.8177444827
+      "total_value":-14.8817030191
     },
     {
       "sample_id":"5a80721b554299485f5985ef",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What war is commemorated by the Livesey Hal War Memorial?",
-        "How many casualties did this war have?"
+        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
+        "What war is the Livesey Hal War Memorial commemorating?",
+        "What type of conflict resulted in over 60 million casualties?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":13.1479428966
+      "total_value":13.6759179909
     },
     {
       "sample_id":"5ab51dae5542991779162d82",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
         "Is Elko Regional Airport located in Michigan?",
         "Is Gerald R. Ford International Airport located in Michigan?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":9.2133031142
+      "total_value":8.044275724
     },
     {
       "sample_id":"5a7571135542992d0ec05f98",
       "sub_questions":[
-        "Here are the decomposed sub-questions:",
+        "Here are the sub-questions:",
         "Who was Ralph Hefferline?",
-        "What university did he work at?"
+        "What university did he teach at?"
       ],
       "num_seeds":8,
       "num_selected":12,
-      "total_value":-66.1036811573
+      "total_value":-69.4414305176
     },
     {
       "sample_id":"5a7a0e1e5542990783324e1a",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What breed is Gordon?",
-        "Who are the ancestors of Irish Setters?"
+        "What is the ancestry of the Manchester Terrier breed?",
+        "What is the ancestry of the Scotch Collie breed?"
       ],
       "num_seeds":8,
-      "num_selected":11,
-      "total_value":5.6180863657
+      "num_selected":12,
+      "total_value":8.149937072
     },
     {
       "sample_id":"5a74106b55429979e288289e",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are three sub-questions that can help answer the original question:",
         "Who is Sachin Warrier?",
-        "What was Sachin Warrier's job title when he worked at the company?"
+        "What was Sachin Warrier's job role at his previous company?"
       ],
       "num_seeds":8,
       "num_selected":16,
-      "total_value":-67.5096316174
+      "total_value":-69.7533295069
     },
     {
       "sample_id":"5a79311755429970f5fffe67",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the Japanese manga series based on a 16-year-old high school student?",
-        "Who wrote and illustrated this manga series?"
+        "Here are three single-hop sub-questions that would help answer the original question:",
+        "What is the name of the Japanese manga series based on a 16-year-old high school student Ichitaka Seto?",
+        "Who is the creator (writer and illustrator) of the manga series mentioned in the previous sub-question?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-10.8348462767
+      "total_value":-10.494938505
     },
     {
       "sample_id":"5ab2d3df554299194fa9352c",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was Giuseppe Arimondi?",
-        "What battle did Giuseppe Arimondi lose his life in?"
+        "Here are three sub-questions that can help answer the original question:",
+        "Who is Giuseppe Arimondi?",
+        "What was the battle in which Giuseppe Arimondi lost his life?"
       ],
       "num_seeds":8,
       "num_selected":12,
-      "total_value":-34.505849862
+      "total_value":-35.205260749
     },
     {
       "sample_id":"5a760ab65542994ccc918697",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the committee that Alfred Balk served as secretary?",
-        "What was the purpose or focus of this committee, according to its title?"
+        "Here are 3 single-hop sub-questions that can help answer the original question:",
+        "Who was Alfred Balk?",
+        "What committee did Alfred Balk serve as secretary of?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":-28.3179126703
+      "total_value":-27.5849736957
     },
     {
       "sample_id":"5a7d54165542995f4f402256",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the location of Dirleton in Scotland?",
-        "What is the geographical feature that borders the medieval fortress on its southern side?"
+        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
+        "What is the location of Dirleton?",
+        "What coastal area does Dirleton, East Lothian, Scotland border on (in general terms)?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":20.8442151579
+      "total_value":21.1222223534
     },
     {
       "sample_id":"5ab859a955429934fafe6d7b",
       "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "What song was the first track on the box set Back to Mono?",
-        "Who is the writer of that song?"
+        "Here are three sub-questions that can help answer the original question:",
+        "What song is the first track on the box set Back to Mono?",
+        "Who wrote this song?"
       ],
       "num_seeds":8,
-      "num_selected":14,
-      "total_value":-54.1619504211
+      "num_selected":19,
+      "total_value":-88.6016026994
     },
     {
       "sample_id":"5add61d65542995b365fab21",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who is the former Soviet statesman?",
-        "What type of initiative did this person start?"
+        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
+        "Who was the former Soviet statesman?",
+        "What kind of initiative or project did this statesman start?"
       ],
       "num_seeds":8,
       "num_selected":13,
-      "total_value":-70.1049481412
+      "total_value":-71.4379408717
     },
     {
       "sample_id":"5a8e068b5542995085b37384",
@@ -6201,29 +6241,29 @@
       ],
       "num_seeds":8,
       "num_selected":16,
-      "total_value":-0.4838178991
+      "total_value":-0.1764964014
     },
     {
       "sample_id":"5abbf698554299114383a0b5",
       "sub_questions":[
-        "Here are 3 single-hop sub-questions that would help answer the original question:",
-        "Which type of aircraft is known for being a \"first-generation\" jet-powered medium bomber?",
-        "What was the primary theatre of operation for this type of aircraft during World War II?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "* What was the name of the British first-generation jet-powered medium bomber?",
+        "* In which theatre did this bomber see action during World War II?"
       ],
       "num_seeds":8,
       "num_selected":19,
-      "total_value":-84.0402962819
+      "total_value":-86.0104001297
     },
     {
       "sample_id":"5a8e1027554299653c1aa15f",
       "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "What conference did the Colorado Buffaloes play in?",
-        "How many seasons had the conference played as part of the NCAA Division before the 14th season?"
+        "Here are the decomposed sub-questions:",
+        "What is the name of the conference that the Colorado Buffaloes played in?",
+        "What was the overall record of the Colorado Buffaloes in the 14th season for this conference as part of the NCAA Division?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":30.5247513956
+      "total_value":30.8789846164
     },
     {
       "sample_id":"5ab84bf555429916710eb01f",
@@ -6234,95 +6274,95 @@
       ],
       "num_seeds":8,
       "num_selected":13,
-      "total_value":-66.5084850996
+      "total_value":-66.804590755
     },
     {
       "sample_id":"5a77724455429972597f153e",
       "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "What is the name of the famous race track located in the Midwest?",
-        "Does this race track host a major racing event every May?"
+        "Here are three sub-questions that can help answer the original question:",
+        "What is the name of the famous race track in the Midwest?",
+        "Does this race track host a 500-mile race every year?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-56.824189865
+      "total_value":-63.190137554
     },
     {
       "sample_id":"5a87c13f5542996e4f30890c",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is commonly referred to as the \"Prince of tenors\"?",
+        "Who is known as the \"Prince of tenors\"?",
         "What opera by Giacomo Puccini was adapted into a film?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-2.2645914723
+      "total_value":-2.2340633148
     },
     {
       "sample_id":"5ab96ab755429970cfb8eacd",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Ellie Goulding?",
-        "What is the title of Ellie Goulding's third studio album?"
+        "\u2022 What is Ellie Goulding's third studio album?",
+        "\u2022 Who were some of the writers she collaborated with on her previous albums?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":19.353090671
+      "total_value":21.1336824344
     },
     {
       "sample_id":"5a8a43eb5542996c9b8d5e82",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the Australian city founded in 1838?",
-        "Which Prime Minister of Australia opened a boarding school?"
+        "Which city in Australia was founded in 1838?",
+        "What Australian Prime Minister opened a boarding school in this city, and what is its name?"
       ],
       "num_seeds":8,
-      "num_selected":13,
-      "total_value":-63.024149807
+      "num_selected":12,
+      "total_value":-59.8764944802
     },
     {
       "sample_id":"5ae73acb5542991e8301cc07",
       "sub_questions":[
-        "Here are the decomposed sub-questions:",
+        "Here are three sub-questions that can help answer the original question:",
         "What is D1NZ?",
-        "What type of driving technique involves oversteering?"
+        "Is D1NZ a series related to drifting or racing?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-7.974601989
+      "total_value":-6.7516680757
     },
     {
       "sample_id":"5a7320565542991f9a20c61d",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "* Who is Keith Bostic?",
-        "* When was Keith Bostic born?"
+        "Who is Keith Bostic?",
+        "What is Jerry Glanville's birthdate or age?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":15.5696972871
+      "total_value":15.6033456102
     },
     {
       "sample_id":"5ae32e125542991a06ce9946",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the city where Kirton End is located?",
-        "In what year was the census data available that would provide information about the population of this city?"
+        "What is the name of the city in which Kirton End is located?",
+        "According to the 2001 census, what was the population of this city?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":14.4905128089
+      "total_value":15.5714567155
     },
     {
       "sample_id":"5adc53f75542996e6852530a",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are the sub-questions that can help answer the original question:",
         "Is Cypress a genus of plants?",
         "Is Ajuga a genus of plants?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-40.1378549255
+      "total_value":-38.8975422184
     },
     {
       "sample_id":"5a8b20335542996c9b8d5fb3",
@@ -6333,436 +6373,436 @@
       ],
       "num_seeds":8,
       "num_selected":16,
-      "total_value":-10.5427497943
+      "total_value":-10.683835459
     },
     {
       "sample_id":"5a85fb085542994775f606de",
       "sub_questions":[
-        "Here are the sub-questions:",
-        "What is the name of the film that has a score composed by Jerry Goldsmith?",
-        "Who was the executive producer of that film?"
+        "Here are three single-hop sub-questions that would help answer the original question:",
+        "What film has a score composed by Jerry Goldsmith?",
+        "Who is the executive producer of this film?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":33.9718747088
+      "total_value":34.3115293607
     },
     {
       "sample_id":"5a7be2595542997c3ec972ac",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are the sub-questions:",
         "When was Emma Bull born?",
         "When was Virginia Woolf born?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-6.7807523145
+      "total_value":-6.4934215148
     },
     {
       "sample_id":"5a77152355429966f1a36c2e",
       "sub_questions":[
         "Here are three sub-questions that can help answer the original question:",
-        "What is the nursery rhyme inspiring \"What Are Little Girls Made Of\"?",
-        "What is the Roud Folk Song Index, and how does it categorize folk songs?"
+        "What is the title of the nursery rhyme inspiring \"What Are Little Girls Made Of\"?",
+        "What is the Roud Folk Song Index?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":-8.1449450726
+      "total_value":-8.9116994739
     },
     {
       "sample_id":"5a8f4c8d554299458435d5a3",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Scott Parkin?",
-        "What is ExxonMobil's global presence like, in terms of countries where it operates?"
+        "Which corporation has operations in how many countries, besides ExxonMobil?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":-43.4494237797
+      "total_value":-43.1281563859
     },
     {
       "sample_id":"5a80840f554299485f59863b",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What WB supernatural drama series is Rose McGowan known for being in?",
-        "What is Rose McGowan's role in the WB supernatural drama series she is known for?"
+        "What WB (Warner Bros.) supernatural drama series aired on television?",
+        "Who is Rose McGowan, an actress known for her role in a popular movie \"Jawbreaker\"?"
       ],
       "num_seeds":8,
-      "num_selected":10,
-      "total_value":-0.620808727
+      "num_selected":18,
+      "total_value":-92.1709661951
     },
     {
       "sample_id":"5a8361b65542992ef85e22a0",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What organization is recognized by a larger Hall of Fame?",
-        "Who held a junior welterweight title in this organization?"
+        "Here are three sub-questions that would help answer the original question:",
+        "What is Vince Phillips' profession?",
+        "Who held a junior welterweight title by an organization recognized by this Hall of Fame?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-29.2174249144
+      "total_value":-29.3159214519
     },
     {
       "sample_id":"5ae7ba7a5542993210983f12",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are three sub-questions that can help answer the original question:",
         "What is the name of the album \"Confessions\"?",
-        "Which song was released as the lead single from this album?"
+        "Which song was released as the lead single from the album \"Confessions\"?"
       ],
       "num_seeds":8,
       "num_selected":21,
-      "total_value":-74.5365367268
+      "total_value":-75.5349049339
     },
     {
       "sample_id":"5ac2acff55429921a00ab02b",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "What is The Hard Easy?",
         "Who are the episode guest stars of The Hard Easy?"
       ],
       "num_seeds":8,
       "num_selected":19,
-      "total_value":-35.7884411649
+      "total_value":-36.6726875901
     },
     {
       "sample_id":"5aba7cfe554299232ef4a2fd",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the league cup competition in which Wigan Athletic F.C. competes?",
-        "Why does the league cup have a different name for sponsorship reasons?"
+        "Here are 3 single-hop sub-questions that would help answer the original question:",
+        "What is the name of the competition in which Wigan Athletic F.C. plays?",
+        "Is the name of this competition affected by sponsorship reasons?"
       ],
       "num_seeds":8,
-      "num_selected":9,
-      "total_value":22.3177764572
+      "num_selected":10,
+      "total_value":15.613106519
     },
     {
       "sample_id":"5ae5aba0554299546bf82f17",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Tara Strong?",
-        "What animated series is based on DC Comics' fictional superhero team, the \"Teen Titans\"?"
+        "What animated series is based on the DC Comics fictional superhero team, the \"Teen Titans\"?"
       ],
       "num_seeds":8,
       "num_selected":17,
-      "total_value":53.6204936543
+      "total_value":54.5041612337
     },
     {
       "sample_id":"5ae1f4cb554299234fd0436d",
       "sub_questions":[
-        "Here are 3 single-hop sub-questions that can help answer the original question:",
-        "What is the name of the city where the 122nd SS-Standarte was formed?",
-        "When was the 122nd SS-Standarte actually formed (not in 2014, as specified in the question)?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Where was the 122nd SS-Standarte formed in 2014?",
+        "What is the name of the city where the 122nd SS-Standarte was formed?"
       ],
       "num_seeds":8,
       "num_selected":16,
-      "total_value":-112.9306560534
+      "total_value":-118.7997097373
     },
     {
       "sample_id":"5ae7e1fc55429952e35ea9cc",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the typical clothing style or fashion trend in the Netherlands?",
-        "Do people typically wear orange clothing during Oranjegekte or Koningsdag celebrations?"
+        "What is Oranjegekte and how does it relate to clothing choices in the Netherlands?",
+        "What are the typical clothing preferences of people in the Netherlands on a typical day?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-2.2194752431
+      "total_value":-3.0755821326
     },
     {
       "sample_id":"5ae37c765542992f92d822d4",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "What was the name of the 1996 film written by James Gunn?",
-        "Who is the author of the play on which the 1996 film is loosely based?"
+        "What is the genre of the 1996 film written by James Gunn?"
       ],
       "num_seeds":8,
-      "num_selected":9,
-      "total_value":25.172851284
+      "num_selected":12,
+      "total_value":15.5360686886
     },
     {
       "sample_id":"5ae33c4d5542992f92d82262",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Robert Suettinger?",
-        "What position did Robert Suettinger hold in the intelligence community?"
+        "What was Robert Suettinger's role at the national intelligence agency?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":-28.375748911
+      "total_value":-29.3741935262
     },
     {
       "sample_id":"5a77cb335542997042120b3a",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What American surfer is known for surfing in Hawaii?",
-        "Who won the Rip Curl Pro Portugal event?"
+        "Here are the decomposed sub-questions:",
+        "\u2022 Who is an American professional surfer born on October 18th?",
+        "\u2022 Is this surfer from Hawaii?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":8.1089415206
+      "total_value":7.4183813572
     },
     {
       "sample_id":"5a8979f4554299669944a52e",
       "sub_questions":[
         "Here are three sub-questions that can help answer the original question:",
-        "What is the title of the movie or TV show where the actress plays Bobbi Bacha?",
-        "Who plays the role of Bobbi Bacha in that movie or TV show?"
+        "Who plays Bobbi Bacha in Suburban Madness?",
+        "What is the name of the actress who plays the role?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-18.8010424273
+      "total_value":-21.0225303769
     },
     {
       "sample_id":"5a713ea95542994082a3e6e4",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are three single-hop sub-questions that would help answer the original question:",
         "Who is Alvaro Mexia?",
         "What was the purpose of his diplomatic mission?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":-33.2511578731
+      "total_value":-35.3157364229
     },
     {
       "sample_id":"5a78bd9b554299078472774a",
       "sub_questions":[
-        "Here are 2-3 sub-questions that can help answer the original question:",
-        "What was Alfred Gell's nationality?",
-        "What was Edmund Leach's nationality?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What nationality was Alfred Gell?",
+        "What nationality was Edmund Leach?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":7.8184896986
+      "total_value":7.5064375162
     },
     {
       "sample_id":"5a7625e8554299109176e66a",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was the King who made the 1925 Birthday Honours?",
-        "In what year did this King come to power?"
+        "Here are three single-hop sub-questions that would help answer the original question:",
+        "Who made the 1925 Birthday Honours?",
+        "What is the significance of the 1925 Birthday Honours?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":21.1433604313
+      "total_value":18.3667513678
     },
     {
       "sample_id":"5ae2dd2055429928c423950d",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "What county is East Lempster, New Hampshire located in?",
-        "What is the county seat of [insert name of county from previous question]?"
+        "What is the name of the county seat for this county?"
       ],
       "num_seeds":8,
       "num_selected":9,
-      "total_value":38.2582715182
+      "total_value":38.8808712761
     },
     {
       "sample_id":"5abdf12255429976d4830a2f",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
         "Who is the Rock singer born on May 6, 1945?",
-        "What was the title of Robert C Seger's 11th album?"
+        "What was the title of the 11th album by this Rock singer?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":6.4247960085
+      "total_value":6.0185245185
     },
     {
       "sample_id":"5a88658955429938390d3f47",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What type of vacancies was Rostker v. Goldberg concerned with?",
-        "What was the legal issue at stake in the case, and how did it relate to the Constitution?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What was the case Rostker v. Goldberg about?",
+        "What type of vacancies were being filled in the armed forces, as mentioned in Rostker v. Goldberg?"
       ],
       "num_seeds":8,
-      "num_selected":13,
-      "total_value":-99.4228166013
+      "num_selected":12,
+      "total_value":-89.5360005647
     },
     {
       "sample_id":"5a86ebac55429960ec39b6d6",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What American company is known for selling snack food products?",
-        "What state is this confectionery, food, and beverage company based in?"
+        "What is the name of the American multinational confectionery, food, and beverage company?",
+        "Where is this company based?"
       ],
       "num_seeds":8,
       "num_selected":12,
-      "total_value":-5.6948417868
+      "total_value":-6.9092724933
     },
     {
       "sample_id":"5aba5d2e55429901930fa799",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the title of a book that mentions women targeted by the Clinton Machine?",
-        "Who was a former White House intern mentioned in this book?"
+        "Here are three sub-questions that can help answer the original question:",
+        "What is the title of the book mentioned in the context?",
+        "Who was a woman targeted by the Clinton Machine, as described in the book?"
       ],
       "num_seeds":8,
-      "num_selected":14,
-      "total_value":-53.4717776223
+      "num_selected":10,
+      "total_value":-20.4524720788
     },
     {
       "sample_id":"5ae5736e5542990ba0bbb2b3",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the American lawyer, lobbyist, and political consultant who was a senior member of the presidential campaign of Donald Trump?",
-        "What is the name of this individual?"
+        "Here are three single-hop sub-questions that would help answer the original question:",
+        "Who is the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump?",
+        "What was his role in Donald Trump's presidential campaign?"
       ],
       "num_seeds":8,
       "num_selected":14,
-      "total_value":-24.3448179133
+      "total_value":-25.1533123518
     },
     {
       "sample_id":"5ae005b555429942ec259bec",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who wrote the novel that Louren\u00e7o Mutarelli based \"Nina\" on?",
-        "What is the title of the novel that Louren\u00e7o Mutarelli based \"Nina\" on?"
+        "Who is Louren\u00e7o Mutarelli?",
+        "What novel did Louren\u00e7o Mutarelli base \"Nina\" on?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":-23.6560912629
+      "total_value":-24.5211843252
     },
     {
       "sample_id":"5a7759fc5542993569682d60",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What country does Teide National Park belong to?",
-        "Where is Garajonay National Park located in relation to Teide National Park?"
+        "Here are the 2-3 single-hop sub-questions that would help answer the original question:",
+        "What country or region do Teide National Park and Garajonay National Park belong to?",
+        "In which continent can we find these two national parks?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":38.5953102665
+      "total_value":36.5074629188
     },
     {
       "sample_id":"5a835478554299123d8c20ed",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
+        "Here are three sub-questions that can help answer the original question:",
         "What is Roald Dahl's variation on a popular anecdote?",
-        "Which book or publication features this story?"
+        "What is the name of this book?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-8.3232517909
+      "total_value":-8.0590853492
     },
     {
       "sample_id":"5aba749055429901930fa7d8",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Chris Menges?",
-        "What occupation did Aram Avakian have?"
+        "What occupation does Aram Avakian have?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-19.7653214955
+      "total_value":-19.1905938122
     },
     {
       "sample_id":"5abfb3425542990832d3a1c0",
       "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
+        "Here are 2-3 sub-questions that can help answer the original question:",
         "Who is Andrew Jaspan?",
-        "What kind of media outlet did Andrew Jaspan co-found?"
+        "What type of media outlet did he co-found?"
       ],
       "num_seeds":8,
       "num_selected":10,
-      "total_value":-53.537640053
+      "total_value":-55.2468926072
     },
     {
       "sample_id":"5ac3165c5542995ef918c10a",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the American film director?",
-        "What awards did the 18th Independent Spirit Awards recognize in 2002?"
+        "Here are three single-hop sub-questions that would help answer the original question:",
+        "What was the name of the American film director who hosted the Independent Spirit Awards?",
+        "In what year did this film director host the Independent Spirit Awards ceremony?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":24.2011450372
+      "total_value":22.8861068288
     },
     {
       "sample_id":"5ae53b545542990ba0bbb23c",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "What is the title of Bill Cosby's third album?",
-        "Where was Bill Cosby's third album recorded?"
+        "In which city was this album recorded?"
       ],
       "num_seeds":8,
       "num_selected":13,
-      "total_value":-22.4074700976
+      "total_value":-21.1775577386
     },
     {
       "sample_id":"5ae224da554299234fd043ee",
       "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the definition of a Gibson cocktail?",
+        "Here are the sub-questions:",
+        "What is Gibson?",
         "What ingredients are typically used in Zurracapote cocktails?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-14.7475813348
+      "total_value":-15.3036800159
     },
     {
       "sample_id":"5ae2b770554299495565db0f",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the British journal that presents the annual documentary film festival?",
-        "When is the fortnightly publication issued by this journal?"
+        "What is the name of the fortnightly published British journal of literary essays?",
+        "What is the annual documentary film festival presented by this journal called?"
       ],
       "num_seeds":8,
       "num_selected":12,
-      "total_value":-18.2373640249
+      "total_value":-18.528934294
     },
     {
       "sample_id":"5a80b3a9554299485f5986cc",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "What is the name of the city where Tysons Galleria is located?",
-        "What state is Tysons Galleria located in?"
+        "Here are three single-hop sub-questions that can help answer the original question:",
+        "What is the city where Tysons Galleria is located?",
+        "What state is the city of Tysons Galleria in?"
       ],
       "num_seeds":8,
       "num_selected":11,
-      "total_value":46.0951344231
+      "total_value":49.0729500992
     },
     {
       "sample_id":"5a8e0a005542995085b373a1",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
         "Who is Bordan Tkachuk?",
-        "What was his role in a company?"
+        "What was his role in the company?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-48.9138269847
+      "total_value":-52.0040494479
     },
     {
       "sample_id":"5ac1b8ee5542994d76dccedc",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is Pamela B. Green a filmmaker known for animation?",
-        "Who is Lev Yilmaz, and what is he known for in filmmaking?"
+        "Who is Lev Yilmaz?",
+        "What kind of films did Pamela B. Green work on?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-6.5475829538
+      "total_value":-6.6163841486
     },
     {
       "sample_id":"5adccd795542990d50227d2c",
       "sub_questions":[
         "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the administrative region in Morocco where the ambassador is located?",
-        "Where is the capital city of this administrative region?"
+        "What is the administrative region in Morocco that has an ambassador to China?",
+        "In which city is the capital of the Rabat-Sal\u00e9-K\u00e9nitra administrative region located?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":-12.5527206659
+      "total_value":-12.9612719096
     },
     {
       "sample_id":"5a84c4135542994c784dda31",
       "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "What is Yingkou's administrative level in China?",
-        "Is Fuding an urban district or a city-level administrative unit in China?"
+        "Here are three sub-questions that can help answer the original question:",
+        "What is the administrative level of Yingkou?",
+        "Is Fuding a city or town in China?"
       ],
       "num_seeds":8,
       "num_selected":8,
-      "total_value":0.2205416919
+      "total_value":0.2229174707
     }
   ]
 }

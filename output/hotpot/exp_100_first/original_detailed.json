@@ -777,7 +777,7 @@
       "question_id":"5a85b2d95542997b5ce40028",
       "question":"Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
       "ground_truth":"Eenasul Fateh",
-      "prediction":"Eenasul Fateh, also known as Aladin.",
+      "prediction":"Eenasul Fateh.",
       "supporting_facts":[
         [
           "Eenasul Fateh",
@@ -869,7 +869,7 @@
       "question_id":"5a7bbb64554299042af8f7cc",
       "question":"Who is older, Annie Morton or Terry Richardson?",
       "ground_truth":"Terry Richardson",
-      "prediction":"Annie Morton (born 1970) vs. Terry Richardson (born 1965).",
+      "prediction":"Annie Morton.",
       "supporting_facts":[
         [
           "Annie Morton",
@@ -1085,7 +1085,7 @@
       "question_id":"5ab56e32554299637185c594",
       "question":"Are Random House Tower and 888 7th Avenue both used for real estate?",
       "ground_truth":"no",
-      "prediction":"No.",
+      "prediction":"Yes.",
       "supporting_facts":[
         [
           "Random House Tower",
@@ -1125,7 +1125,7 @@
       "question_id":"5ab6d09255429954757d337d",
       "question":"The football manager who recruited David Beckham managed Manchester United during what timeframe?",
       "ground_truth":"from 1986 to 2013",
-      "prediction":"1992-2013. (Sir Alex Ferguson)",
+      "prediction":"1992-2013.",
       "supporting_facts":[
         [
           "Alex Ferguson",
@@ -1173,7 +1173,7 @@
       "question_id":"5a75e05c55429976ec32bc5f",
       "question":"Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
       "ground_truth":"9,984",
-      "prediction":"United States.",
+      "prediction":"331 million.",
       "supporting_facts":[
         [
           "Brown State Fishing Lake",
@@ -1305,7 +1305,7 @@
       "question_id":"5ae0d4c9554299603e418468",
       "question":"Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
       "ground_truth":"1969 until 1974",
-      "prediction":"1969-1974",
+      "prediction":"1969-1974.",
       "supporting_facts":[
         [
           "Roger O. Egeberg",
@@ -1353,7 +1353,7 @@
       "question_id":"5a8133725542995ce29dcbdb",
       "question":"Which writer was from England, Henry Roth or Robert Erskine Childers?",
       "ground_truth":"Robert Erskine Childers DSC",
-      "prediction":"England: Robert Erskine Childers.",
+      "prediction":"Robert Erskine Childers.",
       "supporting_facts":[
         [
           "Robert Erskine Childers",
@@ -1373,11 +1373,11 @@
         ],
         [
           "Molly Childers",
-          3
+          1
         ],
         [
           "Molly Childers",
-          4
+          3
         ],
         [
           "Erskine Barton Childers",
@@ -1392,8 +1392,8 @@
           1
         ],
         [
-          "Robert Barton",
-          2
+          "Gretchen Osgood Warren",
+          0
         ]
       ]
     },
@@ -1493,7 +1493,7 @@
       "question_id":"5adddccd5542997dc7907069",
       "question":"Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
       "ground_truth":"keyboard function keys",
-      "prediction":"Front Row media program.",
+      "prediction":"Front Row.",
       "supporting_facts":[
         [
           "Apple Remote",
@@ -1537,7 +1537,7 @@
       "question_id":"5ae2070a5542994d89d5b313",
       "question":"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
       "ground_truth":"Badly Drawn Boy",
-      "prediction":"Badly Drawn Boy.",
+      "prediction":"One-person band (Badly Drawn Boy) vs. Four-piece band (Wolf Alice).",
       "supporting_facts":[
         [
           "The Hour of Bewilderbeast",
@@ -1585,7 +1585,7 @@
       "question_id":"5ae22b8d554299234fd0440f",
       "question":"What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
       "ground_truth":"World's Best Goalkeeper",
-      "prediction":"World's Best Goalkeeper.",
+      "prediction":"The World's Best Goalkeeper.",
       "supporting_facts":[
         [
           "Peter Schmeichel",
@@ -1621,7 +1621,7 @@
       "question_id":"5a722b8655429971e9dc9329",
       "question":"Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
       "ground_truth":"Barton Lee Hazlewood",
-      "prediction":"Lee Hazlewood wrote \"These Boots Are Made for Walkin'\", Nancy Sinatra. Lee Hazlewood died in 2007.",
+      "prediction":"Lee Hazlewood wrote \"These Boots Are Made for Walkin'\", and Lee Hazlewood died in 2007.",
       "supporting_facts":[
         [
           "Boots (EP)",
@@ -1761,6 +1761,10 @@
         ],
         [
           "Kaiser Ventures",
+          0
+        ],
+        [
+          "Kaiser Ventures",
           1
         ],
         [
@@ -1813,7 +1817,7 @@
       "question_id":"5ac23ff0554299636651994d",
       "question":"When was Poison's album \"Shut Up, Make Love\" released?",
       "ground_truth":"2000",
-      "prediction":"March 14, 2000.",
+      "prediction":"March 14, 2000",
       "supporting_facts":[
         [
           "Shut Up, Make Love",
@@ -2156,16 +2160,8 @@
           1
         ],
         [
-          "Freetown Memorial",
-          1
-        ],
-        [
-          "Freetown Memorial",
-          2
-        ],
-        [
-          "Portsmouth Naval Memorial",
-          1
+          "Rainham War Memorial",
+          0
         ]
       ]
     },
@@ -2217,7 +2213,7 @@
       "question_id":"5a7571135542992d0ec05f98",
       "question":"Ralph Hefferline was a psychology professor at a university that is located in what city?",
       "ground_truth":"New York City",
-      "prediction":"Columbia.",
+      "prediction":"Columbus.",
       "supporting_facts":[
         [
           "Abraham Maslow",
@@ -2265,7 +2261,7 @@
       "question_id":"5a7a0e1e5542990783324e1a",
       "question":"Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
       "ground_truth":"Scotch Collie",
-      "prediction":"The Scotch Collie.",
+      "prediction":"Scotch Collie.",
       "supporting_facts":[
         [
           "Scotch Collie",
@@ -2313,7 +2309,7 @@
       "question_id":"5a74106b55429979e288289e",
       "question":"Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
       "ground_truth":"Mumbai",
-      "prediction":"Mumbai",
+      "prediction":"Mumbai, Maharashtra.",
       "supporting_facts":[
         [
           "Sachin Warrier",
@@ -2493,7 +2489,7 @@
       "question_id":"5a7d54165542995f4f402256",
       "question":"A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
       "ground_truth":"Yellowcraig",
-      "prediction":"Firth of Forth.",
+      "prediction":"The Firth of Forth.",
       "supporting_facts":[
         [
           "Dirleton Castle",
@@ -2589,7 +2585,7 @@
       "question_id":"5add61d65542995b365fab21",
       "question":"What type of forum did a former Soviet statesman initiate?",
       "ground_truth":"Organizations could come together to address global issues",
-      "prediction":"World Summit of Nobel Peace Laureates.",
+      "prediction":"Peace Laureate Organizations.",
       "supporting_facts":[
         [
           "Mikhail Gorbachev",
@@ -2673,7 +2669,7 @@
       "question_id":"5abbf698554299114383a0b5",
       "question":"Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
       "ground_truth":"English Electric Canberra",
-      "prediction":"Not applicable. The context mentions the English Electric Canberra, but it does not mention its use in the South West Pacific theatre during World War II.",
+      "prediction":"Not applicable. The context information does not mention Scott Derrickson or Ed Wood. It seems to be about military aircraft and theaters of war.\n\nHowever, I can try to answer your question based on the provided context:\n\nQ: Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?\nA: None. According to the context, the English Electric Canberra is a British first-generation jet-powered medium bomber that became operational after World War II.",
       "supporting_facts":[
         [
           "English Electric Canberra",
@@ -2749,7 +2745,7 @@
       "question_id":"5ab84bf555429916710eb01f",
       "question":"In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
       "ground_truth":"1,462",
-      "prediction":"Carrefour (5,200+).",
+      "prediction":"Carrefour.",
       "supporting_facts":[
         [
           "Euromarch\u00e9",
@@ -3073,7 +3069,7 @@
       "question_id":"5ae32e125542991a06ce9946",
       "question":"According to the 2001 census, what was the population of the city in which Kirton End is located?",
       "ground_truth":"35,124",
-      "prediction":"35,124.",
+      "prediction":"Boston.",
       "supporting_facts":[
         [
           "Kirton, Suffolk",
@@ -3161,7 +3157,7 @@
       "question_id":"5a8b20335542996c9b8d5fb3",
       "question":"What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
       "ground_truth":"shortest player ever to play in the National Basketball Association",
-      "prediction":"Shortest player to play in the NBA.",
+      "prediction":"Shortest player ever in the NBA.",
       "supporting_facts":[
         [
           "Muggsy Bogues",
@@ -3341,7 +3337,7 @@
       "question_id":"5a8f4c8d554299458435d5a3",
       "question":"Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
       "ground_truth":"more than 70 countries",
-      "prediction":"70",
+      "prediction":"70.",
       "supporting_facts":[
         [
           "Scott Parkin",
@@ -3437,7 +3433,7 @@
       "question_id":"5a8361b65542992ef85e22a0",
       "question":"Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
       "ground_truth":"International Boxing Hall of Fame",
-      "prediction":"IBF (International Boxing Federation).",
+      "prediction":"IBF.",
       "supporting_facts":[
         [
           "Vince Phillips",
@@ -3513,7 +3509,7 @@
       "question_id":"5ac2acff55429921a00ab02b",
       "question":"who is the younger brother of The episode guest stars of The Hard Easy ",
       "ground_truth":"Bill Murray",
-      "prediction":"Nick Lachey.",
+      "prediction":"Bill Murray.",
       "supporting_facts":[
         [
           "The Hard Easy (film)",
@@ -3601,8 +3597,12 @@
       "question_id":"5ae5aba0554299546bf82f17",
       "question":"Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
       "ground_truth":"Teen Titans Go!",
-      "prediction":"Rugrats.",
+      "prediction":"The Fairly OddParents.",
       "supporting_facts":[
+        [
+          "Tara Strong filmography",
+          0
+        ],
         [
           "Tara Strong filmography",
           1
@@ -3612,8 +3612,8 @@
           2
         ],
         [
-          "Tara Strong filmography",
-          3
+          "Tara Strong",
+          0
         ],
         [
           "Tara Strong",
@@ -3629,15 +3629,11 @@
         ],
         [
           "Teen Titans (season 4)",
-          0
-        ],
-        [
-          "Teen Titans (season 4)",
           3
         ],
         [
           "Teen Titans",
-          1
+          0
         ],
         [
           "Teen Titans",
@@ -3697,7 +3693,7 @@
       "question_id":"5ae7e1fc55429952e35ea9cc",
       "question":"What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
       "ground_truth":"orange",
-      "prediction":"Orange.",
+      "prediction":"Oranje.",
       "supporting_facts":[
         [
           "Oranjegekte",
@@ -4001,7 +3997,7 @@
       "question_id":"5a7625e8554299109176e66a",
       "question":"In which year was the King who made the 1925 Birthday Honours born?",
       "ground_truth":"1865",
-      "prediction":"1865",
+      "prediction":"1865.",
       "supporting_facts":[
         [
           "1925 Birthday Honours",
@@ -4353,7 +4349,7 @@
       "question_id":"5a7759fc5542993569682d60",
       "question":"Where are Teide National Park and Garajonay National Park located?",
       "ground_truth":"Canary Islands, Spain",
-      "prediction":"Canary Islands (Spain)",
+      "prediction":"Canary Islands (Spain).",
       "supporting_facts":[
         [
           "Garajonay National Park",
@@ -4401,7 +4397,7 @@
       "question_id":"5a835478554299123d8c20ed",
       "question":"How many copies of Roald Dahl's variation on a popular anecdote sold?",
       "ground_truth":"250 million",
-      "prediction":"250 million.",
+      "prediction":"Over 250 million.",
       "supporting_facts":[
         [
           "Roald Dahl",
@@ -4565,7 +4561,7 @@
       "question_id":"5ae53b545542990ba0bbb23c",
       "question":"Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
       "ground_truth":"Las Vegas Strip in Paradise",
-      "prediction":"New York City's Greenwich Village.",
+      "prediction":"Las Vegas.",
       "supporting_facts":[
         [
           "Bill Cosby Is a Very Funny Fellow...Right!",
@@ -4833,7 +4829,7 @@
       "question_id":"5adccd795542990d50227d2c",
       "question":"In which city is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China based?",
       "ground_truth":"Beijing",
-      "prediction":"Rabat.",
+      "prediction":"Beijing.",
       "supporting_facts":[
         [
           "Rabat",
