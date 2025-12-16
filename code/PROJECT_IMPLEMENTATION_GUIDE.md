@@ -30,7 +30,7 @@ code/
 ├── knapsack_selection.py         # Experimental #2: Token-budgeted selection
 ├── subquestion_generation.py    # Sub-question generation
 ├── kg_rag_enhanced_100.py        # Experimental pipeline (tests 100 questions)
-└── compare_original_vs_enhanced.py  # Comparison script
+└── generate_report.py  # Report generation script
 ```
 
 ## Usage Examples
@@ -202,7 +202,7 @@ sub_questions = generator.get_subquestions(
 ## Next Steps
 
 1. **Run experimental pipeline** (`kg_rag_enhanced_100.py`) on 100 questions
-2. **Compare results** using `compare_original_vs_enhanced.py`
+2. **Compare results** using `generate_report.py`
 3. **Analyze differences** between original and experimental approaches
 4. **Tune hyperparameters** if needed
 

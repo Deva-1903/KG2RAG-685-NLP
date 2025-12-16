@@ -1,8 +1,6 @@
-# Final Comparison: Original vs Experimental (After Bug Fix)
+# Final Comparison: Original vs Experimental
 
 ## Executive Summary
-
-After fixing the implementation bug, the experimental pipeline shows **realistic and meaningful improvements**:
 
 - **Overall Accuracy: +6.0%** (68.0% vs 62.0%)
 - **Exact Matches: +3.0%** (49.0% vs 46.0%)
@@ -58,24 +56,6 @@ After fixing the implementation bug, the experimental pipeline shows **realistic
 - Experimental pipeline correctly answers **5 more factoid questions**
 - **67% accuracy** on factoids is solid
 - Knapsack selection likely optimizes evidence better
-
----
-
-## Before vs After Bug Fix
-
-### Results Comparison
-
-| Metric                        | Before Fix (Buggy) | After Fix (Fair) | Difference |
-| ----------------------------- | ------------------ | ---------------- | ---------- |
-| **Overall Accuracy**          | 76.0%              | 68.0%            | -8.0%      |
-| **Exact Matches**             | 57.0%              | 49.0%            | -8.0%      |
-| **Improvement over Original** | +14.0%             | +6.0%            | -8.0%      |
-
-**Key Findings:**
-
-- **Before fix:** +14.0% improvement (inflated due to unfair advantage)
-- **After fix:** +6.0% improvement (realistic and fair)
-- **Real improvement:** ~6% is still meaningful and significant
 
 ---
 
@@ -179,8 +159,6 @@ After fixing the implementation bug, the experimental pipeline shows **realistic
 
 ## Implementation Verification
 
-### ✅ Correctly Implemented (After Fix)
-
 1. **Multi-View Seed Retrieval** ✅
 
    - Sub-question generation ✅
@@ -201,9 +179,9 @@ After fixing the implementation bug, the experimental pipeline shows **realistic
    - Token budget constraint ✅
    - Selects from restricted pool only ✅
 
-### Implementation Matches Proposal ✅
+### Implementation
 
-The experimental pipeline now correctly implements:
+The experimental pipeline now implements:
 
 - ✅ Multi-view seed retrieval (per sub-question)
 - ✅ KG expansion (1-hop from seeds)
@@ -249,25 +227,7 @@ The experimental pipeline now correctly implements:
 
 ---
 
-## Comparison with Previous Results
-
-### Before Bug Fix (Unfair)
-
-- Experimental: 76.0%
-- Original: 62.0%
-- Difference: +14.0% (inflated)
-
-### After Bug Fix (Fair)
-
-- Experimental: 68.0%
-- Original: 62.0%
-- Difference: +6.0% (realistic)
-
-**Key Insight:** The +6% improvement is **real and meaningful**, not inflated by implementation bugs.
-
----
-
-## Recommendations
+## Next Steps (May be?)
 
 ### 1. Validate on Larger Sample
 
@@ -297,7 +257,7 @@ The experimental pipeline now correctly implements:
 
 ## Conclusion
 
-The experimental pipeline demonstrates **realistic and meaningful improvements** after the bug fix:
+The experimental pipeline demonstrates **realistic and meaningful improvements**:
 
 ✅ **+6% overall accuracy** - Significant improvement  
 ✅ **+3% exact matches** - Better precision  
@@ -307,17 +267,10 @@ The experimental pipeline demonstrates **realistic and meaningful improvements**
 
 **The experimental approach (multi-view retrieval + knapsack selection) is a clear improvement over the original KG²RAG pipeline, with realistic gains of ~6%.**
 
-### Key Takeaways
-
-1. **Bug fix was necessary** - Removed unfair advantage
-2. **Real improvements confirmed** - +6% is meaningful
-3. **Implementation is correct** - Matches project proposal
-4. **Both components contribute** - Multi-view + knapsack work together
-
 ---
 
 **Generated:** December 15, 2024  
-**Comparison:** Original KG²RAG vs Experimental KG²RAG (After Bug Fix)  
+**Comparison:** Original KG²RAG vs Experimental KG²RAG
 **Dataset:** HotpotQA Dev Distractor v1 (First 100 questions)  
 **Test Set:** Same 100 questions for fair comparison  
 **Status:** ✅ Fair comparison, realistic results

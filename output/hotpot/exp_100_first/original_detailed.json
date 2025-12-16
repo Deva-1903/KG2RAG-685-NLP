@@ -502,11 +502,6 @@
         "question":"Are Yingkou and Fuding the same level of city?",
         "ground_truth":"no"
       }
-    ],
-    "pipeline":"experimental_kg2rag",
-    "components":[
-      "multi_view_retrieval",
-      "knapsack_selection"
     ]
   },
   "results":[
@@ -545,8 +540,12 @@
           2
         ],
         [
-          "Woodson, Arkansas",
-          3
+          "Deliver Us from Evil (2014 film)",
+          0
+        ],
+        [
+          "Conrad Brooks",
+          2
         ]
       ]
     },
@@ -554,7 +553,7 @@
       "question_id":"5a8c7595554299585d9e36b6",
       "question":"What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
       "ground_truth":"Chief of Protocol",
-      "prediction":"Shirley Temple.",
+      "prediction":"United States Ambassador.",
       "supporting_facts":[
         [
           "Kiss and Tell (1945 film)",
@@ -570,23 +569,11 @@
         ],
         [
           "A Kiss for Corliss",
-          0
-        ],
-        [
-          "A Kiss for Corliss",
           1
         ],
         [
           "A Kiss for Corliss",
           2
-        ],
-        [
-          "A Kiss for Corliss",
-          3
-        ],
-        [
-          "A Kiss for Corliss",
-          4
         ],
         [
           "Shirley Temple",
@@ -598,31 +585,7 @@
         ],
         [
           "Janet Waldo",
-          0
-        ],
-        [
-          "Janet Waldo",
           1
-        ],
-        [
-          "Meet Corliss Archer (TV series)",
-          1
-        ],
-        [
-          "Meet Corliss Archer",
-          0
-        ],
-        [
-          "Meet Corliss Archer",
-          1
-        ],
-        [
-          "Meet Corliss Archer",
-          2
-        ],
-        [
-          "Meet Corliss Archer",
-          3
         ]
       ]
     },
@@ -641,32 +604,32 @@
           1
         ],
         [
-          "Animorphs",
+          "Andre Norton Award",
+          0
+        ],
+        [
+          "Andre Norton Award",
+          1
+        ],
+        [
+          "Andre Norton Award",
           2
         ],
         [
           "Andre Norton Award",
-          0
+          4
         ],
         [
           "The Hork-Bajir Chronicles",
           0
         ],
         [
-          "Left Behind: The Kids",
-          1
+          "The Hork-Bajir Chronicles",
+          2
         ],
         [
           "The Divide trilogy",
           0
-        ],
-        [
-          "Etiquette &amp; Espionage",
-          1
-        ],
-        [
-          "Victoria Hanley",
-          1
         ]
       ]
     },
@@ -697,6 +660,10 @@
           0
         ],
         [
+          "Esma Sultan (daughter of Ahmed III)",
+          1
+        ],
+        [
           "Esma Sultan (daughter of Abd\u00fclaziz)",
           0
         ],
@@ -707,6 +674,10 @@
         [
           "Esma Sultan",
           0
+        ],
+        [
+          "Sultan Ahmed Mosque",
+          0
         ]
       ]
     },
@@ -714,7 +685,7 @@
       "question_id":"5a8e3ea95542995a26add48d",
       "question":"The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
       "ground_truth":"Greenwich Village, New York City",
-      "prediction":"Greenwich",
+      "prediction":"Greenwich Village.",
       "supporting_facts":[
         [
           "Big Stone Gap (film)",
@@ -730,35 +701,31 @@
         ],
         [
           "I Love NY (2015 film)",
-          0
+          1
+        ],
+        [
+          "I Love NY (2015 film)",
+          2
         ],
         [
           "I Love NY (2015 film)",
           3
         ],
         [
-          "Just Another Romantic Wrestling Comedy",
+          "I Love NY (2015 film)",
+          4
+        ],
+        [
+          "Nola (film)",
           0
         ],
         [
           "Just Another Romantic Wrestling Comedy",
           1
-        ],
-        [
-          "Just Another Romantic Wrestling Comedy",
-          2
-        ],
-        [
-          "Just Another Romantic Wrestling Comedy",
-          3
         ],
         [
           "Adriana Trigiani",
           0
-        ],
-        [
-          "Hamish and Andy's Gap Year",
-          1
         ]
       ]
     },
@@ -766,27 +733,11 @@
       "question_id":"5abd94525542992ac4f382d2",
       "question":"2014 S\/S is the debut album of a South Korean boy group that was formed by who?",
       "ground_truth":"YG Entertainment",
-      "prediction":"YG Entertainment.",
+      "prediction":"LOEN Entertainment.",
       "supporting_facts":[
         [
-          "2014 S\/S",
-          0
-        ],
-        [
-          "2014 S\/S",
-          1
-        ],
-        [
-          "2014 S\/S",
-          2
-        ],
-        [
           "Winner (band)",
           0
-        ],
-        [
-          "Winner (band)",
-          1
         ],
         [
           "Winner (band)",
@@ -797,12 +748,20 @@
           0
         ],
         [
+          "2014 S\/S",
+          2
+        ],
+        [
           "History (band)",
           0
         ],
         [
           "BTS discography",
           1
+        ],
+        [
+          "BTS discography",
+          4
         ],
         [
           "Seventeen discography",
@@ -818,7 +777,7 @@
       "question_id":"5a85b2d95542997b5ce40028",
       "question":"Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
       "ground_truth":"Eenasul Fateh",
-      "prediction":"Eenasul Fateh.",
+      "prediction":"Eenasul Fateh, also known as Aladin.",
       "supporting_facts":[
         [
           "Eenasul Fateh",
@@ -833,20 +792,12 @@
           1
         ],
         [
+          "Mick (DJ)",
+          3
+        ],
+        [
           "ELDee",
           0
-        ],
-        [
-          "ELDee",
-          1
-        ],
-        [
-          "ELDee",
-          2
-        ],
-        [
-          "ELDee",
-          3
         ],
         [
           "Method Man",
@@ -857,12 +808,16 @@
           0
         ],
         [
+          "Criss Angel",
+          1
+        ],
+        [
           "James P. Comer",
           2
         ],
         [
-          "Mick (DJ)",
-          0
+          "James P. Comer",
+          6
         ]
       ]
     },
@@ -885,10 +840,6 @@
           2
         ],
         [
-          "Lewiston Maineiacs",
-          3
-        ],
-        [
           "Androscoggin Bank Colis\u00e9e",
           0
         ],
@@ -902,6 +853,10 @@
         ],
         [
           "Dwyer Arena",
+          1
+        ],
+        [
+          "Billings Bulls",
           1
         ],
         [
@@ -914,7 +869,7 @@
       "question_id":"5a7bbb64554299042af8f7cc",
       "question":"Who is older, Annie Morton or Terry Richardson?",
       "ground_truth":"Terry Richardson",
-      "prediction":"Annie Morton.",
+      "prediction":"Annie Morton (born 1970) vs. Terry Richardson (born 1965).",
       "supporting_facts":[
         [
           "Annie Morton",
@@ -943,14 +898,6 @@
         [
           "Terry Richardson",
           1
-        ],
-        [
-          "Lady Gaga x Terry Richardson",
-          0
-        ],
-        [
-          "Kenton Richardson",
-          0
         ]
       ]
     },
@@ -977,8 +924,8 @@
           1
         ],
         [
-          "Hallelujah! I'm a Bum (album)",
-          1
+          "Suffrajett",
+          0
         ],
         [
           "Suffrajett",
@@ -994,7 +941,7 @@
         ],
         [
           "Mendocino County GMO Ban",
-          5
+          1
         ]
       ]
     },
@@ -1002,12 +949,8 @@
       "question_id":"5a7166395542994082a3e814",
       "question":"What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
       "ground_truth":"Kansas Song",
-      "prediction":"Kansas Song (We\u2019re From Kansas)",
+      "prediction":"Rock Chalk.",
       "supporting_facts":[
-        [
-          "Kansas Song",
-          0
-        ],
         [
           "University of Kansas",
           0
@@ -1057,22 +1000,6 @@
           0
         ],
         [
-          "The Family Man",
-          1
-        ],
-        [
-          "The Family Man",
-          2
-        ],
-        [
-          "David Weissman",
-          0
-        ],
-        [
-          "David Weissman",
-          1
-        ],
-        [
           "Deadfall (1993 film)",
           4
         ],
@@ -1081,12 +1008,20 @@
           0
         ],
         [
-          "Season of the Witch (2011 film)",
-          0
+          "City of Angels (film)",
+          1
+        ],
+        [
+          "City of Angels (film)",
+          3
         ],
         [
           "Drive Angry",
           0
+        ],
+        [
+          "Season of the Witch (2011 film)",
+          4
         ],
         [
           "Gone in 60 Seconds (2000 film)",
@@ -1095,6 +1030,10 @@
         [
           "Time to Kill (1989 film)",
           0
+        ],
+        [
+          "David Weissman",
+          0
         ]
       ]
     },
@@ -1102,15 +1041,27 @@
       "question_id":"5ab3b0bf5542992ade7c6e39",
       "question":"What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
       "ground_truth":"1999",
-      "prediction":"1999.",
+      "prediction":"End of Days (1999)",
       "supporting_facts":[
         [
-          "Oh My God (Guns N' Roses song)",
+          "Arnold Schwarzenegger filmography",
           0
         ],
         [
-          "Oh My God (Guns N' Roses song)",
+          "Arnold Schwarzenegger filmography",
           1
+        ],
+        [
+          "Arnold Schwarzenegger filmography",
+          2
+        ],
+        [
+          "Arnold Schwarzenegger filmography",
+          3
+        ],
+        [
+          "Arnold Schwarzenegger filmography",
+          4
         ],
         [
           "Last Action Hero",
@@ -1118,27 +1069,15 @@
         ],
         [
           "End of Days (film)",
-          0
-        ],
-        [
-          "End of Days (film)",
           1
         ],
         [
-          "Guns N' Roses discography",
-          0
+          "Steven Adler",
+          1
         ],
         [
-          "Guns N' Roses discography",
-          2
-        ],
-        [
-          "Guns N' Roses discography",
-          4
-        ],
-        [
-          "True Lies",
-          0
+          "Steven Adler",
+          6
         ]
       ]
     },
@@ -1146,7 +1085,7 @@
       "question_id":"5ab56e32554299637185c594",
       "question":"Are Random House Tower and 888 7th Avenue both used for real estate?",
       "ground_truth":"no",
-      "prediction":"Yes.",
+      "prediction":"No.",
       "supporting_facts":[
         [
           "Random House Tower",
@@ -1166,19 +1105,19 @@
         ],
         [
           "888 7th Avenue",
-          2
-        ],
-        [
-          "888 7th Avenue",
           3
         ],
         [
-          "888 7th Avenue",
-          4
+          "Villard (imprint)",
+          3
         ],
         [
           "Pershing Square Capital Management",
           0
+        ],
+        [
+          "Real estate technology",
+          4
         ]
       ]
     },
@@ -1186,15 +1125,11 @@
       "question_id":"5ab6d09255429954757d337d",
       "question":"The football manager who recruited David Beckham managed Manchester United during what timeframe?",
       "ground_truth":"from 1986 to 2013",
-      "prediction":"1986 to 2013.",
+      "prediction":"1992-2013. (Sir Alex Ferguson)",
       "supporting_facts":[
         [
           "Alex Ferguson",
           0
-        ],
-        [
-          "Alex Ferguson",
-          1
         ],
         [
           "Matt Busby",
@@ -1210,19 +1145,27 @@
         ],
         [
           "1995\u201396 Manchester United F.C. season",
+          0
+        ],
+        [
+          "1995\u201396 Manchester United F.C. season",
+          1
+        ],
+        [
+          "1995\u201396 Manchester United F.C. season",
           3
+        ],
+        [
+          "David Beckham Academy",
+          0
+        ],
+        [
+          "1996 FA Charity Shield",
+          2
         ],
         [
           "Sir Matt Busby Sports Complex",
           1
-        ],
-        [
-          "The Class of '92",
-          1
-        ],
-        [
-          "Joshua Parlby",
-          0
         ]
       ]
     },
@@ -1250,10 +1193,6 @@
         ],
         [
           "Brown County, Kansas",
-          1
-        ],
-        [
-          "Brown County, Kansas",
           2
         ],
         [
@@ -1265,16 +1204,16 @@
           0
         ],
         [
-          "Osage State Fishing Lake",
-          4
-        ],
-        [
-          "Osage State Fishing Lake",
-          5
+          "Neosho State Fishing Lake",
+          1
         ],
         [
           "Neosho State Fishing Lake",
-          0
+          6
+        ],
+        [
+          "Neosho State Fishing Lake",
+          8
         ]
       ]
     },
@@ -1282,7 +1221,7 @@
       "question_id":"5ab3e45655429976abd1bcd4",
       "question":"The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
       "ground_truth":"the North Atlantic Conference",
-      "prediction":"The America East Conference was formerly known as the Northeast Conference from 1988 to 1996.",
+      "prediction":"North Atlantic Conference.",
       "supporting_facts":[
         [
           "Vermont Catamounts men's soccer",
@@ -1293,28 +1232,36 @@
           1
         ],
         [
-          "Vermont Catamounts men's basketball",
-          1
-        ],
-        [
           "Vermont Catamounts men's ice hockey",
           0
         ],
         [
-          "2016\u201317 Vermont Catamounts men's basketball team",
+          "Vermont Catamounts men's ice hockey",
+          1
+        ],
+        [
+          "America East Conference",
+          0
+        ],
+        [
+          "America East Conference",
+          1
+        ],
+        [
+          "Vermont Catamounts men's basketball",
+          1
+        ],
+        [
+          "2012\u201313 Vermont Catamounts men's basketball team",
+          1
+        ],
+        [
+          "2011\u201312 Vermont Catamounts men's basketball team",
           1
         ],
         [
           "2016\u201317 Vermont Catamounts men's basketball team",
-          4
-        ],
-        [
-          "2010\u201311 Vermont Catamounts men's basketball team",
           1
-        ],
-        [
-          "2013\u201314 Vermont Catamounts men's basketball team",
-          3
         ]
       ]
     },
@@ -1329,10 +1276,6 @@
           0
         ],
         [
-          "Giuseppe Verdi",
-          0
-        ],
-        [
           "Giuseppe Verdi (film)",
           0
         ],
@@ -1341,12 +1284,12 @@
           1
         ],
         [
-          "Teatro Giuseppe Verdi",
-          0
+          "Giuseppe Verdi (film)",
+          2
         ],
         [
-          "Verdi, the King of Melody",
-          0
+          "Ferdinando Provesi",
+          2
         ],
         [
           "Verdi, the King of Melody",
@@ -1362,7 +1305,7 @@
       "question_id":"5ae0d4c9554299603e418468",
       "question":"Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
       "ground_truth":"1969 until 1974",
-      "prediction":"Nixon (1969-1974)",
+      "prediction":"1969-1974",
       "supporting_facts":[
         [
           "Roger O. Egeberg",
@@ -1387,6 +1330,10 @@
         [
           "Douglas J. Bennet",
           2
+        ],
+        [
+          "Steven K. Galson",
+          3
         ],
         [
           "Steven K. Galson",
@@ -1397,11 +1344,7 @@
           5
         ],
         [
-          "Edward D. Martin",
-          0
-        ],
-        [
-          "Office of Population Affairs",
+          "Richard Nixon",
           0
         ]
       ]
@@ -1410,15 +1353,11 @@
       "question_id":"5a8133725542995ce29dcbdb",
       "question":"Which writer was from England, Henry Roth or Robert Erskine Childers?",
       "ground_truth":"Robert Erskine Childers DSC",
-      "prediction":"Robert Erskine Childers.",
+      "prediction":"England: Robert Erskine Childers.",
       "supporting_facts":[
         [
           "Robert Erskine Childers",
           0
-        ],
-        [
-          "Robert Erskine Childers",
-          1
         ],
         [
           "Robert Erskine Childers",
@@ -1430,27 +1369,19 @@
         ],
         [
           "Molly Childers",
+          0
+        ],
+        [
+          "Molly Childers",
           3
+        ],
+        [
+          "Molly Childers",
+          4
         ],
         [
           "Erskine Barton Childers",
           0
-        ],
-        [
-          "Erskine Barton Childers",
-          1
-        ],
-        [
-          "Erskine Barton Childers",
-          2
-        ],
-        [
-          "Erskine Barton Childers",
-          3
-        ],
-        [
-          "Asgard (yacht)",
-          1
         ],
         [
           "Robert Caesar Childers",
@@ -1458,34 +1389,10 @@
         ],
         [
           "Robert Caesar Childers",
-          2
-        ],
-        [
-          "Robert Barton",
-          0
-        ],
-        [
-          "Robert Barton",
           1
         ],
         [
           "Robert Barton",
-          2
-        ],
-        [
-          "Robert Barton",
-          3
-        ],
-        [
-          "Gretchen Osgood Warren",
-          0
-        ],
-        [
-          "Gretchen Osgood Warren",
-          1
-        ],
-        [
-          "Gretchen Osgood Warren",
           2
         ]
       ]
@@ -1513,6 +1420,10 @@
           2
         ],
         [
+          "Eduardo Troconis",
+          1
+        ],
+        [
           "Force India VJM04",
           0
         ],
@@ -1521,12 +1432,12 @@
           1
         ],
         [
-          "2014 Bahrain Grand Prix",
-          3
+          "2009 Singapore Grand Prix",
+          5
         ],
         [
-          "Eduardo Troconis",
-          0
+          "2014 Bahrain Grand Prix",
+          1
         ]
       ]
     },
@@ -1545,48 +1456,36 @@
           1
         ],
         [
+          "Hip Hip Pooh-Ray!",
+          1
+        ],
+        [
+          "Hip Hip Pooh-Ray!",
+          3
+        ],
+        [
           "Heffalumps and Woozles",
           0
         ],
         [
-          "Winnie the Pooh and the Blustery Day",
-          0
-        ],
-        [
-          "Winnie the Pooh and the Blustery Day",
-          3
+          "Heffalumps and Woozles",
+          1
         ],
         [
           "Winnie the Pooh and the Blustery Day",
           4
+        ],
+        [
+          "The Rain Rain Rain Came Down Down Down",
+          3
+        ],
+        [
+          "Jim Cummings",
+          0
         ],
         [
           "Jim Cummings",
           1
-        ],
-        [
-          "Kate Higgins",
-          0
-        ],
-        [
-          "Kate Higgins",
-          1
-        ],
-        [
-          "Kate Higgins",
-          2
-        ],
-        [
-          "Kate Higgins",
-          3
-        ],
-        [
-          "Kate Higgins",
-          4
-        ],
-        [
-          "Kate Higgins",
-          5
         ]
       ]
     },
@@ -1594,7 +1493,7 @@
       "question_id":"5adddccd5542997dc7907069",
       "question":"Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
       "ground_truth":"keyboard function keys",
-      "prediction":"Front Row.",
+      "prediction":"Front Row media program.",
       "supporting_facts":[
         [
           "Apple Remote",
@@ -1625,16 +1524,12 @@
           1
         ],
         [
-          "Siri Remote",
-          2
-        ],
-        [
           "Universal remote",
           2
         ],
         [
           "Apple Remote Desktop",
-          1
+          0
         ]
       ]
     },
@@ -1642,7 +1537,7 @@
       "question_id":"5ae2070a5542994d89d5b313",
       "question":"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
       "ground_truth":"Badly Drawn Boy",
-      "prediction":"Badly Drawn Boy.\n\nReasoning: According to the provided context, Badly Drawn Boy (Damon Gough) wrote, produced, and played several instruments on his album \"The Hour of Bewilderbeast\". This suggests a high instrument-to-person ratio for Badly Drawn Boy. In contrast, Wolf Alice is a four-piece band with one vocalist\/guitarist (Ellie Rowsell), one guitarist\/vocalist (Joff Oddie), one bassist (Theo Ellis), and one drummer\/vocalist (Joel Amey). This means that Wolf Alice has a much lower instrument-to-person ratio compared to Badly Drawn Boy.",
+      "prediction":"Badly Drawn Boy.",
       "supporting_facts":[
         [
           "The Hour of Bewilderbeast",
@@ -1651,10 +1546,6 @@
         [
           "The Hour of Bewilderbeast",
           1
-        ],
-        [
-          "The Hour of Bewilderbeast",
-          2
         ],
         [
           "Badly Drawn Boy",
@@ -1678,7 +1569,15 @@
         ],
         [
           "Badly Drawn Boy discography",
+          3
+        ],
+        [
+          "Badly Drawn Boy discography",
           4
+        ],
+        [
+          "Something to Talk About (Badly Drawn Boy song)",
+          0
         ]
       ]
     },
@@ -1705,19 +1604,15 @@
           1
         ],
         [
-          "IFFHS World's Best Goalkeeper",
-          0
+          "Kasper Hvidt",
+          1
         ],
         [
           "Pel\u00e9",
           2
         ],
         [
-          "IFFHS World's Best Club Coach",
-          0
-        ],
-        [
-          "IFFHS World's Best Club Coach",
+          "Isaak Hassler",
           1
         ]
       ]
@@ -1726,15 +1621,19 @@
       "question_id":"5a722b8655429971e9dc9329",
       "question":"Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
       "ground_truth":"Barton Lee Hazlewood",
-      "prediction":"Lee Hazlewood wrote \"These Boots Are Made for Walkin'\", and Lee Hazlewood died in 2007.",
+      "prediction":"Lee Hazlewood wrote \"These Boots Are Made for Walkin'\", Nancy Sinatra. Lee Hazlewood died in 2007.",
       "supporting_facts":[
         [
-          "These Boots Are Made for Walkin'",
+          "Boots (EP)",
           0
         ],
         [
           "Boots (EP)",
-          0
+          1
+        ],
+        [
+          "Boots (album)",
+          1
         ],
         [
           "Boots (album)",
@@ -1742,26 +1641,10 @@
         ],
         [
           "Nancy Sinatra",
-          0
-        ],
-        [
-          "Nancy Sinatra",
-          1
-        ],
-        [
-          "Puss N' Boots\/These Boots Are Made for Walkin'",
-          0
-        ],
-        [
-          "Puss N' Boots\/These Boots Are Made for Walkin'",
           1
         ],
         [
           "The Twenty-fifth Anniversary Anthology",
-          1
-        ],
-        [
-          "Kon Kan",
           1
         ]
       ]
@@ -1778,15 +1661,15 @@
         ],
         [
           "2011\u201312 VCU Rams men's basketball team",
-          1
-        ],
-        [
-          "2011\u201312 VCU Rams men's basketball team",
           2
         ],
         [
           "2010\u201311 VCU Rams men's basketball team",
           1
+        ],
+        [
+          "2012\u201313 VCU Rams men's basketball team",
+          0
         ],
         [
           "2012\u201313 VCU Rams men's basketball team",
@@ -1803,6 +1686,10 @@
         [
           "2013\u201314 VCU Rams men's basketball team",
           2
+        ],
+        [
+          "Virginia Commonwealth University",
+          0
         ]
       ]
     },
@@ -1838,14 +1725,6 @@
         ],
         [
           "Huernia",
-          1
-        ],
-        [
-          "Huernia",
-          2
-        ],
-        [
-          "Huernia",
           3
         ],
         [
@@ -1873,52 +1752,32 @@
           1
         ],
         [
-          "Henry J. Kaiser",
+          "Kaiser Shipyards",
+          0
+        ],
+        [
+          "Kaiser Shipyards",
           2
         ],
         [
-          "Henry J. Kaiser",
+          "Kaiser Ventures",
+          1
+        ],
+        [
+          "Kaiser Ventures",
+          2
+        ],
+        [
+          "Kaiser Ventures",
           3
         ],
         [
-          "Henry J. Kaiser",
+          "Kaiser Ventures",
           4
-        ],
-        [
-          "Henry J. Kaiser",
-          5
-        ],
-        [
-          "Kaiser Shipyards",
-          0
-        ],
-        [
-          "Kaiser Shipyards",
-          1
-        ],
-        [
-          "Kaiser Shipyards",
-          2
-        ],
-        [
-          "Kaiser Ventures",
-          0
-        ],
-        [
-          "Kaiser Ventures",
-          1
-        ],
-        [
-          "Kaiser Ventures",
-          2
         ],
         [
           "Edgar Kaiser Sr.",
           0
-        ],
-        [
-          "Edgar Kaiser Jr.",
-          1
         ]
       ]
     },
@@ -1929,27 +1788,11 @@
       "prediction":"Arena of Khazan.",
       "supporting_facts":[
         [
-          "Tunnels &amp; Trolls",
-          0
-        ],
-        [
-          "Tunnels &amp; Trolls",
-          1
-        ],
-        [
           "Ken St. Andre",
           0
         ],
         [
           "Ken St. Andre",
-          1
-        ],
-        [
-          "Tunnels &amp; Trolls: Crusaders of Khazan",
-          0
-        ],
-        [
-          "Tunnels &amp; Trolls: Crusaders of Khazan",
           1
         ],
         [
@@ -1970,19 +1813,11 @@
       "question_id":"5ac23ff0554299636651994d",
       "question":"When was Poison's album \"Shut Up, Make Love\" released?",
       "ground_truth":"2000",
-      "prediction":"2000.",
+      "prediction":"March 14, 2000.",
       "supporting_facts":[
         [
           "Shut Up, Make Love",
           0
-        ],
-        [
-          "Shut Up, Make Love",
-          1
-        ],
-        [
-          "Shut Up, Make Love",
-          2
         ],
         [
           "Shut Up, Make Love",
@@ -1994,31 +1829,31 @@
         ],
         [
           "Poison (American band)",
-          3
-        ],
-        [
-          "Be the One (Poison song)",
           0
         ],
         [
-          "Be the One (Poison song)",
+          "Poison (American band)",
           1
         ],
         [
-          "Be the One (Poison song)",
+          "Poison (American band)",
           2
         ],
         [
-          "Be the One (Poison song)",
+          "Poison (American band)",
           3
         ],
         [
-          "Make Love Not War (album)",
-          0
+          "Poison (American band)",
+          4
         ],
         [
-          "Greatest Hits (Dan Fogelberg album)",
-          1
+          "Poison (American band)",
+          5
+        ],
+        [
+          "Be the One (Poison song)",
+          3
         ]
       ]
     },
@@ -2037,6 +1872,10 @@
           0
         ],
         [
+          "Mild and Hazy",
+          2
+        ],
+        [
           "Buck-Tick",
           0
         ],
@@ -2047,10 +1886,6 @@
         [
           "Buck-Tick",
           3
-        ],
-        [
-          "Skyscraper National Park",
-          0
         ],
         [
           "Atsushi Sakurai",
@@ -2069,36 +1904,32 @@
       "prediction":"Charles Nungesser.",
       "supporting_facts":[
         [
-          "L'Oiseau Blanc",
+          "Charles Nungesser",
           0
-        ],
-        [
-          "L'Oiseau Blanc",
-          1
-        ],
-        [
-          "L'Oiseau Blanc",
-          3
         ],
         [
           "Charles Nungesser",
-          0
+          1
         ],
         [
           "Fran\u00e7ois Coli",
           0
         ],
         [
-          "Gervais Raoul Lufbery",
-          0
+          "Wooster and Davis",
+          2
         ],
         [
-          "Georges Madon",
-          0
+          "Wooster and Davis",
+          3
         ],
         [
-          "Paul Sauvage (aviator)",
-          0
+          "Levasseur PL.8",
+          1
+        ],
+        [
+          "Levasseur PL.8",
+          2
         ]
       ]
     },
@@ -2114,10 +1945,6 @@
         ],
         [
           "Freakonomics (film)",
-          1
-        ],
-        [
-          "Freakonomics (film)",
           2
         ],
         [
@@ -2127,38 +1954,30 @@
         [
           "In the Realm of the Hackers",
           1
-        ],
-        [
-          "In the Realm of the Hackers",
-          2
         ],
         [
           "Freakonomics Radio",
           0
         ],
         [
-          "Hackers (film)",
-          0
-        ],
-        [
-          "Hackers (film)",
+          "Freakonomics Radio",
           1
         ],
         [
-          "Hackers (film)",
+          "Freakonomics Radio",
           2
         ],
         [
-          "Hackers (film)",
+          "Freakonomics Radio",
           3
         ],
         [
-          "Hackers (film)",
+          "Freakonomics Radio",
           4
         ],
         [
           "Hackers (film)",
-          5
+          1
         ]
       ]
     },
@@ -2166,7 +1985,7 @@
       "question_id":"5a7cc50e554299452d57ba3e",
       "question":"Which band, Letters to Cleo or Screaming Trees, had more members?",
       "ground_truth":"Letters to Cleo",
-      "prediction":"Letters to Cleo.",
+      "prediction":"Letters to Cleo (6)",
       "supporting_facts":[
         [
           "Letters to Cleo",
@@ -2183,6 +2002,10 @@
         [
           "Screaming Trees",
           1
+        ],
+        [
+          "Screaming Trees",
+          2
         ],
         [
           "Screaming Trees discography",
@@ -2197,56 +2020,8 @@
           1
         ],
         [
-          "Gary Lee Conner",
-          2
-        ],
-        [
-          "Gary Lee Conner",
-          3
-        ],
-        [
-          "Gary Lee Conner",
-          4
-        ],
-        [
-          "Gary Lee Conner",
-          5
-        ],
-        [
-          "Gary Lee Conner",
-          6
-        ],
-        [
-          "Gary Lee Conner",
-          7
-        ],
-        [
-          "Gary Lee Conner",
-          8
-        ],
-        [
-          "Van Conner",
-          1
-        ],
-        [
-          "Mad Season (band)",
+          "Beat Happening\/Screaming Trees",
           0
-        ],
-        [
-          "Truly",
-          0
-        ],
-        [
-          "Truly",
-          1
-        ],
-        [
-          "Truly",
-          2
-        ],
-        [
-          "Truly",
-          3
         ]
       ]
     },
@@ -2254,7 +2029,7 @@
       "question_id":"5abf63f15542997ec76fd3ea",
       "question":"Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
       "ground_truth":"October 1922",
-      "prediction":"1922.",
+      "prediction":"October 1922.",
       "supporting_facts":[
         [
           "Russian Civil War",
@@ -2262,59 +2037,39 @@
         ],
         [
           "Russian Civil War",
-          7
-        ],
-        [
-          "Socialist Revolutionary Party",
-          0
-        ],
-        [
-          "Socialist Revolutionary Party",
-          1
-        ],
-        [
-          "Socialist Revolutionary Party",
           2
         ],
         [
-          "Socialist Revolutionary Party",
+          "Russian Civil War",
           3
         ],
         [
-          "Socialist Revolutionary Party",
+          "Russian Civil War",
           4
         ],
         [
-          "Socialist Revolutionary Party",
+          "Russian Civil War",
           5
         ],
         [
+          "Russian Civil War",
+          6
+        ],
+        [
           "Alexander Kerensky",
           0
         ],
         [
           "Alexander Kerensky",
-          1
-        ],
-        [
-          "Alexander Kerensky",
-          2
-        ],
-        [
-          "Alexander Kerensky",
           3
-        ],
-        [
-          "Alexander Kerensky",
-          4
         ],
         [
           "Kerensky\u2013Krasnov uprising",
           0
         ],
         [
-          "Lavr Kornilov",
-          1
+          "Battle of Romanovka",
+          0
         ]
       ]
     },
@@ -2326,14 +2081,6 @@
       "supporting_facts":[
         [
           "Seven Brief Lessons on Physics",
-          0
-        ],
-        [
-          "Seven Brief Lessons on Physics",
-          1
-        ],
-        [
-          "Seven Brief Lessons on Physics",
           2
         ],
         [
@@ -2343,10 +2090,6 @@
         [
           "Carlo Rovelli",
           1
-        ],
-        [
-          "Carlo Rovelli",
-          2
         ],
         [
           "Carlo Rovelli",
@@ -2357,16 +2100,24 @@
           0
         ],
         [
+          "Sergio Ferrara",
+          2
+        ],
+        [
+          "Chiara Nappi",
+          0
+        ],
+        [
+          "Claudio Pellegrini",
+          0
+        ],
+        [
           "Guido Caldarelli",
           0
         ],
         [
           "Aldo Pontremoli",
           0
-        ],
-        [
-          "Antonino Lo Surdo",
-          1
         ]
       ]
     },
@@ -2374,9 +2125,29 @@
       "question_id":"5a80721b554299485f5985ef",
       "question":"The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
       "ground_truth":"World War II",
-      "prediction":"World War I.",
+      "prediction":"World War II.",
       "supporting_facts":[
         [
+          "World War II casualties",
+          0
+        ],
+        [
+          "World War II casualties",
+          1
+        ],
+        [
+          "World War II casualties",
+          3
+        ],
+        [
+          "World War II casualties",
+          5
+        ],
+        [
+          "World War II casualties",
+          6
+        ],
+        [
           "Livesey Hall War Memorial",
           0
         ],
@@ -2385,35 +2156,15 @@
           1
         ],
         [
-          "Livesey Hall War Memorial",
+          "Freetown Memorial",
+          1
+        ],
+        [
+          "Freetown Memorial",
           2
-        ],
-        [
-          "Freetown Memorial",
-          0
-        ],
-        [
-          "Freetown Memorial",
-          1
-        ],
-        [
-          "Freetown Memorial",
-          2
-        ],
-        [
-          "Rainham War Memorial",
-          0
-        ],
-        [
-          "Alamein Memorial",
-          1
         ],
         [
           "Portsmouth Naval Memorial",
-          1
-        ],
-        [
-          "Arras Flying Services Memorial",
           1
         ]
       ]
@@ -2449,11 +2200,15 @@
           2
         ],
         [
-          "Gerald R. Ford Presidential Library",
-          0
+          "Bishop International Airport",
+          5
         ],
         [
-          "Gerald R. Ford Freeway",
+          "Bishop International Airport",
+          8
+        ],
+        [
+          "Gerald R. Ford Presidential Library",
           0
         ]
       ]
@@ -2462,12 +2217,8 @@
       "question_id":"5a7571135542992d0ec05f98",
       "question":"Ralph Hefferline was a psychology professor at a university that is located in what city?",
       "ground_truth":"New York City",
-      "prediction":"New York City.",
+      "prediction":"Columbia.",
       "supporting_facts":[
-        [
-          "Ralph Hefferline",
-          0
-        ],
         [
           "Abraham Maslow",
           0
@@ -2475,14 +2226,6 @@
         [
           "Abraham Maslow",
           1
-        ],
-        [
-          "Abraham Maslow",
-          2
-        ],
-        [
-          "Abraham Maslow",
-          3
         ],
         [
           "Columbia University",
@@ -2494,23 +2237,27 @@
         ],
         [
           "E. Mavis Hetherington",
-          3
+          2
+        ],
+        [
+          "E. Mavis Hetherington",
+          4
+        ],
+        [
+          "Princeton Neuroscience Institute",
+          1
         ],
         [
           "Frank L. Schmidt",
           0
         ],
         [
-          "David C. Funder",
-          0
+          "Frank L. Schmidt",
+          3
         ],
         [
           "David C. Funder",
           1
-        ],
-        [
-          "Stanley Coren",
-          0
         ]
       ]
     },
@@ -2518,7 +2265,7 @@
       "question_id":"5a7a0e1e5542990783324e1a",
       "question":"Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
       "ground_truth":"Scotch Collie",
-      "prediction":"The English Setter.",
+      "prediction":"The Scotch Collie.",
       "supporting_facts":[
         [
           "Scotch Collie",
@@ -2527,10 +2274,6 @@
         [
           "Scotch Collie",
           1
-        ],
-        [
-          "Scotch Collie",
-          2
         ],
         [
           "Scotch Collie",
@@ -2541,19 +2284,19 @@
           0
         ],
         [
-          "English Setter",
-          0
-        ],
-        [
-          "English Setter",
+          "Collie",
           1
         ],
         [
-          "English Setter",
-          2
+          "Toy Manchester Terrier",
+          0
         ],
         [
-          "English Setter",
+          "Toy Manchester Terrier",
+          1
+        ],
+        [
+          "Teddy Roosevelt Terrier",
           3
         ],
         [
@@ -2563,10 +2306,6 @@
         [
           "Florence Nagle",
           4
-        ],
-        [
-          "Teddy Roosevelt Terrier",
-          5
         ]
       ]
     },
@@ -2574,7 +2313,7 @@
       "question_id":"5a74106b55429979e288289e",
       "question":"Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
       "ground_truth":"Mumbai",
-      "prediction":"Mumbai.",
+      "prediction":"Mumbai",
       "supporting_facts":[
         [
           "Sachin Warrier",
@@ -2583,10 +2322,6 @@
         [
           "Sachin Warrier",
           1
-        ],
-        [
-          "Sachin Warrier",
-          2
         ],
         [
           "Sachin Warrier",
@@ -2605,24 +2340,12 @@
           0
         ],
         [
-          "Sachin Bansal",
-          1
-        ],
-        [
           "Tata Consultancy Services",
           0
         ],
         [
-          "Tata Consultancy Services",
-          1
-        ],
-        [
-          "Muthuchippi Poloru",
+          "Kanave Kalayathe",
           0
-        ],
-        [
-          "Muthuchippi Poloru",
-          1
         ],
         [
           "Muthuchippi Poloru",
@@ -2631,14 +2354,6 @@
         [
           "Muthuchippi Poloru",
           3
-        ],
-        [
-          "Muthuchippi Poloru",
-          4
-        ],
-        [
-          "Alec Muffett",
-          2
         ]
       ]
     },
@@ -2646,7 +2361,7 @@
       "question_id":"5a79311755429970f5fffe67",
       "question":"A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
       "ground_truth":"1962",
-      "prediction":"Masakazu Katsura (born 1962).",
+      "prediction":"1962.",
       "supporting_facts":[
         [
           "I&quot;s",
@@ -2657,8 +2372,8 @@
           1
         ],
         [
-          "I&quot;s",
-          3
+          "Haven't You Heard? I'm Sakamoto",
+          6
         ],
         [
           "Manga Bible (series)",
@@ -2673,24 +2388,12 @@
           1
         ],
         [
-          "Silver Spoon (manga)",
-          2
-        ],
-        [
-          "Silver Spoon (manga)",
-          3
+          "Masakazu Katsura",
+          0
         ],
         [
           "Clear Skies!",
           3
-        ],
-        [
-          "Haven't You Heard? I'm Sakamoto",
-          5
-        ],
-        [
-          "Neuro: Supernatural Detective",
-          1
         ]
       ]
     },
@@ -2698,7 +2401,7 @@
       "question_id":"5ab2d3df554299194fa9352c",
       "question":"The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
       "ground_truth":"sovereignty",
-      "prediction":"Ethiopian sovereignty.",
+      "prediction":"Victory.",
       "supporting_facts":[
         [
           "Giuseppe Arimondi",
@@ -2713,12 +2416,8 @@
           2
         ],
         [
-          "Battle of Adwa",
+          "Treaty of Addis Ababa",
           0
-        ],
-        [
-          "Battle of Adwa",
-          1
         ],
         [
           "Treaty of Addis Ababa",
@@ -2726,27 +2425,19 @@
         ],
         [
           "First Italo-Ethiopian War",
-          7
-        ],
-        [
-          "Second Battle of Agordat",
           0
         ],
         [
-          "Second Battle of Agordat",
-          1
-        ],
-        [
-          "Second Battle of Agordat",
-          2
-        ],
-        [
-          "Second Battle of Agordat",
+          "First Italo-Ethiopian War",
           3
         ],
         [
-          "Second Battle of Agordat",
-          4
+          "First Italo-Ethiopian War",
+          6
+        ],
+        [
+          "Battle of Adwa",
+          0
         ]
       ]
     },
@@ -2762,10 +2453,6 @@
         ],
         [
           "Alfred Balk",
-          1
-        ],
-        [
-          "Alfred Balk",
           2
         ],
         [
@@ -2774,27 +2461,31 @@
         ],
         [
           "Executive Order 10925",
-          0
-        ],
-        [
-          "Executive Order 10925",
           1
-        ],
-        [
-          "Executive Order 10925",
-          2
-        ],
-        [
-          "Executive Order 10925",
-          3
         ],
         [
           "Nelson Rockefeller",
           1
         ],
         [
-          "Gore-Chernomyrdin Commission",
+          "Nelson Rockefeller",
           2
+        ],
+        [
+          "Nelson Rockefeller",
+          3
+        ],
+        [
+          "Cynthia Hogan",
+          1
+        ],
+        [
+          "Cynthia Hogan",
+          2
+        ],
+        [
+          "Gerald Ford",
+          1
         ]
       ]
     },
@@ -2817,6 +2508,14 @@
           2
         ],
         [
+          "Dirleton Kirk",
+          0
+        ],
+        [
+          "Dirleton Kirk",
+          1
+        ],
+        [
           "Dirleton",
           0
         ],
@@ -2827,18 +2526,6 @@
         [
           "Yellowcraigs",
           2
-        ],
-        [
-          "Dirleton Kirk",
-          0
-        ],
-        [
-          "Lord Haliburton of Dirleton",
-          0
-        ],
-        [
-          "Lord Haliburton of Dirleton",
-          1
         ],
         [
           "Lord Haliburton of Dirleton",
@@ -2877,40 +2564,12 @@
           4
         ],
         [
-          "To Know Him Is to Love Him",
-          5
-        ],
-        [
           "Back to Mono (1958\u20131969)",
           0
         ],
         [
-          "Back to Mono (1958\u20131969)",
-          1
-        ],
-        [
-          "Back to Mono (1958\u20131969)",
-          2
-        ],
-        [
-          "Back to Mono (1958\u20131969)",
-          3
-        ],
-        [
-          "Nashville Rebel (box set)",
-          0
-        ],
-        [
-          "Nashville Rebel (box set)",
-          1
-        ],
-        [
           "Nashville Rebel (box set)",
           2
-        ],
-        [
-          "Nashville Rebel (box set)",
-          3
         ],
         [
           "Nashville Rebel (box set)",
@@ -2919,14 +2578,6 @@
         [
           "Nashville Rebel (box set)",
           5
-        ],
-        [
-          "Nashville Rebel (box set)",
-          6
-        ],
-        [
-          "Mono Masters",
-          2
         ],
         [
           "Mono Masters",
@@ -2938,19 +2589,31 @@
       "question_id":"5add61d65542995b365fab21",
       "question":"What type of forum did a former Soviet statesman initiate?",
       "ground_truth":"Organizations could come together to address global issues",
-      "prediction":"Peace Laureates.",
+      "prediction":"World Summit of Nobel Peace Laureates.",
       "supporting_facts":[
         [
           "Mikhail Gorbachev",
           0
         ],
         [
+          "Mikhail Gorbachev",
+          1
+        ],
+        [
           "Andrei Kirilenko (politician)",
           0
         ],
         [
-          "Mikhail Suslov",
-          0
+          "Andrei Kirilenko (politician)",
+          1
+        ],
+        [
+          "Andrei Kirilenko (politician)",
+          2
+        ],
+        [
+          "Andrei Kirilenko (politician)",
+          4
         ],
         [
           "Nikolai Podgorny",
@@ -2961,36 +2624,12 @@
           0
         ],
         [
-          "World Summit of Nobel Peace Laureates",
-          1
-        ],
-        [
-          "World Summit of Nobel Peace Laureates",
-          2
-        ],
-        [
-          "World Summit of Nobel Peace Laureates",
-          3
-        ],
-        [
-          "World Summit of Nobel Peace Laureates",
-          4
-        ],
-        [
           "Anastas Mikoyan",
           0
-        ],
-        [
-          "Anastas Mikoyan",
-          1
         ],
         [
           "Ephraim Sklyansky",
           0
-        ],
-        [
-          "David Waksberg",
-          3
         ]
       ]
     },
@@ -3005,12 +2644,12 @@
           0
         ],
         [
-          "Silene",
-          0
+          "Ferocactus",
+          2
         ],
         [
           "Silene",
-          1
+          0
         ],
         [
           "Silene",
@@ -3025,44 +2664,8 @@
           0
         ],
         [
-          "Silene conoidea",
-          1
-        ],
-        [
-          "Silene conoidea",
-          2
-        ],
-        [
-          "Silene conoidea",
-          3
-        ],
-        [
-          "Silene conoidea",
-          4
-        ],
-        [
-          "Silene conoidea",
-          5
-        ],
-        [
-          "Silene latifolia",
+          "Sex determination in Silene",
           0
-        ],
-        [
-          "Silene latifolia",
-          1
-        ],
-        [
-          "Silene tomentosa",
-          0
-        ],
-        [
-          "Silene stenophylla",
-          0
-        ],
-        [
-          "Silene suksdorfii",
-          4
         ]
       ]
     },
@@ -3070,7 +2673,7 @@
       "question_id":"5abbf698554299114383a0b5",
       "question":"Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
       "ground_truth":"English Electric Canberra",
-      "prediction":"English Electric Canberra.",
+      "prediction":"Not applicable. The context mentions the English Electric Canberra, but it does not mention its use in the South West Pacific theatre during World War II.",
       "supporting_facts":[
         [
           "English Electric Canberra",
@@ -3078,15 +2681,7 @@
         ],
         [
           "English Electric Canberra",
-          1
-        ],
-        [
-          "English Electric Canberra",
           2
-        ],
-        [
-          "English Electric Canberra",
-          3
         ],
         [
           "English Electric Canberra",
@@ -3094,45 +2689,13 @@
         ],
         [
           "No. 2 Squadron RAAF",
-          0
-        ],
-        [
-          "No. 2 Squadron RAAF",
-          1
-        ],
-        [
-          "No. 2 Squadron RAAF",
           2
-        ],
-        [
-          "No. 2 Squadron RAAF",
-          3
-        ],
-        [
-          "No. 2 Squadron RAAF",
-          4
         ],
         [
           "No. 2 Squadron RAAF",
           5
         ],
         [
-          "No. 2 Squadron RAAF",
-          6
-        ],
-        [
-          "No. 2 Squadron RAAF",
-          7
-        ],
-        [
-          "No. 2 Squadron RAAF",
-          8
-        ],
-        [
-          "No. 12 Squadron RAAF",
-          1
-        ],
-        [
           "South West Pacific theatre of World War II",
           0
         ],
@@ -3145,8 +2708,12 @@
           2
         ],
         [
-          "Tupolev Tu-12",
+          "South West Pacific Area (command)",
           0
+        ],
+        [
+          "South West Pacific Area (command)",
+          1
         ]
       ]
     },
@@ -3154,47 +2721,27 @@
       "question_id":"5a8e1027554299653c1aa15f",
       "question":"Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
       "ground_truth":"2009 Big 12 Conference",
-      "prediction":"2009, Big 12.",
+      "prediction":"2011, Pac-12.",
       "supporting_facts":[
         [
-          "2015 Colorado Buffaloes football team",
+          "2014 Colorado Buffaloes football team",
           0
+        ],
+        [
+          "2014 Colorado Buffaloes football team",
+          1
+        ],
+        [
+          "2014 Colorado Buffaloes football team",
+          2
         ],
         [
           "2015 Colorado Buffaloes football team",
           1
         ],
         [
-          "2015 Colorado Buffaloes football team",
-          2
-        ],
-        [
-          "2009 Colorado Buffaloes football team",
-          2
-        ],
-        [
-          "2011 Colorado Buffaloes football team",
-          0
-        ],
-        [
-          "2011 Colorado Buffaloes football team",
-          1
-        ],
-        [
           "2011 Colorado Buffaloes football team",
           2
-        ],
-        [
-          "2016\u201317 Colorado Buffaloes men's basketball team",
-          0
-        ],
-        [
-          "2016\u201317 Colorado Buffaloes men's basketball team",
-          2
-        ],
-        [
-          "2009 Big 12 Conference football season",
-          0
         ]
       ]
     },
@@ -3202,12 +2749,8 @@
       "question_id":"5ab84bf555429916710eb01f",
       "question":"In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
       "ground_truth":"1,462",
-      "prediction":"Carrefour.",
+      "prediction":"Carrefour (5,200+).",
       "supporting_facts":[
-        [
-          "Euromarch\u00e9",
-          0
-        ],
         [
           "Euromarch\u00e9",
           1
@@ -3219,10 +2762,6 @@
         [
           "Carrefour",
           0
-        ],
-        [
-          "Carrefour",
-          1
         ],
         [
           "Carrefour",
@@ -3231,10 +2770,6 @@
         [
           "Carrefour",
           3
-        ],
-        [
-          "Carrefour",
-          4
         ],
         [
           "SavaCentre",
@@ -3249,12 +2784,8 @@
           0
         ],
         [
-          "Lewis's",
-          3
-        ],
-        [
-          "Uno-X",
-          4
+          "Selver",
+          0
         ]
       ]
     },
@@ -3269,6 +2800,14 @@
           0
         ],
         [
+          "Indianapolis Motor Speedway",
+          1
+        ],
+        [
+          "Indianapolis Motor Speedway",
+          2
+        ],
+        [
           "Allison Transmission",
           0
         ],
@@ -3277,36 +2816,24 @@
           1
         ],
         [
-          "Allison Transmission",
-          2
-        ],
-        [
           "1957 Indianapolis 500",
           0
         ],
         [
-          "1957 Indianapolis 500",
-          1
-        ],
-        [
           "Subway 400",
           1
         ],
         [
           "Subway 400",
-          2
-        ],
-        [
-          "Carolina Dodge Dealers 400",
-          1
-        ],
-        [
-          "Carolina Dodge Dealers 400",
           2
         ],
         [
           "Carolina Dodge Dealers 400",
           4
+        ],
+        [
+          "Louis Schwitzer Award",
+          0
         ]
       ]
     },
@@ -3318,30 +2845,30 @@
       "supporting_facts":[
         [
           "Franco Corelli",
+          0
+        ],
+        [
+          "Franco Corelli",
           2
+        ],
+        [
+          "Franco Corelli",
+          3
+        ],
+        [
+          "Franco Corelli",
+          4
         ],
         [
           "Jacopo Puccini",
           0
         ],
         [
-          "Tosca (1956 film)",
-          0
-        ],
-        [
-          "Tosca (1956 film)",
+          "Jacopo Puccini",
           1
         ],
         [
           "Tosca (1956 film)",
-          2
-        ],
-        [
-          "La Boh\u00e8me (1988 film)",
-          0
-        ],
-        [
-          "La Boh\u00e8me (1988 film)",
           1
         ],
         [
@@ -3349,16 +2876,12 @@
           0
         ],
         [
-          "Cesira Ferrani",
+          "Gianni Schicchi",
+          4
+        ],
+        [
+          "Festival Puccini",
           0
-        ],
-        [
-          "Cesira Ferrani",
-          1
-        ],
-        [
-          "Ron Bottcher",
-          2
         ]
       ]
     },
@@ -3371,6 +2894,14 @@
         [
           "Delirium (Ellie Goulding album)",
           0
+        ],
+        [
+          "Delirium (Ellie Goulding album)",
+          1
+        ],
+        [
+          "Delirium (Ellie Goulding album)",
+          2
         ],
         [
           "Delirium (Ellie Goulding album)",
@@ -3389,24 +2920,12 @@
           1
         ],
         [
-          "Something in the Way You Move",
-          0
-        ],
-        [
-          "Something in the Way You Move",
-          1
-        ],
-        [
-          "Something in the Way You Move",
-          2
-        ],
-        [
           "On My Mind (Ellie Goulding song)",
           0
         ],
         [
-          "Love Me like You Do",
-          4
+          "List of songs recorded by Ellie Goulding",
+          0
         ],
         [
           "List of songs recorded by Ellie Goulding",
@@ -3429,12 +2948,12 @@
           1
         ],
         [
-          "Westminster School, Adelaide",
-          2
+          "Marion, South Australia",
+          1
         ],
         [
           "Marion, South Australia",
-          1
+          2
         ],
         [
           "Grace Church School",
@@ -3446,31 +2965,19 @@
         ],
         [
           "Grace Church School",
-          2
-        ],
-        [
-          "Grace Church School",
-          3
-        ],
-        [
-          "Grace Church School",
           4
+        ],
+        [
+          "Princeton High School (Illinois)",
+          1
         ],
         [
           "Sainik School Balachadi, Jamnagar",
           1
         ],
         [
-          "Concho Indian Boarding School",
-          1
-        ],
-        [
-          "Concho Indian Boarding School",
-          3
-        ],
-        [
-          "Grennaskolan",
-          1
+          "Cotter High School (Winona, Minnesota)",
+          6
         ]
       ]
     },
@@ -3494,23 +3001,11 @@
         ],
         [
           "D1NZ",
-          3
-        ],
-        [
-          "D1NZ",
-          4
-        ],
-        [
-          "D1NZ",
           5
         ],
         [
           "D1NZ",
           6
-        ],
-        [
-          "D1NZ",
-          7
         ],
         [
           "D1NZ",
@@ -3530,7 +3025,7 @@
       "question_id":"5a7320565542991f9a20c61d",
       "question":"who is younger Keith Bostic or Jerry Glanville ?",
       "ground_truth":"Keith Bostic",
-      "prediction":"Jerry Glanville (born October 14, 1941) is older than Keith Bostic (born January 17, 1961).",
+      "prediction":"Jerry Glanville.",
       "supporting_facts":[
         [
           "Keith Bostic (American football)",
@@ -3558,14 +3053,18 @@
         ],
         [
           "Jerry Glanville",
-          2
-        ],
-        [
-          "Jerry Glanville",
-          5
+          1
         ],
         [
           "Keith Bostic",
+          0
+        ],
+        [
+          "1989 Houston Oilers season",
+          4
+        ],
+        [
+          "Portland State Vikings football under Jerry Glanville",
           0
         ]
       ]
@@ -3574,7 +3073,7 @@
       "question_id":"5ae32e125542991a06ce9946",
       "question":"According to the 2001 census, what was the population of the city in which Kirton End is located?",
       "ground_truth":"35,124",
-      "prediction":"Boston.",
+      "prediction":"35,124.",
       "supporting_facts":[
         [
           "Kirton, Suffolk",
@@ -3583,10 +3082,6 @@
         [
           "Kirton, Suffolk",
           2
-        ],
-        [
-          "Kirton, Suffolk",
-          3
         ],
         [
           "Kirton, Suffolk",
@@ -3609,7 +3104,7 @@
           1
         ],
         [
-          "Kirton, Nottinghamshire",
+          "Boston, Lincolnshire",
           2
         ]
       ]
@@ -3633,6 +3128,10 @@
           0
         ],
         [
+          "Cypress",
+          1
+        ],
+        [
           "Cupressus",
           0
         ],
@@ -3645,19 +3144,11 @@
           2
         ],
         [
-          "Cupressus",
-          3
-        ],
-        [
           "Cypress-pine",
           0
         ],
         [
           "Ajugeae",
-          0
-        ],
-        [
-          "Fokienia",
           0
         ],
         [
@@ -3670,14 +3161,10 @@
       "question_id":"5a8b20335542996c9b8d5fb3",
       "question":"What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
       "ground_truth":"shortest player ever to play in the National Basketball Association",
-      "prediction":"Shortest player ever to play in the National Basketball Association.",
+      "prediction":"Shortest player to play in the NBA.",
       "supporting_facts":[
         [
           "Muggsy Bogues",
-          0
-        ],
-        [
-          "Muggsy Bogues",
           1
         ],
         [
@@ -3697,18 +3184,6 @@
           1
         ],
         [
-          "1992\u201393 Charlotte Hornets season",
-          2
-        ],
-        [
-          "1992\u201393 Charlotte Hornets season",
-          3
-        ],
-        [
-          "1992\u201393 Charlotte Hornets season",
-          4
-        ],
-        [
           "Charlotte Hornets",
           0
         ],
@@ -3721,20 +3196,12 @@
           2
         ],
         [
-          "Charlotte Hornets",
-          3
-        ],
-        [
-          "2014\u201315 Charlotte Hornets season",
-          5
+          "Charlotte Hornets all-time roster",
+          0
         ],
         [
           "Charlotte Hornets all-time roster",
           5
-        ],
-        [
-          "2003 WNBA season",
-          3
         ]
       ]
     },
@@ -3742,8 +3209,16 @@
       "question_id":"5a85fb085542994775f606de",
       "question":"What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
       "ground_truth":"Ronald Shusett",
-      "prediction":"Ridley Scott.",
+      "prediction":"Jack Schwartzman.",
       "supporting_facts":[
+        [
+          "Lionheart (1987 film)",
+          0
+        ],
+        [
+          "Lionheart (1987 film)",
+          1
+        ],
         [
           "Lionheart (1987 film)",
           3
@@ -3751,10 +3226,6 @@
         [
           "Legend (film score)",
           0
-        ],
-        [
-          "Legend (film score)",
-          1
         ],
         [
           "Total Recall (1990 film)",
@@ -3765,23 +3236,19 @@
           1
         ],
         [
-          "Alien (soundtrack)",
-          0
-        ],
-        [
-          "Alien (soundtrack)",
-          1
-        ],
-        [
-          "Aliens (soundtrack)",
-          2
-        ],
-        [
           "Aliens (soundtrack)",
           3
         ],
         [
+          "Innerspace",
+          3
+        ],
+        [
           "Mulan (soundtrack)",
+          1
+        ],
+        [
+          "Christus Apollo",
           1
         ]
       ]
@@ -3817,11 +3284,15 @@
           3
         ],
         [
-          "Me! I'm Afraid of Virginia Woolf",
-          4
+          "The Mark on the Wall",
+          0
         ],
         [
-          "Orlando: A Biography",
+          "Jane de Gay",
+          0
+        ],
+        [
+          "Moments of Being",
           0
         ]
       ]
@@ -3830,7 +3301,7 @@
       "question_id":"5a77152355429966f1a36c2e",
       "question":"What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
       "ground_truth":"821",
-      "prediction":"None (the nursery rhyme \"What Are Little Boys Made Of?\" does not have a matching entry in the Roud Folk Song Index, and instead \"What Are Little Girls Made Of?\" is inspired by it).",
+      "prediction":"821.",
       "supporting_facts":[
         [
           "What Are Little Girls Made Of?",
@@ -3838,42 +3309,30 @@
         ],
         [
           "What Are Little Boys Made Of?",
-          2
-        ],
-        [
-          "Tweedledum and Tweedledee",
-          0
-        ],
-        [
-          "Tweedledum and Tweedledee",
           1
         ],
         [
-          "Tweedledum and Tweedledee",
+          "What Are Little Boys Made Of?",
           2
         ],
         [
           "Tweedledum and Tweedledee",
-          3
+          2
         ],
         [
           "Pretty Little Dutch Girl",
           1
         ],
         [
-          "A Wise Old Owl",
-          1
-        ],
-        [
           "Three Little Kittens",
-          5
+          0
         ],
         [
-          "Billy Boy",
-          1
+          "A Wise Old Owl",
+          0
         ],
         [
-          "Aiken Drum",
+          "A Wise Old Owl",
           1
         ]
       ]
@@ -3902,10 +3361,6 @@
         ],
         [
           "Halliburton",
-          0
-        ],
-        [
-          "Halliburton",
           1
         ],
         [
@@ -3923,6 +3378,10 @@
         [
           "Exxon",
           2
+        ],
+        [
+          "Mobil Producing Nigeria",
+          0
         ]
       ]
     },
@@ -3941,14 +3400,6 @@
           1
         ],
         [
-          "Jawbreaker (film)",
-          2
-        ],
-        [
-          "Jawbreaker (film)",
-          3
-        ],
-        [
           "Rose McGowan",
           0
         ],
@@ -3961,16 +3412,24 @@
           4
         ],
         [
+          "Kerr Smith",
+          0
+        ],
+        [
           "Charmed (season 4)",
           2
         ],
         [
           "Charmed",
-          6
+          0
         ],
         [
-          "Power of Three (Charmed)",
-          3
+          "Charmed",
+          4
+        ],
+        [
+          "Charmed",
+          6
         ]
       ]
     },
@@ -3978,7 +3437,7 @@
       "question_id":"5a8361b65542992ef85e22a0",
       "question":"Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
       "ground_truth":"International Boxing Hall of Fame",
-      "prediction":"IBF.",
+      "prediction":"IBF (International Boxing Federation).",
       "supporting_facts":[
         [
           "Vince Phillips",
@@ -3989,16 +3448,24 @@
           1
         ],
         [
-          "International Boxing Federation",
-          0
-        ],
-        [
           "Lawrence Austin",
           1
         ],
         [
-          "Zab Judah",
-          0
+          "Jeff Malcolm",
+          1
+        ],
+        [
+          "Jeff Malcolm",
+          2
+        ],
+        [
+          "Jeff Malcolm",
+          3
+        ],
+        [
+          "Jeff Malcolm",
+          4
         ],
         [
           "Zab Judah",
@@ -4006,14 +3473,6 @@
         ],
         [
           "Ralph Charles",
-          0
-        ],
-        [
-          "Jeff Malcolm",
-          2
-        ],
-        [
-          "Andrew Murray (Guyanese boxer)",
           0
         ]
       ]
@@ -4026,6 +3485,10 @@
       "supporting_facts":[
         [
           "Stay (Sugarland song)",
+          0
+        ],
+        [
+          "Stay (Sugarland song)",
           1
         ],
         [
@@ -4033,19 +3496,7 @@
           2
         ],
         [
-          "Yeah! (Usher song)",
-          0
-        ],
-        [
-          "Yeah! (Usher song)",
-          1
-        ],
-        [
-          "Yeah! (Usher song)",
-          2
-        ],
-        [
-          "Yeah! (Usher song)",
+          "Stay (Sugarland song)",
           3
         ],
         [
@@ -4053,24 +3504,8 @@
           4
         ],
         [
-          "No One (Alicia Keys song)",
-          0
-        ],
-        [
-          "No One (Alicia Keys song)",
-          1
-        ],
-        [
-          "U Know What's Up",
-          0
-        ],
-        [
-          "U Know What's Up",
-          7
-        ],
-        [
-          "Stay (Shakespears Sister song)",
-          1
+          "Billy Ray Cyrus discography",
+          4
         ]
       ]
     },
@@ -4078,31 +3513,19 @@
       "question_id":"5ac2acff55429921a00ab02b",
       "question":"who is the younger brother of The episode guest stars of The Hard Easy ",
       "ground_truth":"Bill Murray",
-      "prediction":"Bill Murray.",
+      "prediction":"Nick Lachey.",
       "supporting_facts":[
+        [
+          "The Hard Easy (film)",
+          0
+        ],
         [
           "The Hard Easy (film)",
           1
         ],
         [
-          "Brother from Another Series",
-          0
-        ],
-        [
-          "Brother from Another Series",
-          1
-        ],
-        [
-          "Brother from Another Series",
+          "The Hard Easy (film)",
           2
-        ],
-        [
-          "Brother from Another Series",
-          3
-        ],
-        [
-          "Brother from Another Series",
-          4
         ],
         [
           "Brother from Another Series",
@@ -4122,39 +3545,15 @@
         ],
         [
           "The Hard Easy (Adventure Time)",
-          2
-        ],
-        [
-          "The Hard Easy (Adventure Time)",
           3
-        ],
-        [
-          "Brian Doyle-Murray",
-          0
         ],
         [
           "Brian Doyle-Murray",
           1
         ],
         [
-          "Brian Doyle-Murray",
-          2
-        ],
-        [
-          "Brian Doyle-Murray",
-          3
-        ],
-        [
           "The Farm (The Office)",
           2
-        ],
-        [
-          "Roy's Wedding",
-          2
-        ],
-        [
-          "Andy's Ancestry",
-          3
         ]
       ]
     },
@@ -4181,24 +3580,20 @@
           0
         ],
         [
-          "List of Wigan Borough F.C. players",
-          3
+          "EFL Cup",
+          1
         ],
         [
-          "1978\u201379 Wigan Athletic F.C. season",
-          0
+          "Nick Powell",
+          4
         ],
         [
           "1978\u201379 Wigan Athletic F.C. season",
           1
         ],
         [
-          "1978\u201379 Wigan Athletic F.C. season",
-          2
-        ],
-        [
-          "1978\u201379 Wigan Athletic F.C. season",
-          3
+          "Trinidad and Tobago League Cup",
+          0
         ]
       ]
     },
@@ -4206,14 +3601,10 @@
       "question_id":"5ae5aba0554299546bf82f17",
       "question":"Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
       "ground_truth":"Teen Titans Go!",
-      "prediction":"The Teen Titans.",
+      "prediction":"Rugrats.",
       "supporting_facts":[
         [
           "Tara Strong filmography",
-          0
-        ],
-        [
-          "Tara Strong filmography",
           1
         ],
         [
@@ -4226,31 +3617,7 @@
         ],
         [
           "Tara Strong",
-          0
-        ],
-        [
-          "Tara Strong",
           1
-        ],
-        [
-          "Tara Strong",
-          2
-        ],
-        [
-          "Tara Strong",
-          3
-        ],
-        [
-          "Teen Titans (season 1)",
-          0
-        ],
-        [
-          "Teen Titans (season 1)",
-          1
-        ],
-        [
-          "Teen Titans (season 1)",
-          2
         ],
         [
           "Teen Titans (season 1)",
@@ -4262,11 +3629,11 @@
         ],
         [
           "Teen Titans (season 4)",
-          3
+          0
         ],
         [
-          "Teen Titans",
-          0
+          "Teen Titans (season 4)",
+          3
         ],
         [
           "Teen Titans",
@@ -4293,59 +3660,35 @@
           1
         ],
         [
-          "122nd SS-Standarte",
-          2
-        ],
-        [
-          "Strasbourg",
+          "122nd Infantry Regiment (United States)",
           0
-        ],
-        [
-          "Strasbourg",
-          1
-        ],
-        [
-          "Strasbourg",
-          2
-        ],
-        [
-          "Strasbourg",
-          3
-        ],
-        [
-          "Strasbourg",
-          4
-        ],
-        [
-          "122nd Division (Imperial Japanese Army)",
-          0
-        ],
-        [
-          "122nd Division (Imperial Japanese Army)",
-          1
-        ],
-        [
-          "122nd Division (Imperial Japanese Army)",
-          2
-        ],
-        [
-          "122nd Division (Imperial Japanese Army)",
-          3
-        ],
-        [
-          "122nd Division (Imperial Japanese Army)",
-          4
         ],
         [
           "122nd Infantry Regiment (United States)",
           1
         ],
         [
-          "122nd Ohio Infantry",
+          "Strasbourg",
           0
         ],
         [
-          "122nd (Muskoka) Battalion, CEF",
+          "Strasbourg",
+          1
+        ],
+        [
+          "Strasbourg",
+          2
+        ],
+        [
+          "Strasbourg",
+          4
+        ],
+        [
+          "122nd Division (Imperial Japanese Army)",
+          0
+        ],
+        [
+          "122nd Division (Imperial Japanese Army)",
           4
         ]
       ]
@@ -4361,23 +3704,11 @@
           0
         ],
         [
-          "Oranjegekte",
-          1
-        ],
-        [
           "Koningsdag",
           0
         ],
         [
           "Koningsdag",
-          1
-        ],
-        [
-          "Queen's Day (disambiguation)",
-          0
-        ],
-        [
-          "Queen's Day (disambiguation)",
           1
         ],
         [
@@ -4387,6 +3718,10 @@
         [
           "Jounen Kw\u00e9y\u00f2l",
           5
+        ],
+        [
+          "Christmas in the Basque Country",
+          4
         ]
       ]
     },
@@ -4414,11 +3749,15 @@
         ],
         [
           "James Gunn",
-          1
+          0
         ],
         [
           "James Gunn",
-          4
+          1
+        ],
+        [
+          "Romeo and Juliet on screen",
+          1
         ],
         [
           "Romeo \u00d7 Juliet",
@@ -4430,19 +3769,7 @@
         ],
         [
           "Romeo",
-          1
-        ],
-        [
-          "Romeo",
           2
-        ],
-        [
-          "The Tragedy of Romeo and Juliet (film)",
-          0
-        ],
-        [
-          "List of Romeo \u00d7 Juliet episodes",
-          0
         ]
       ]
     },
@@ -4474,10 +3801,6 @@
         ],
         [
           "Bill Clinton",
-          0
-        ],
-        [
-          "Bill Clinton",
           1
         ],
         [
@@ -4489,8 +3812,12 @@
           3
         ],
         [
-          "National Intelligence Board",
+          "Director of the Defense Intelligence Agency",
           0
+        ],
+        [
+          "Director of the Defense Intelligence Agency",
+          2
         ]
       ]
     },
@@ -4506,11 +3833,11 @@
         ],
         [
           "MEO Rip Curl Pro Portugal",
-          1
+          2
         ],
         [
-          "MEO Rip Curl Pro Portugal",
-          2
+          "Moche Rip Curl Pro Portugal 2014",
+          0
         ],
         [
           "Moche Rip Curl Pro Portugal 2015",
@@ -4529,16 +3856,12 @@
           0
         ],
         [
-          "John John Florence",
-          1
-        ],
-        [
-          "John John Florence",
-          2
-        ],
-        [
           "Coco Ho",
           0
+        ],
+        [
+          "Andy Irons",
+          2
         ],
         [
           "Barton Lynch",
@@ -4574,15 +3897,19 @@
         ],
         [
           "Marion Christopher Barry",
-          3
-        ],
-        [
-          "Middle name",
           0
         ],
         [
-          "Middle name",
-          1
+          "Marion Christopher Barry",
+          3
+        ],
+        [
+          "Chris Funk",
+          2
+        ],
+        [
+          "Singh",
+          4
         ]
       ]
     },
@@ -4590,7 +3917,7 @@
       "question_id":"5a713ea95542994082a3e6e4",
       "question":"Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
       "ground_truth":"Apalachees",
-      "prediction":"The Ais.",
+      "prediction":"Ais.",
       "supporting_facts":[
         [
           "Alvaro Mexia",
@@ -4606,7 +3933,11 @@
         ],
         [
           "Indigenous peoples of Florida",
-          2
+          0
+        ],
+        [
+          "Indigenous peoples of Florida",
+          1
         ],
         [
           "Diplomatic mission",
@@ -4618,15 +3949,11 @@
         ],
         [
           "Diplomatic mission",
-          2
-        ],
-        [
-          "Diplomatic mission",
           3
         ],
         [
           "List of diplomatic missions of Azerbaijan",
-          10
+          0
         ]
       ]
     },
@@ -4654,14 +3981,14 @@
         ],
         [
           "Alfred Gell",
-          3
-        ],
-        [
-          "Alfred Gell",
           4
         ],
         [
           "Association of Social Anthropologists",
+          0
+        ],
+        [
+          "Network Analysis and Ethnographic Problems",
           0
         ],
         [
@@ -4674,23 +4001,19 @@
       "question_id":"5a7625e8554299109176e66a",
       "question":"In which year was the King who made the 1925 Birthday Honours born?",
       "ground_truth":"1865",
-      "prediction":"1865.",
+      "prediction":"1865",
       "supporting_facts":[
         [
           "1925 Birthday Honours",
           0
         ],
         [
-          "1925 Birthday Honours",
-          1
-        ],
-        [
-          "1951 Birthday Honours",
+          "George V",
           0
         ],
         [
           "1951 Birthday Honours",
-          1
+          0
         ],
         [
           "1951 Birthday Honours",
@@ -4705,8 +4028,12 @@
           1
         ],
         [
-          "1965 Birthday Honours",
-          2
+          "2016 Birthday Honours",
+          0
+        ],
+        [
+          "2017 Birthday Honours",
+          0
         ]
       ]
     },
@@ -4714,42 +4041,26 @@
       "question_id":"5ae2dd2055429928c423950d",
       "question":"What is the county seat of the county where East Lempster, New Hampshire is located?",
       "ground_truth":"Newport",
-      "prediction":"Sullivan.",
+      "prediction":"Newport.",
       "supporting_facts":[
         [
-          "East Lempster, New Hampshire",
-          0
-        ],
-        [
           "Lempster, New Hampshire",
           0
         ],
         [
-          "Lempster, New Hampshire",
-          1
-        ],
-        [
-          "Lempster, New Hampshire",
-          2
+          "Miner Memorial Library",
+          0
         ],
         [
           "Dover, New Hampshire",
-          3
-        ],
-        [
-          "Carroll County, New Hampshire",
           0
         ],
         [
           "Carroll County, New Hampshire",
-          2
+          1
         ],
         [
           "Sullivan County, New Hampshire",
-          2
-        ],
-        [
-          "Woodsville, New Hampshire",
           2
         ]
       ]
@@ -4766,25 +4077,25 @@
         ],
         [
           "Against the Wind (album)",
-          1
-        ],
-        [
-          "Against the Wind (album)",
           2
         ],
         [
           "Bob Seger",
           0
+        ],
+        [
+          "Bob Seger",
+          2
+        ],
+        [
+          "Bob Seger",
+          3
         ],
         [
           "Bob Seger",
           4
         ],
         [
-          "Bob Seger",
-          5
-        ],
-        [
           "Ride Out (album)",
           0
         ],
@@ -4795,10 +4106,6 @@
         [
           "Stranger in Town (album)",
           0
-        ],
-        [
-          "Stranger in Town (album)",
-          1
         ]
       ]
     },
@@ -4806,7 +4113,7 @@
       "question_id":"5a88658955429938390d3f47",
       "question":"Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
       "ground_truth":"Conscription",
-      "prediction":"Conscription (draft).",
+      "prediction":"Requiring only men to register for the draft.",
       "supporting_facts":[
         [
           "Rostker v. Goldberg",
@@ -4846,19 +4153,7 @@
         ],
         [
           "Conscription in the United States",
-          4
-        ],
-        [
-          "Conscription in the United States",
           5
-        ],
-        [
-          "Armed Forces Covenant",
-          0
-        ],
-        [
-          "Armed Forces Covenant",
-          2
         ]
       ]
     },
@@ -4885,6 +4180,10 @@
           1
         ],
         [
+          "Mondelez International",
+          2
+        ],
+        [
           "PepsiCo",
           0
         ],
@@ -4893,16 +4192,8 @@
           1
         ],
         [
-          "PepsiCo",
+          "Twisties",
           2
-        ],
-        [
-          "PepsiCo",
-          3
-        ],
-        [
-          "Robert's American Gourmet Food",
-          0
         ],
         [
           "Twisties",
@@ -4910,7 +4201,7 @@
         ],
         [
           "Snack Foods Limited",
-          1
+          2
         ]
       ]
     },
@@ -4942,27 +4233,7 @@
         ],
         [
           "Lewinsky scandal",
-          1
-        ],
-        [
-          "Lewinsky scandal",
-          2
-        ],
-        [
-          "Lewinsky scandal",
-          3
-        ],
-        [
-          "Lewinsky scandal",
-          4
-        ],
-        [
-          "Lewinsky scandal",
           5
-        ],
-        [
-          "Lewinsky scandal",
-          6
         ],
         [
           "Once Upon a Secret",
@@ -4970,11 +4241,15 @@
         ],
         [
           "The White House Doctor",
-          0
+          1
         ],
         [
-          "The White House Doctor",
+          "Mark D. Fabiani",
           1
+        ],
+        [
+          "Gregory B. Craig",
+          2
         ]
       ]
     },
@@ -4998,10 +4273,6 @@
         ],
         [
           "Paul Manafort",
-          3
-        ],
-        [
-          "Paul Manafort",
           4
         ],
         [
@@ -5009,36 +4280,24 @@
           0
         ],
         [
-          "David Urban",
-          1
-        ],
-        [
-          "Donald Trump presidential campaign, 2000",
+          "Brad Parscale",
           0
         ],
         [
-          "Donald Trump presidential campaign, 2000",
-          1
-        ],
-        [
-          "Donald Trump presidential campaign, 2000",
+          "Brad Parscale",
           3
         ],
         [
           "Brad Parscale",
-          7
+          6
         ],
         [
-          "Trump campaign\u2013Russian meeting",
-          0
-        ],
-        [
-          "Trump campaign\u2013Russian meeting",
+          "Tony Fabrizio",
           1
         ],
         [
           "Trump campaign\u2013Russian meeting",
-          2
+          0
         ]
       ]
     },
@@ -5058,19 +4317,15 @@
         ],
         [
           "Drained",
-          1
-        ],
-        [
-          "Drained",
           2
-        ],
-        [
-          "4 a.m. (novel)",
-          0
         ],
         [
           "Quando Eu Era Vivo",
           0
+        ],
+        [
+          "The Golden Hour (novel)",
+          2
         ],
         [
           "Three Comrades (novel)",
@@ -5087,6 +4342,10 @@
         [
           "The Birds on the Trees",
           0
+        ],
+        [
+          "Crime and Punishment",
+          0
         ]
       ]
     },
@@ -5094,7 +4353,7 @@
       "question_id":"5a7759fc5542993569682d60",
       "question":"Where are Teide National Park and Garajonay National Park located?",
       "ground_truth":"Canary Islands, Spain",
-      "prediction":"Canary Islands, Spain.",
+      "prediction":"Canary Islands (Spain)",
       "supporting_facts":[
         [
           "Garajonay National Park",
@@ -5113,19 +4372,27 @@
           0
         ],
         [
-          "Hermigua",
-          2
+          "Roque Cinchado",
+          1
         ],
         [
           "Roque Cinchado",
-          1
+          2
         ],
         [
           "Adenocarpus viscosus",
           2
         ],
         [
-          "Training centre for release of the Atma-energy",
+          "Crater Lake National Park",
+          0
+        ],
+        [
+          "Crater Lake National Park",
+          2
+        ],
+        [
+          "Hermigua",
           1
         ]
       ]
@@ -5134,7 +4401,7 @@
       "question_id":"5a835478554299123d8c20ed",
       "question":"How many copies of Roald Dahl's variation on a popular anecdote sold?",
       "ground_truth":"250 million",
-      "prediction":"A single answer:\n\nA: None, as \"Mrs. Bixby and the Colonel's Coat\" is not a book with sales figures mentioned in the context.",
+      "prediction":"250 million.",
       "supporting_facts":[
         [
           "Roald Dahl",
@@ -5146,27 +4413,19 @@
         ],
         [
           "The Roald Dahl Treasury",
+          0
+        ],
+        [
+          "The Roald Dahl Treasury",
           1
         ],
         [
-          "Roald Dahl: Collected Stories",
+          "The Best of Roald Dahl",
           0
         ],
         [
           "The Collected Short Stories of Roald Dahl",
-          1
-        ],
-        [
-          "The Best of Roald Dahl",
           0
-        ],
-        [
-          "The Best of Roald Dahl",
-          1
-        ],
-        [
-          "Mrs. Bixby and the Colonel's Coat",
-          1
         ]
       ]
     },
@@ -5174,7 +4433,7 @@
       "question_id":"5aba749055429901930fa7d8",
       "question":"What occupation do Chris Menges and Aram Avakian share?",
       "ground_truth":"director",
-      "prediction":"Film director.",
+      "prediction":"Film directors.",
       "supporting_facts":[
         [
           "Aram Avakian",
@@ -5201,12 +4460,12 @@
           0
         ],
         [
-          "End of the Road (1970 film)",
+          "CrissCross",
           0
         ],
         [
-          "Made in Britain",
-          4
+          "End of the Road (1970 film)",
+          0
         ]
       ]
     },
@@ -5218,10 +4477,6 @@
       "supporting_facts":[
         [
           "Andrew Jaspan",
-          0
-        ],
-        [
-          "Chicago Public Media",
           0
         ],
         [
@@ -5250,10 +4505,10 @@
         ],
         [
           "990WBOB",
-          3
+          4
         ],
         [
-          "State media",
+          "Chicago Public Media",
           1
         ]
       ]
@@ -5277,24 +4532,24 @@
           0
         ],
         [
-          "Independent Spirit Award for Best First Feature",
+          "Independent Spirit Awards",
           1
         ],
         [
           "Independent Spirit Award for Best First Feature",
-          2
-        ],
-        [
-          "32nd Independent Spirit Awards",
           0
         ],
         [
-          "32nd Independent Spirit Awards",
-          1
+          "Independent Spirit Award for Best First Feature",
+          2
         ],
         [
-          "32nd Independent Spirit Awards",
-          2
+          "Independent Spirit Award for Best Editing",
+          0
+        ],
+        [
+          "Independent Spirit Award for Best Cinematography",
+          0
         ],
         [
           "28th Independent Spirit Awards",
@@ -5303,10 +4558,6 @@
         [
           "John Waters",
           0
-        ],
-        [
-          "Mihai M\u0103laimare Jr.",
-          3
         ]
       ]
     },
@@ -5314,20 +4565,8 @@
       "question_id":"5ae53b545542990ba0bbb23c",
       "question":"Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
       "ground_truth":"Las Vegas Strip in Paradise",
-      "prediction":"Las Vegas.",
+      "prediction":"New York City's Greenwich Village.",
       "supporting_facts":[
-        [
-          "Why Is There Air?",
-          1
-        ],
-        [
-          "Why Is There Air?",
-          2
-        ],
-        [
-          "Bill Cosby Is a Very Funny Fellow...Right!",
-          0
-        ],
         [
           "Bill Cosby Is a Very Funny Fellow...Right!",
           1
@@ -5341,32 +4580,32 @@
           3
         ],
         [
-          "Disco Bill",
+          "Flamingo Las Vegas",
           0
         ],
         [
           "Disco Bill",
-          1
-        ],
-        [
-          "Disco Bill",
-          2
-        ],
-        [
-          "Inside the Mind of Bill Cosby",
           0
         ],
         [
-          "Inside the Mind of Bill Cosby",
-          1
-        ],
-        [
-          "Inside the Mind of Bill Cosby",
-          2
+          "At Last Bill Cosby Really Sings",
+          0
         ],
         [
           "At Last Bill Cosby Really Sings",
           1
+        ],
+        [
+          "Hikky Burr",
+          4
+        ],
+        [
+          "Inside the Mind of Bill Cosby",
+          0
+        ],
+        [
+          "The Original Jam Sessions 1969",
+          0
         ]
       ]
     },
@@ -5374,14 +4613,14 @@
       "question_id":"5ae224da554299234fd043ee",
       "question":"Do the drinks Gibson and Zurracapote both contain gin?",
       "ground_truth":"no",
-      "prediction":"No.",
+      "prediction":"Yes.",
       "supporting_facts":[
         [
-          "Zurracapote",
+          "Gibson (cocktail)",
           0
         ],
         [
-          "Zurracapote",
+          "Gibson (cocktail)",
           1
         ],
         [
@@ -5393,20 +4632,16 @@
           3
         ],
         [
-          "Gibson (cocktail)",
-          0
-        ],
-        [
-          "Gibson (cocktail)",
-          1
-        ],
-        [
           "Phillips Distilling Company",
           2
         ],
         [
           "Phillips Distilling Company",
           3
+        ],
+        [
+          "Gin pennant",
+          0
         ]
       ]
     },
@@ -5437,35 +4672,19 @@
           0
         ],
         [
-          "New Haven Documentary Film Festival",
-          1
-        ],
-        [
-          "New Haven Documentary Film Festival",
-          2
-        ],
-        [
-          "New Haven Documentary Film Festival",
-          3
-        ],
-        [
-          "New Haven Documentary Film Festival",
-          4
+          "FreedomFilmFest",
+          0
         ],
         [
           "FreedomFilmFest",
-          0
+          1
         ],
         [
           "Doc NYC",
           0
         ],
         [
-          "Docville",
-          0
-        ],
-        [
-          "British Journal",
+          "Chagrin Documentary Film Festival",
           0
         ]
       ]
@@ -5476,14 +4695,6 @@
       "ground_truth":"Fairfax County",
       "prediction":"Fairfax.",
       "supporting_facts":[
-        [
-          "Tysons Galleria",
-          0
-        ],
-        [
-          "Tysons Galleria",
-          1
-        ],
         [
           "Tysons Corner Center",
           0
@@ -5498,19 +4709,19 @@
         ],
         [
           "Tysons, Virginia",
-          2
-        ],
-        [
-          "Tysons, Virginia",
           3
         ],
         [
           "Tysons, Virginia",
-          4
+          5
         ],
         [
-          "Tysons, Virginia",
-          5
+          "Tysons Galleria",
+          1
+        ],
+        [
+          "McLean, Virginia",
+          6
         ],
         [
           "McLean station",
@@ -5526,7 +4737,7 @@
       "question_id":"5a8e0a005542995085b373a1",
       "question":"Bordan Tkachuk was the CEO of a company that provides what sort of products?",
       "ground_truth":"IT products and services",
-      "prediction":"Medical supplies.",
+      "prediction":"Salt.",
       "supporting_facts":[
         [
           "Bordan Tkachuk",
@@ -5534,22 +4745,26 @@
         ],
         [
           "Jonathan Michael Ansell",
-          0
+          2
         ],
         [
           "Jonathan Michael Ansell",
-          2
+          3
         ],
         [
           "Jonathan Michael Ansell",
           4
         ],
         [
-          "Owens &amp; Minor",
-          3
+          "Compass Minerals",
+          0
         ],
         [
-          "Cardinal Health",
+          "Compass Minerals",
+          1
+        ],
+        [
+          "Compass Minerals",
           2
         ],
         [
@@ -5557,8 +4772,12 @@
           3
         ],
         [
-          "BankUnited",
-          3
+          "Terren Peizer",
+          4
+        ],
+        [
+          "Cardinal Health",
+          1
         ]
       ]
     },
@@ -5581,12 +4800,20 @@
           0
         ],
         [
-          "Lev Kuleshov",
+          "Pamela B. Davis",
           0
         ],
         [
-          "Lev Kuleshov",
+          "Pamela B. Davis",
+          1
+        ],
+        [
+          "Pamela B. Davis",
           2
+        ],
+        [
+          "Lev Kuleshov",
+          0
         ],
         [
           "Pamela Gilbert",
@@ -5606,23 +4833,15 @@
       "question_id":"5adccd795542990d50227d2c",
       "question":"In which city is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China based?",
       "ground_truth":"Beijing",
-      "prediction":"Beijing.",
+      "prediction":"Rabat.",
       "supporting_facts":[
         [
-          "Moroccan Ambassador to China",
-          0
-        ],
-        [
           "Rabat",
           0
-        ],
-        [
-          "Rabat",
-          1
         ],
         [
           "Liaison Office (Hong Kong)",
-          1
+          2
         ],
         [
           "Sinuiju Special Administrative Region",
@@ -5633,11 +4852,7 @@
           2
         ],
         [
-          "Wolong Special Administrative Region",
-          0
-        ],
-        [
-          "Hong Kong Basic Law",
+          "2014 NPCSC Decision on Hong Kong",
           0
         ]
       ]
@@ -5653,23 +4868,7 @@
           0
         ],
         [
-          "Yingkou",
-          1
-        ],
-        [
-          "Tongcheng Subdistrict, Fuding",
-          0
-        ],
-        [
           "Fuding Railway Station",
-          0
-        ],
-        [
-          "Fuding",
-          0
-        ],
-        [
-          "Roman Catholic Diocese of Yingkou",
           0
         ],
         [
@@ -5677,1112 +4876,18 @@
           1
         ],
         [
-          "Bayuquan Railway Station",
+          "Yingkou Lanqi Airport",
+          0
+        ],
+        [
+          "Yingkou Lanqi Airport",
+          1
+        ],
+        [
+          "Xiapu County",
           1
         ]
       ]
-    }
-  ],
-  "metadata":[
-    {
-      "sample_id":"5a8b57f25542995d1e6f1371",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What was Scott Derrickson's nationality?",
-        "What was Ed Wood's nationality?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-7.3338732112
-    },
-    {
-      "sample_id":"5a8c7595554299585d9e36b6",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who portrayed Corliss Archer in the film Kiss and Tell?",
-        "What was the plot or storyline of the 1959 film Kiss and Tell?"
-      ],
-      "num_seeds":8,
-      "num_selected":17,
-      "total_value":-55.2208710412
-    },
-    {
-      "sample_id":"5a85ea095542994775f606a8",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What young adult science fantasy series is told in first person?",
-        "What kind of companion books does this series have, and what do they narrate?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-22.6887174667
-    },
-    {
-      "sample_id":"5adbf0a255429947ff17385a",
-      "sub_questions":[
-        "Here are the sub-questions:",
-        "What is the location of Laleli Mosque?",
-        "What is the location of Esma Sultan Mansion?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-8.9308590377
-    },
-    {
-      "sample_id":"5a8e3ea95542995a26add48d",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the director of the romantic comedy \"Big Stone Gap\"?",
-        "Who is this director's place of residence or primary location?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-12.7463743294
-    },
-    {
-      "sample_id":"5abd94525542992ac4f382d2",
-      "sub_questions":[
-        "Here are the sub-questions:",
-        "What is the name of the South Korean boy group that released its debut album \"2014 S\/S\"?",
-        "Who was responsible for forming this South Korean boy group?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":22.2133363969
-    },
-    {
-      "sample_id":"5a85b2d95542997b5ce40028",
-      "sub_questions":[
-        "Here are the sub-questions that would help answer the original question:",
-        "What was Aladin's stage name?",
-        "Who helped organizations improve their performance as a consultant?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-59.1904070833
-    },
-    {
-      "sample_id":"5a87ab905542996e4f3088c1",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "What was the name of the arena where the Lewiston Maineiacs played their home games?",
-        "What is the seating capacity of [arena name]?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-11.6993758799
-    },
-    {
-      "sample_id":"5a7bbb64554299042af8f7cc",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who is Annie Morton?",
-        "What is Terry Richardson's date of birth?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-1.6868028689
-    },
-    {
-      "sample_id":"5a8db19d5542994ba4e3dd00",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Local H?",
-        "Is For Against a band from the United States?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-58.80259705
-    },
-    {
-      "sample_id":"5a7166395542994082a3e814",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "What is the name of the university with its main campus in Lawrence, Kansas?",
-        "What is the location of the university's branch campuses?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":6.9531612269
-    },
-    {
-      "sample_id":"5a877e5d5542993e715abf7d",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "\u2022 Who wrote the screenplay for \"Evolution\"?",
-        "\u2022 What is the title of the Nicolas Cage film co-starring T\u00e9a Leoni?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-18.2144119217
-    },
-    {
-      "sample_id":"5ab3b0bf5542992ade7c6e39",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What movie starring Arnold Schwarzenegger as a former New York Police detective was released?",
-        "What year did Guns N' Roses release their promo music video or song for a movie?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":3.7456761874
-    },
-    {
-      "sample_id":"5ab56e32554299637185c594",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the primary use of the Random House Tower?",
-        "What is the address of 888 7th Avenue?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":5.0719999877
-    },
-    {
-      "sample_id":"5ab6d09255429954757d337d",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the football manager who recruited David Beckham?",
-        "What team did this manager manage before recruiting David Beckham?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":19.7513546164
-    },
-    {
-      "sample_id":"5a75e05c55429976ec32bc5f",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the name of the country where Brown State Fishing Lake is located?",
-        "What is the population size of this country, according to a reliable source (e.g. government website, Wikipedia, etc.)?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-41.9520786044
-    },
-    {
-      "sample_id":"5ab3e45655429976abd1bcd4",
-      "sub_questions":[
-        "Here are 2-3 sub-questions that can help answer the original question:",
-        "What is the current conference that the Vermont Catamounts men's soccer team competes in?",
-        "In what year was the name of this conference changed from its previous designation?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":41.3182224753
-    },
-    {
-      "sample_id":"5ab29c24554299449642c932",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is Giuseppe Verdi an Opera composer?",
-        "Is Ambroise Thomas an Opera composer?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":9.6198124163
-    },
-    {
-      "sample_id":"5ae0d4c9554299603e418468",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was Roger O. Egeberg?",
-        "What was Roger O. Egeberg's position in the US government during which presidential administration?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-17.2898475907
-    },
-    {
-      "sample_id":"5a8133725542995ce29dcbdb",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was Henry Roth?",
-        "What was Robert Erskine Childers known for?"
-      ],
-      "num_seeds":8,
-      "num_selected":19,
-      "total_value":12.7829586613
-    },
-    {
-      "sample_id":"5ae7a8175542993210983ed8",
-      "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "Who is the Force India driver born in 1990?",
-        "What are some other Mexican Formula One race car drivers?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":18.2220062973
-    },
-    {
-      "sample_id":"5ae6050f55429929b0807a5e",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the singer of A Rather Blustery Day?",
-        "What is the name of the hedgehog character?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-40.635840033
-    },
-    {
-      "sample_id":"5adddccd5542997dc7907069",
-      "sub_questions":[
-        "Here are the sub-questions that help decompose the original question:",
-        "What was Apple Remote originally designed to interact with?",
-        "What devices can control or interact with this specific program?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":30.9351705531
-    },
-    {
-      "sample_id":"5ae2070a5542994d89d5b313",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the typical instrumentation used by Badly Drawn Boy in their performances?",
-        "Who are the members of Wolf Alice, and what instruments do they play?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-46.0148913764
-    },
-    {
-      "sample_id":"5ae22b8d554299234fd0440f",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who is Kasper Schmeichel?",
-        "What organization is responsible for voting on football players' fathers in 1992?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-5.6837970935
-    },
-    {
-      "sample_id":"5a722b8655429971e9dc9329",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that help answer the original question:",
-        "Who wrote the song \"These Boots Are Made for Walkin'\"?",
-        "What was the name of the artist who died in 2007, known for their work on this song?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":29.5278454843
-    },
-    {
-      "sample_id":"5adf37a95542995ec70e8f97",
-      "sub_questions":[
-        "Here are the sub-questions that help answer the original question:",
-        "What year was Virginia Commonwealth University founded?",
-        "Who is the head coach of the 2011\u201312 VCU Rams men's basketball team?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":64.4034370384
-    },
-    {
-      "sample_id":"5abd259d55429924427fcf1a",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is Dictyosperma considered a genus?",
-        "Is Huernia considered a genus?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":14.7572021112
-    },
-    {
-      "sample_id":"5a828c8355429966c78a6a50",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who founded Kaiser Ventures corporation?",
-        "What was the American industrialist known for?"
-      ],
-      "num_seeds":8,
-      "num_selected":14,
-      "total_value":24.4564375441
-    },
-    {
-      "sample_id":"5a8a3e745542996c9b8d5e70",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
-        "What is an adventure in the context of role-playing games like \"Tunnels and Trolls\"?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":49.8346063865
-    },
-    {
-      "sample_id":"5ac23ff0554299636651994d",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the rock band that released the album \"Shut Up, Make Love\"?",
-        "When was Poison's debut studio album released?"
-      ],
-      "num_seeds":8,
-      "num_selected":12,
-      "total_value":43.8793647164
-    },
-    {
-      "sample_id":"5ae4a3265542995ad6573de5",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Buck-Tick?",
-        "What genre of music does Buck-Tick belong to?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-0.6436639478
-    },
-    {
-      "sample_id":"5ae0361155429925eb1afc2c",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who is the French ace pilot?",
-        "What was L'Oiseau Blanc?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":48.8024403135
-    },
-    {
-      "sample_id":"5abc0a5d5542993f40c73c64",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is Freakonomics an American documentary?",
-        "Is In the Realm of the Hackers an American documentary?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-50.4505690495
-    },
-    {
-      "sample_id":"5a7cc50e554299452d57ba3e",
-      "sub_questions":[
-        "Here are the 2-3 single-hop sub-questions that would help answer the original question:",
-        "Who were the members of Letters to Cleo?",
-        "How many members did Screaming Trees have at their peak?"
-      ],
-      "num_seeds":8,
-      "num_selected":20,
-      "total_value":-82.9356734182
-    },
-    {
-      "sample_id":"5abf63f15542997ec76fd3ea",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was Alexander Kerensky?",
-        "What was the outcome of the civil war between the Bolsheviks and Alexander Kerensky's forces?"
-      ],
-      "num_seeds":8,
-      "num_selected":15,
-      "total_value":-15.9373332851
-    },
-    {
-      "sample_id":"5a8ef2a75542995a26add583",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the Italian physicist who wrote Seven Brief Lessons on Physics?",
-        "What year did this Italian physicist start working in France?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-14.1204080286
-    },
-    {
-      "sample_id":"5a80721b554299485f5985ef",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What war is the Livesey Hal War Memorial commemorating?",
-        "What was the approximate number of casualties in this war?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":13.2558473424
-    },
-    {
-      "sample_id":"5ab51dae5542991779162d82",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is Elko Regional Airport located in Michigan?",
-        "Does Gerald R. Ford International Airport have a location in Michigan?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":9.1036300719
-    },
-    {
-      "sample_id":"5a7571135542992d0ec05f98",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who was Ralph Hefferline?",
-        "What university did he teach at?"
-      ],
-      "num_seeds":8,
-      "num_selected":12,
-      "total_value":-65.085914223
-    },
-    {
-      "sample_id":"5a7a0e1e5542990783324e1a",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What breeds do Manchester Terriers and Scotch Collies descend from?",
-        "What are the ancestors of Gordon Setters, and which breeds do Irish Setters come from?"
-      ],
-      "num_seeds":8,
-      "num_selected":12,
-      "total_value":8.1489469551
-    },
-    {
-      "sample_id":"5a74106b55429979e288289e",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who is Sachin Warrier?",
-        "What was Sachin Warrier's profession?"
-      ],
-      "num_seeds":8,
-      "num_selected":16,
-      "total_value":-68.8908484567
-    },
-    {
-      "sample_id":"5a79311755429970f5fffe67",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the name of the Japanese manga series?",
-        "Who is the main protagonist in the manga series?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-12.1382860345
-    },
-    {
-      "sample_id":"5ab2d3df554299194fa9352c",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "Who is Giuseppe Arimondi?",
-        "What was the battle in which Giuseppe Arimondi lost his life?"
-      ],
-      "num_seeds":8,
-      "num_selected":12,
-      "total_value":-35.0473281551
-    },
-    {
-      "sample_id":"5a760ab65542994ccc918697",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "Who is Alfred Balk?",
-        "What was Alfred Balk's role in the Committee on the Employment of Minority Groups in the News Media?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-27.4915572255
-    },
-    {
-      "sample_id":"5a7d54165542995f4f402256",
-      "sub_questions":[
-        "Here are the sub-questions:",
-        "What is the name of the medieval fortress in Dirleton, East Lothian, Scotland?",
-        "What direction does the south side of this fortress face relative to the surrounding area?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":21.4998985083
-    },
-    {
-      "sample_id":"5ab859a955429934fafe6d7b",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "What song was the first track on the box set Back to Mono?",
-        "Who is the writer of this song?"
-      ],
-      "num_seeds":8,
-      "num_selected":19,
-      "total_value":-86.0908723665
-    },
-    {
-      "sample_id":"5add61d65542995b365fab21",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who was the former Soviet statesman?",
-        "What type of online community or platform did he initiate?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-69.9982968587
-    },
-    {
-      "sample_id":"5a8e068b5542995085b37384",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Is Ferocactus a type of plant?",
-        "What is the botanical classification of Silene?"
-      ],
-      "num_seeds":8,
-      "num_selected":16,
-      "total_value":-0.4838178991
-    },
-    {
-      "sample_id":"5abbf698554299114383a0b5",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What was the nationality of the first-generation jet-powered medium bomber?",
-        "What type of theatre was it used in during World War II?"
-      ],
-      "num_seeds":8,
-      "num_selected":19,
-      "total_value":-85.1202753684
-    },
-    {
-      "sample_id":"5a8e1027554299653c1aa15f",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the NCAA Division that the Colorado Buffaloes play in?",
-        "Which year did the conference hold its 14th season as part of this NCAA Division?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":37.3609808849
-    },
-    {
-      "sample_id":"5ab84bf555429916710eb01f",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who bought Euromarch\u00e9 in 1991?",
-        "How many hypermarkets did this chain operate at the end of 2016?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-65.5971504362
-    },
-    {
-      "sample_id":"5a77724455429972597f153e",
-      "sub_questions":[
-        "Here are the sub-questions:",
-        "What is the name of the famous 500-mile auto race held annually in May?",
-        "In which region of the United States does this racing event take place?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-57.5622816329
-    },
-    {
-      "sample_id":"5a87c13f5542996e4f30890c",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is known as the \"Prince of tenors\"?",
-        "What was the film based on an opera by Giacomo Puccini?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-1.8435622227
-    },
-    {
-      "sample_id":"5ab96ab755429970cfb8eacd",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Ellie Goulding?",
-        "What was the title of her third studio album?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":19.3974598902
-    },
-    {
-      "sample_id":"5a8a43eb5542996c9b8d5e82",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Which Australian city was founded in 1838?",
-        "What is the name of the boarding school opened by a Prime Minister of Australia, and what is its connection to a school in London?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-63.856205864
-    },
-    {
-      "sample_id":"5ae73acb5542991e8301cc07",
-      "sub_questions":[
-        "Here are the sub-questions that can help answer the original question:",
-        "What is D1NZ?",
-        "Is it a series related to drifting or racing?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-8.333435859
-    },
-    {
-      "sample_id":"5a7320565542991f9a20c61d",
-      "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "Who is Keith Bostic?",
-        "What is Jerry Glanville's birthdate?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":16.5511277031
-    },
-    {
-      "sample_id":"5ae32e125542991a06ce9946",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the city where Kirton End is located?",
-        "According to the 2001 census, what was the population of this city?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":15.0613891629
-    },
-    {
-      "sample_id":"5adc53f75542996e6852530a",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Is Cypress a genus?",
-        "Is Ajuga a genus?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-39.7900034425
-    },
-    {
-      "sample_id":"5a8b20335542996c9b8d5fb3",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What former NBA player was a member of the Charlotte Hornets during their 1992-93 season?",
-        "Who was the head coach for the WNBA team Charlotte Sting?"
-      ],
-      "num_seeds":8,
-      "num_selected":16,
-      "total_value":-10.5389667158
-    },
-    {
-      "sample_id":"5a85fb085542994775f606de",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who composed the score for the film?",
-        "What is the title of the film with a score by Jerry Goldsmith?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":33.4229579073
-    },
-    {
-      "sample_id":"5a7be2595542997c3ec972ac",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "When was Emma Bull born?",
-        "When was Virginia Woolf born?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-6.8436025465
-    },
-    {
-      "sample_id":"5a77152355429966f1a36c2e",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the title of the nursery rhyme being referred to in \"What Are Little Girls Made Of\"?",
-        "What is the Roud Folk Song Index, and how does it categorize folk songs?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-8.1871259709
-    },
-    {
-      "sample_id":"5a8f4c8d554299458435d5a3",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Scott Parkin?",
-        "What corporations has Scott Parkin been vocal about criticizing?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-42.3220681658
-    },
-    {
-      "sample_id":"5a80840f554299485f59863b",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What WB supernatural drama series is known for featuring a strong female lead?",
-        "Who played the role of Paige Matthews in this show?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-1.0296212853
-    },
-    {
-      "sample_id":"5a8361b65542992ef85e22a0",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What larger Hall of Fame is recognized by an organization that sanctions professional boxing?",
-        "Who is Vince Phillips, a boxer with a notable title in junior welterweight?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-29.3116061205
-    },
-    {
-      "sample_id":"5ae7ba7a5542993210983f12",
-      "sub_questions":[
-        "Here are three sub-questions that break down the original question:",
-        "What album is \"the song\" released from?",
-        "Who is the singer of \"the song\" that was released as the lead single?"
-      ],
-      "num_seeds":8,
-      "num_selected":12,
-      "total_value":-20.1841282405
-    },
-    {
-      "sample_id":"5ac2acff55429921a00ab02b",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the name of The Hard Easy?",
-        "Who are the episode guest stars of The Hard Easy?"
-      ],
-      "num_seeds":8,
-      "num_selected":19,
-      "total_value":-35.7884411649
-    },
-    {
-      "sample_id":"5aba7cfe554299232ef4a2fd",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the league cup in which Wigan Athletic F.C. competes?",
-        "Why does the league cup have a different name for sponsorship reasons?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":22.3801604956
-    },
-    {
-      "sample_id":"5ae5aba0554299546bf82f17",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is Tara Strong's major voice role in an animated series?",
-        "Is the animated series based on a DC Comics fictional superhero team?"
-      ],
-      "num_seeds":8,
-      "num_selected":17,
-      "total_value":54.1959328396
-    },
-    {
-      "sample_id":"5ae1f4cb554299234fd0436d",
-      "sub_questions":[
-        "Here are 3 single-hop sub-questions that can help answer the original question:",
-        "What is the name of the city where the 122nd SS-Standarte was formed in 2014?",
-        "Where is the 122nd SS-Standarte located or headquartered?"
-      ],
-      "num_seeds":8,
-      "num_selected":16,
-      "total_value":-113.0613679985
-    },
-    {
-      "sample_id":"5ae7e1fc55429952e35ea9cc",
-      "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "What is Oranjegekte?",
-        "What are some common clothing items worn during festive events in the Netherlands?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-2.1583206536
-    },
-    {
-      "sample_id":"5ae37c765542992f92d822d4",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What was the name of the 1996 film written by James Gunn?",
-        "Was this film a loose adaptation of William Shakespeare's \"Romeo & Juliet\"?"
-      ],
-      "num_seeds":8,
-      "num_selected":12,
-      "total_value":24.5064174342
-    },
-    {
-      "sample_id":"5ae33c4d5542992f92d82262",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who was Robert Suettinger?",
-        "What is his role in the intelligence community (i.e., what position did he hold)?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-29.009289514
-    },
-    {
-      "sample_id":"5a77cb335542997042120b3a",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What American professional surfer was born on October 18, 1992?",
-        "Who is a Hawaiian surfer?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":7.6175544427
-    },
-    {
-      "sample_id":"5a8979f4554299669944a52e",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is the name of the actress who plays Bobbi Bacha in Suburban Madness?",
-        "Who is the actress in question (i.e., what is her full name)?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-18.9520407401
-    },
-    {
-      "sample_id":"5a713ea95542994082a3e6e4",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Alvaro Mexia?",
-        "What was Alvaro Mexia's role or occupation?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":-32.6424740968
-    },
-    {
-      "sample_id":"5a78bd9b554299078472774a",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "What was Alfred Gell's birthplace?",
-        "What was Edmund Leach's place of birth?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":7.5593015595
-    },
-    {
-      "sample_id":"5a7625e8554299109176e66a",
-      "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that can help answer the original question:",
-        "Which King made the 1925 Birthday Honours?",
-        "In which year was this King born?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":16.7869127269
-    },
-    {
-      "sample_id":"5ae2dd2055429928c423950d",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What county is East Lempster, New Hampshire located in?",
-        "In what town or city is the county seat of [insert county name] located?"
-      ],
-      "num_seeds":8,
-      "num_selected":9,
-      "total_value":38.6860046685
-    },
-    {
-      "sample_id":"5abdf12255429976d4830a2f",
-      "sub_questions":[
-        "Here are the sub-questions that would help answer the original question:",
-        "What is the title of Robert C. Seger's 11th album?",
-        "When was Robert C. Seger born?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":6.3258495292
-    },
-    {
-      "sample_id":"5a88658955429938390d3f47",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that would help answer the original question:",
-        "What was the practice of filling armed forces vacancies at issue in Rostker v. Goldberg?",
-        "What was the constitutional provision or principle invoked by the plaintiff (Rostker) to challenge this practice?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-98.6377814032
-    },
-    {
-      "sample_id":"5a86ebac55429960ec39b6d6",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What American multinational confectionery, food, and beverage company is based in Illinois?",
-        "What product line does this company sell?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":-6.4325925181
-    },
-    {
-      "sample_id":"5aba5d2e55429901930fa799",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What was the title of a book that targets individuals associated with the Clinton Machine?",
-        "Who is the woman featured in this book as one of its subjects?"
-      ],
-      "num_seeds":8,
-      "num_selected":14,
-      "total_value":-53.1744154157
-    },
-    {
-      "sample_id":"5ae5736e5542990ba0bbb2b3",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is the American lawyer, lobbyist, and political consultant?",
-        "What is their connection to Donald Trump's presidential campaign?"
-      ],
-      "num_seeds":8,
-      "num_selected":14,
-      "total_value":-23.9230512358
-    },
-    {
-      "sample_id":"5ae005b555429942ec259bec",
-      "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "What is the title of the novel that Louren\u00e7o Mutarelli based \"Nina\" on?",
-        "Who wrote the original novel that Louren\u00e7o Mutarelli drew inspiration from for \"Nina\"?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-23.5191754202
-    },
-    {
-      "sample_id":"5a7759fc5542993569682d60",
-      "sub_questions":[
-        "Here are the decomposed sub-questions:",
-        "Where is Teide National Park located?",
-        "Which country or region is home to Garajonay National Park?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":39.0710142365
-    },
-    {
-      "sample_id":"5a835478554299123d8c20ed",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the popular anecdote that Roald Dahl wrote a variation of?",
-        "How many copies did the original version of this anecdote sell?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-8.5957529117
-    },
-    {
-      "sample_id":"5aba749055429901930fa7d8",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Chris Menges?",
-        "What occupation does Aram Avakian have?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-19.7067058713
-    },
-    {
-      "sample_id":"5abfb3425542990832d3a1c0",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "Who is Andrew Jaspan?",
-        "What type of media outlet did he co-found?"
-      ],
-      "num_seeds":8,
-      "num_selected":10,
-      "total_value":-53.537640053
-    },
-    {
-      "sample_id":"5ac3165c5542995ef918c10a",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What American film directors were known for their work in the early 2000s?",
-        "Which of these directors was associated with the Independent Spirit Awards?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":24.097392816
-    },
-    {
-      "sample_id":"5ae53b545542990ba0bbb23c",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What was the title of Bill Cosby's third album?",
-        "Where was Bill Cosby's third album recorded?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-22.0238243896
-    },
-    {
-      "sample_id":"5ae224da554299234fd043ee",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is Gibson?",
-        "What ingredients does Zurracapote typically contain?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-14.2492168061
-    },
-    {
-      "sample_id":"5ae2b770554299495565db0f",
-      "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
-        "What is the name of the British journal of literary essays?",
-        "In what month does the documentary film festival usually take place?"
-      ],
-      "num_seeds":8,
-      "num_selected":13,
-      "total_value":-22.792979889
-    },
-    {
-      "sample_id":"5a80b3a9554299485f5986cc",
-      "sub_questions":[
-        "Here are 2-3 single-hop sub-questions that would help answer the original question:",
-        "What city is Tysons Galleria located in?",
-        "What state is the city of Tysons Galleria located in?"
-      ],
-      "num_seeds":8,
-      "num_selected":11,
-      "total_value":46.3811985212
-    },
-    {
-      "sample_id":"5a8e0a005542995085b373a1",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "Who is Bordan Tkachuk?",
-        "What was his role at the company?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-49.1388670606
-    },
-    {
-      "sample_id":"5ac1b8ee5542994d76dccedc",
-      "sub_questions":[
-        "Here are three single-hop sub-questions that can help answer the original question:",
-        "What is Pamela B. Green known for?",
-        "Is Lev Yilmaz an animator?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-6.0866112692
-    },
-    {
-      "sample_id":"5adccd795542990d50227d2c",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the Rabat-Sal\u00e9-K\u00e9nitra administrative region?",
-        "In which country is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region based?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":-13.2177618658
-    },
-    {
-      "sample_id":"5a84c4135542994c784dda31",
-      "sub_questions":[
-        "Here are three sub-questions that can help answer the original question:",
-        "What is the administrative level of Yingkou?",
-        "What is the administrative level of Fuding?"
-      ],
-      "num_seeds":8,
-      "num_selected":8,
-      "total_value":0.2835678653
     }
   ]
 }

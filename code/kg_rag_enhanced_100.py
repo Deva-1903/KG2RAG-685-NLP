@@ -65,12 +65,24 @@ def read_data(args):
     else:
         raise ValueError(f'Unknown dataset: {args.dataset}')
     
-    # Limit to first 100 questions for testing
+    # Limit to N questions for testing
     num_questions = getattr(args, 'num_questions', 100)
+    random_sample = getattr(args, 'random_sample', False)
+    seed = getattr(args, 'seed', None)
+    
     if num_questions and num_questions > 0:
         original_count = len(data)
-        data = data[:num_questions]
-        print(f'Limited dataset to {len(data)} questions (from {original_count} total)')
+        if random_sample:
+            # Random sampling
+            if seed is not None:
+                random.seed(seed)
+                print(f'Using random seed: {seed}')
+            data = random.sample(data, min(num_questions, len(data)))
+            print(f'Randomly sampled {len(data)} questions (from {original_count} total)')
+        else:
+            # First N questions (original behavior)
+            data = data[:num_questions]
+            print(f'Limited dataset to first {len(data)} questions (from {original_count} total)')
     
     return data
 
@@ -506,6 +518,8 @@ if __name__ == '__main__':
     parser.add_argument('--kg_dir', type=str, default='../data/hotpotqa/kgs/extract_subkgs', help='Directory of the KGs')
     parser.add_argument('--result_path', type=str, default='../output/hotpot/hotpot_dev_distractor_v1_kgrag_experimental_100.json', help='Path to the result file')
     parser.add_argument('--num_questions', type=int, default=100, help='Number of questions to test (default: 100)')
+    parser.add_argument('--random_sample', action='store_true', help='Randomly sample questions instead of taking first N')
+    parser.add_argument('--seed', type=int, default=42, help='Random seed for reproducibility (default: 42)')
     
     # Model arguments
     parser.add_argument('--embed_model_name', type=str, default='mxbai-embed-large', help='Ollama embedding model name')
