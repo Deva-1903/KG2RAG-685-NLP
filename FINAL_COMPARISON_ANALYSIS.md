@@ -58,24 +58,6 @@
 
 ---
 
-## Before vs After Bug Fix
-
-### Results Comparison
-
-| Metric                        | Before Fix (Buggy) | After Fix (Fair) | Difference |
-| ----------------------------- | ------------------ | ---------------- | ---------- |
-| **Overall Accuracy**          | 76.0%              | 68.0%            | -8.0%      |
-| **Exact Matches**             | 57.0%              | 49.0%            | -8.0%      |
-| **Improvement over Original** | +14.0%             | +6.0%            | -8.0%      |
-
-**Key Findings:**
-
-- **Before fix:** +14.0% improvement (inflated due to unfair advantage)
-- **After fix:** +6.0% improvement (realistic and fair)
-- **Real improvement:** ~6% is still meaningful and significant
-
----
-
 ## What's Working in Experimental Pipeline
 
 ### 1. Multi-View Seed Retrieval ✅
