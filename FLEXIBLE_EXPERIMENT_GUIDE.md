@@ -7,7 +7,7 @@ The flexible experiment system allows you to:
 - Run experiments with **any number of questions** (100, 200, 300, 400, 500, etc.)
 - Choose between **random sampling** or **first N** questions
 - **Automatically ensure same random seed** for both pipelines when using random sampling
-- **Save results in unique files** for easy comparison
+- **Organize results in folders** for easy management
 - **Generate comprehensive reports** from all experiments
 
 ---
@@ -46,35 +46,49 @@ python run_experiments.py --num_questions 300 400 500 --random --seed 42
 # Generate report from all experiments
 python generate_report.py --output_dir ../output/hotpot
 
+# Generate report for a specific experiment folder
+python generate_report.py --output_dir ../output/hotpot/exp_100_first
+
 # Save report to file
 python generate_report.py --output_dir ../output/hotpot --report_file ../experiment_report.md
 ```
 
 ---
 
-## File Naming Convention
+## Folder Structure
 
-Results are automatically saved with descriptive filenames:
+Results are organized in **experiment folders** with simple filenames:
 
 ### Random Sampling
 
-- `hotpot_dev_distractor_v1_kgrag_100_random_seed42.json`
-- `hotpot_dev_distractor_v1_kgrag_100_random_seed42_detailed.json`
-- `hotpot_dev_distractor_v1_kgrag_experimental_100_random_seed42.json`
-- `hotpot_dev_distractor_v1_kgrag_experimental_100_random_seed42_detailed.json`
+```
+output/hotpot/
+└── exp_100_random_seed42/
+    ├── original.json
+    ├── original_detailed.json
+    ├── experimental.json
+    ├── experimental_detailed.json
+    └── metadata.json
+```
 
 ### First N Sampling
 
-- `hotpot_dev_distractor_v1_kgrag_200_first.json`
-- `hotpot_dev_distractor_v1_kgrag_200_first_detailed.json`
-- `hotpot_dev_distractor_v1_kgrag_experimental_200_first.json`
-- `hotpot_dev_distractor_v1_kgrag_experimental_200_first_detailed.json`
+```
+output/hotpot/
+└── exp_200_first/
+    ├── original.json
+    ├── original_detailed.json
+    ├── experimental.json
+    ├── experimental_detailed.json
+    └── metadata.json
+```
 
 **Key Points:**
 
-- Same seed = same random questions for both pipelines
-- Unique filenames prevent overwriting
-- Easy to identify experiment configuration from filename
+- Each experiment has its own folder
+- Simple, consistent filenames inside folders
+- Folder name encodes configuration (num_questions, sampling, seed)
+- Easy to find, compare, and delete experiments
 
 ---
 
@@ -114,11 +128,12 @@ python run_experiments.py --num_questions 100 --random --output_dir ../output/cu
 **What it does:**
 
 1. Validates configuration
-2. Generates unique output filenames
+2. Creates experiment folder (e.g., `exp_100_random_seed42/`)
 3. Runs original pipeline with specified config
 4. Runs experimental pipeline with **same config** (same seed for random)
-5. Saves experiment metadata
-6. Prints summary and comparison command
+5. Saves results with simple filenames in the folder
+6. Saves experiment metadata
+7. Prints summary and comparison command
 
 ---
 
@@ -147,6 +162,12 @@ python generate_report.py --output_dir ../output/hotpot --report_file ../experim
 - Detailed metrics for each experiment
 - Improvement analysis
 - Overall statistics (average, max, min improvements)
+
+**How it works:**
+
+- Automatically scans for `exp_*` folders
+- Groups original and experimental results by configuration
+- Can process a specific folder or all folders in a directory
 
 ---
 
@@ -203,8 +224,8 @@ Check the question IDs in the detailed JSON files - they should match exactly:
 ```bash
 python -c "
 import json
-orig = json.load(open('../output/hotpot/hotpot_dev_distractor_v1_kgrag_100_random_seed123_detailed.json'))
-exp = json.load(open('../output/hotpot/hotpot_dev_distractor_v1_kgrag_experimental_100_random_seed123_detailed.json'))
+orig = json.load(open('../output/hotpot/exp_100_random_seed123/original_detailed.json'))
+exp = json.load(open('../output/hotpot/exp_100_random_seed123/experimental_detailed.json'))
 orig_ids = [q['id'] for q in orig['summary']['questions_tested']]
 exp_ids = [q['id'] for q in exp['summary']['questions_tested']]
 print('Same questions:', orig_ids == exp_ids)
@@ -218,23 +239,38 @@ print('First 5 IDs match:', orig_ids[:5] == exp_ids[:5])
 
 ```
 output/hotpot/
-├── hotpot_dev_distractor_v1_kgrag_100_random_seed42.json
-├── hotpot_dev_distractor_v1_kgrag_100_random_seed42_detailed.json
-├── hotpot_dev_distractor_v1_kgrag_experimental_100_random_seed42.json
-├── hotpot_dev_distractor_v1_kgrag_experimental_100_random_seed42_detailed.json
-├── hotpot_dev_distractor_v1_kgrag_200_first.json
-├── hotpot_dev_distractor_v1_kgrag_200_first_detailed.json
-├── hotpot_dev_distractor_v1_kgrag_experimental_200_first.json
-├── hotpot_dev_distractor_v1_kgrag_experimental_200_first_detailed.json
-├── experiment_metadata_100_random_seed42.json
-└── experiment_metadata_200_first.json
+├── exp_100_random_seed42/
+│   ├── original.json
+│   ├── original_detailed.json
+│   ├── experimental.json
+│   ├── experimental_detailed.json
+│   └── metadata.json
+├── exp_200_first/
+│   ├── original.json
+│   ├── original_detailed.json
+│   ├── experimental.json
+│   ├── experimental_detailed.json
+│   └── metadata.json
+└── exp_500_random_seed123/
+    ├── original.json
+    ├── original_detailed.json
+    ├── experimental.json
+    ├── experimental_detailed.json
+    └── metadata.json
 ```
 
-**Metadata files** contain:
+**File Contents:**
 
-- Experiment configuration
-- Paths to all output files
-- Easy reference for generating reports
+- `original.json` / `experimental.json`: Main results (answers and supporting facts)
+- `original_detailed.json` / `experimental_detailed.json`: Detailed results with questions and metadata
+- `metadata.json`: Experiment configuration and file paths
+
+**Benefits:**
+
+- ✅ Easy to find experiments (just look for folder name)
+- ✅ Easy to delete experiments (remove folder)
+- ✅ Clean organization (no long filenames)
+- ✅ Simple to compare (same filenames in each folder)
 
 ---
 
@@ -293,9 +329,10 @@ You can modify `run_experiments.py` to add custom configurations:
 
 **Solution:**
 
-- Verify `--output_dir` points to correct directory
-- Check that detailed JSON files exist
-- Ensure filenames follow naming convention
+- Verify `--output_dir` points to correct directory (parent directory or specific experiment folder)
+- Check that experiment folders start with `exp_`
+- Ensure `original_detailed.json` and `experimental_detailed.json` exist in folders
+- Try specifying a specific experiment folder: `--output_dir ../output/hotpot/exp_100_first`
 
 ---
 
@@ -313,8 +350,9 @@ You can modify `run_experiments.py` to add custom configurations:
 
 ✅ **Flexible:** Any number of questions (100, 200, 300, etc.)  
 ✅ **Same Random Seed:** Both pipelines use identical seed automatically  
-✅ **Unique Filenames:** No overwriting, easy to identify  
+✅ **Folder Organization:** Each experiment in its own folder  
+✅ **Simple Filenames:** Consistent naming inside folders  
 ✅ **Comprehensive Reports:** Analyze all experiments at once  
-✅ **Easy Comparison:** Built-in comparison tools
+✅ **Easy Management:** Find, compare, and delete experiments easily
 
 **Ready to run multiple experiments and generate comprehensive reports!**

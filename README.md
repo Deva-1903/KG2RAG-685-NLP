@@ -1,4 +1,5 @@
 # Knowledge Graph-Guided Retrieval Augmented Generation
+
 This is the official code release of the following paper:
 
 Xiangrong Zhu, Yuexiang Xie, Yi Liu, Yaliang Li, Wei Hu. Knowledge Graph-Guided Retrieval Augmented Generation, NAACL 2025.
@@ -7,33 +8,109 @@ Retrieval-augmented generation (RAG) has emerged as a promising technology for a
 
 ![image](framework.jpg)
 
+## Experimental Extensions
+
+This repository includes **experimental extensions** to the original KG²RAG framework, proposing two novel improvements:
+
+### What We Propose
+
+1. **Multi-View Seed Retrieval** - Instead of single-view semantic retrieval, we retrieve passages for each sub-question separately and fuse them using Reciprocal Rank Fusion (RRF) or mean-cosine similarity, followed by cross-encoder reranking and Maximal Marginal Relevance (MMR) for diversity.
+
+2. **Token-Budgeted Knapsack Selection** - Replace the heuristic top-M selection with a 0-1 knapsack optimization that maximizes value (relevance × coverage) under a token budget constraint.
+
+### Key Differences from Original KG²RAG
+
+| Component            | Original KG²RAG                                  | Experimental Approach                                                                                             |
+| -------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| **Seed Retrieval**   | Single-view semantic retrieval                   | Multi-view retrieval (one view per sub-question) with RRF/mean fusion, cross-encoder reranking, and MMR diversity |
+| **Sub-Questions**    | Not explicitly used                              | Generated for HotpotQA (or extracted for MuSiQue) to enable multi-view retrieval                                  |
+| **Selection Method** | Graph-based ordering (MST/DFS) + heuristic top-M | Token-budgeted 0-1 knapsack optimization maximizing (relevance × coverage)                                        |
+| **Candidate Pool**   | All passages after KG expansion                  | Restricted to multi-view seeds + their 1-hop KG-expanded neighbors                                                |
+| **Optimization**     | Graph structure + reranking                      | Explicit token budget constraint with value maximization                                                          |
+
+### Why These Changes Matter
+
+- **Multi-View Retrieval**: Ensures both "hops" in multi-hop questions are covered before KG expansion, improving recall for complex questions.
+- **Knapsack Selection**: Optimizes token usage while maximizing information value, potentially improving efficiency and answer quality within budget constraints.
+- **Fair Comparison**: The experimental pipeline uses the same KG expansion mechanism as the original, ensuring fair evaluation of the novel components.
+
+### Pipeline Comparison
+
+**Original KG²RAG Flow:**
+
+```
+1. Single-view retrieval → seeds
+2. KG expansion (1-hop)
+3. Graph ordering (MST/DFS)
+4. Top-M selection
+5. Answer generation
+```
+
+**Experimental Flow:**
+
+```
+1. Sub-question generation
+2. Multi-view retrieval → diverse seeds (6-8)
+3. KG expansion (1-hop) [same as original]
+4. Candidate scoring (cross-encoder × coverage)
+5. Knapsack selection (token-budgeted)
+6. Answer generation [same as original]
+```
+
+For detailed implementation and usage, see [code/PROJECT_IMPLEMENTATION_GUIDE.md](code/PROJECT_IMPLEMENTATION_GUIDE.md).
+
 ## Quick Start
 
 ### Model Preparation
+
 Please refer to the [model](model/readme.md) directory for instructions on downloading and setting up the required models.
 
 ### Data Preparation
+
 Please refer to the [code/preprocess](code/preprocess/readme.md) directory for instructions on preparing the datasets.
 
-
 ### Run $KG^2RAG$
+
 - To run in distractor setting:
   ```sh
   python kg_rag_distractor.py --dataset hotpotqa --data_path ../data/hotpotqa/hotpot_dev_distractor_v1.json --kg_dir ../data/hotpotqa/kgs/extract_subkgs --result_path ../output/hotpot/hotpot_dev_distractor_v1_kgrag.json
+  ```
 - To run in fullwiki setting:
   ```sh
   python kg_rag_full.py --dataset hotpotqa --data_path ../data/hotpotqa/hotpot_dev_distractor_v1.json --kg_dir ../data/hotpotqa/kgs/extract_subkgs --result_path ../output/hotpot/hotpot_dev_fullwiki_v1_kgrag.json
+  ```
+
+### Experimental Setup
+
+For running experiments comparing original vs experimental pipelines, see:
+
+- [FLEXIBLE_EXPERIMENT_GUIDE.md](FLEXIBLE_EXPERIMENT_GUIDE.md) - Guide for running flexible experiments
+- [code/PROJECT_IMPLEMENTATION_GUIDE.md](code/PROJECT_IMPLEMENTATION_GUIDE.md) - Implementation details for experimental components
+
+Quick start for experiments:
+
+```sh
+cd code
+# Run experiment on 100 questions
+python run_experiments.py --num_questions 100 --first
+
+# Generate comparison report
+python generate_report.py --output_dir ../output/hotpot
+```
+
 > If you have any difficulty or question in running code and reproducing experimental results, please email to xrzhu.nju@gmail.com.
 
 ## Citation
+
 If you find the repository helpful, please cite the following paper.
+
 ```bibtex
 @inproceedings{KG2RAG,
   title = {Knowledge Graph-Guided Retrieval Augmented Generation},
-  author = {Zhu, Xiangrong and 
-            Xie, Yuexiang and 
-            Liu, Yi and 
-            Li, Yaliang and 
+  author = {Zhu, Xiangrong and
+            Xie, Yuexiang and
+            Liu, Yi and
+            Li, Yaliang and
             Hu, Wei},
   booktitle = {NAACL},
   year = {2025}
