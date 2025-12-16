@@ -1,9 +1,6 @@
 # Final Comparison: Original vs Experimental (After Bug Fix)
 
 ## Executive Summary
-
-After fixing the implementation bug, the experimental pipeline shows **realistic and meaningful improvements**:
-
 - **Overall Accuracy: +6.0%** (68.0% vs 62.0%)
 - **Exact Matches: +3.0%** (49.0% vs 46.0%)
 - **Factoid Questions: +5.7%** (67.0% vs 61.4%)
