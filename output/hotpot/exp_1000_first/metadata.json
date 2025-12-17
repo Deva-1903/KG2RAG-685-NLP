@@ -1,0 +1,10 @@
+{
+  "num_questions": 1000,
+  "is_random": false,
+  "seed": null,
+  "experiment_folder": "../output/hotpot/exp_1000_first",
+  "original_output": "../output/hotpot/exp_1000_first/original.json",
+  "experimental_output": "../output/hotpot/exp_1000_first/experimental.json",
+  "original_detailed": "../output/hotpot/exp_1000_first/original_detailed.json",
+  "experimental_detailed": "../output/hotpot/exp_1000_first/experimental_detailed.json"
+}
