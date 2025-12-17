@@ -327,6 +327,7 @@ if __name__=='__main__':
     parser.add_argument('--num_questions',type=int,default=100,help='Number of questions to test (default: 100)')
     parser.add_argument('--random_sample',action='store_true',help='Randomly sample questions instead of taking first N')
     parser.add_argument('--seed',type=int,default=42,help='Random seed for reproducibility (default: 42)')
+    parser.add_argument('--start_idx',type=int,default=None,help='Start index for batch processing (for non-overlapping batches)')
 
     parser.add_argument('--embed_model_name',type=str,default='mxbai-embed-large',help='Ollama embedding model name for indexing')
     parser.add_argument('--model_name',type=str,default='llama3:8b',help='Ollama model name')
