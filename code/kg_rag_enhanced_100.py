@@ -69,10 +69,16 @@ def read_data(args):
     num_questions = getattr(args, 'num_questions', 100)
     random_sample = getattr(args, 'random_sample', False)
     seed = getattr(args, 'seed', None)
+    start_idx = getattr(args, 'start_idx', None)  # For batch processing
     
     if num_questions and num_questions > 0:
         original_count = len(data)
-        if random_sample:
+        if start_idx is not None:
+            # Batch processing: get specific range
+            end_idx = min(start_idx + num_questions, len(data))
+            data = data[start_idx:end_idx]
+            print(f'Using batch range: questions {start_idx} to {end_idx} (from {original_count} total)')
+        elif random_sample:
             # Random sampling
             if seed is not None:
                 random.seed(seed)
@@ -407,11 +413,28 @@ def process_sample_enhanced(args, sample, kg, subquestion_generator):
         prediction = ''
         sps = []
     
+    # Calculate tokens used (context + answer)
+    tokens_used = 0
+    try:
+        from knapsack_selection import count_tokens
+        # Count tokens in selected passages (context)
+        for doc_id in selected_doc_ids:
+            if doc_id in candidate_dict:
+                tokens_used += count_tokens(candidate_dict[doc_id])
+        # Count tokens in answer
+        if prediction:
+            tokens_used += count_tokens(prediction)
+    except Exception:
+        # Fallback: approximate token count
+        total_text = ' '.join([candidate_dict.get(doc_id, '') for doc_id in selected_doc_ids])
+        tokens_used = int(len(total_text.split()) * 1.3) + len(prediction.split()) if prediction else 0
+    
     return sample_id, prediction, sps, {
         'sub_questions': sub_questions,
         'num_seeds': len(seed_passages),
         'num_selected': len(selected_doc_ids),
-        'total_value': total_value
+        'total_value': total_value,
+        'tokens_used': tokens_used
     }
 
 

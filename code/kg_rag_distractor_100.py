@@ -52,10 +52,16 @@ def read_data(args):
     num_questions = getattr(args, 'num_questions', 100)
     random_sample = getattr(args, 'random_sample', False)
     seed = getattr(args, 'seed', None)
+    start_idx = getattr(args, 'start_idx', None)  # For batch processing
     
     if num_questions and num_questions > 0:
         original_count = len(data)
-        if random_sample:
+        if start_idx is not None:
+            # Batch processing: get specific range
+            end_idx = min(start_idx + num_questions, len(data))
+            data = data[start_idx:end_idx]
+            print(f'Using batch range: questions {start_idx} to {end_idx} (from {original_count} total)')
+        elif random_sample:
             # Random sampling
             if seed is not None:
                 random.seed(seed)
@@ -102,7 +108,7 @@ def read_kg(args,data):
     print(f'Loaded kg for {len(doc2kg.keys())} entities from {args.dataset}')
     return doc2kg
 
-def write_prediction(args,data,prediction,tested_questions):
+def write_prediction(args,data,prediction,tested_questions,metadata=None):
     result_path = args.result_path
     output_dir = os.path.dirname(result_path)
     os.makedirs(output_dir, exist_ok=True)
@@ -119,7 +125,8 @@ def write_prediction(args,data,prediction,tested_questions):
                 'total_tested': len(tested_questions),
                 'questions_tested': tested_questions
             },
-            'results': []
+            'results': [],
+            'metadata': metadata if metadata else []
         }
         
         for sample in data:
@@ -242,12 +249,29 @@ def process_sample(args,sample,kg):
         print(f'Sample {sample_id}, Error: {e}')
         prediction = ''
         sps = []
-    return sample_id,prediction,sps
+        response = None
+    
+    # Calculate tokens used (context + answer)
+    tokens_used = 0
+    try:
+        if response and hasattr(response, 'source_nodes'):
+            # Count tokens in context (from source nodes)
+            context_text = ' '.join([node.node.text for node in response.source_nodes])
+            tokens_used = int(len(context_text.split()) * 1.3)  # Approximate
+        # Count tokens in answer
+        if prediction:
+            tokens_used += int(len(prediction.split()) * 1.3)
+    except Exception:
+        # Fallback: simple word count
+        tokens_used = len(prediction.split()) if prediction else 0
+    
+    return sample_id, prediction, sps, {'tokens_used': tokens_used}
 
 def kgrag_distractor_predict(args,data,kg):
     prediction = {'answer':{},'sp':{}}
     sps_count = 0
     tested_questions = []
+    metadata = []
     
     for sample in tqdm(data, desc="Processing questions"):
         sample_id = sample['_id'] if args.dataset == 'hotpotqa' else sample['id']
@@ -257,20 +281,26 @@ def kgrag_distractor_predict(args,data,kg):
             'ground_truth': sample['answer']
         })
         
-        sample_id,sample_prediction,sample_sps = process_sample(args,sample,kg)
+        sample_id, sample_prediction, sample_sps, sample_metadata = process_sample(args, sample, kg)
         prediction['answer'][sample_id] = sample_prediction
         prediction['sp'][sample_id] = sample_sps
         sps_count += len(sample_sps)
+        
+        # Store metadata for evaluation
+        metadata.append({
+            'sample_id': sample_id,
+            **sample_metadata
+        })
     
     print(f'Average number of supporting facts: {sps_count/len(data)}')
-    return prediction, tested_questions
+    return prediction, tested_questions, metadata
 
 def main(args):
     data = read_data(args)
     init_model(args)
     kg = read_kg(args,data)
-    prediction, tested_questions = kgrag_distractor_predict(args,data,kg)
-    write_prediction(args,data,prediction,tested_questions)
+    prediction, tested_questions, metadata = kgrag_distractor_predict(args,data,kg)
+    write_prediction(args,data,prediction,tested_questions,metadata)
     
     # Print summary
     print("\n" + "=" * 80)
