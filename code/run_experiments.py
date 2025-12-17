@@ -43,9 +43,13 @@ def run_pipeline(script_name, args_dict, output_file):
     return result.returncode == 0
 
 
-def generate_experiment_folder_name(num_questions, is_random, seed=None):
+def generate_experiment_folder_name(num_questions, is_random, seed=None, start_index=None, end_index=None):
     """Generate experiment folder name based on configuration."""
-    if is_random:
+    if start_index is not None or end_index is not None:
+        start = start_index if start_index is not None else 0
+        end = end_index if end_index is not None else "end"
+        folder_name = f"exp_range_{start}_to_{end}"
+    elif is_random:
         folder_name = f"exp_{num_questions}_random_seed{seed}"
     else:
         folder_name = f"exp_{num_questions}_first"
@@ -53,22 +57,24 @@ def generate_experiment_folder_name(num_questions, is_random, seed=None):
     return folder_name
 
 
-def run_experiment(num_questions, is_random=True, seed=None, base_output_dir="../output/hotpot"):
+def run_experiment(num_questions=1000, is_random=True, seed=None, base_output_dir="../output/hotpot", start_index=None, end_index=None):
     """
     Run both original and experimental pipelines with same configuration.
     
     Args:
-        num_questions: Number of questions to test
+        num_questions: Number of questions to test (ignored if start_index/end_index provided)
         is_random: If True, use random sampling; if False, use first N
         seed: Random seed (auto-generated if None and is_random=True)
         base_output_dir: Base directory for output files
+        start_index: Start index for range selection (0-based)
+        end_index: End index for range selection (exclusive, 0-based)
     """
     # Auto-generate seed if not provided and using random sampling
     if is_random and seed is None:
         seed = 42  # Default seed
     
     # Create experiment folder
-    experiment_folder_name = generate_experiment_folder_name(num_questions, is_random, seed)
+    experiment_folder_name = generate_experiment_folder_name(num_questions, is_random, seed, start_index, end_index)
     experiment_dir = os.path.join(base_output_dir, experiment_folder_name)
     os.makedirs(experiment_dir, exist_ok=True)
     
@@ -79,10 +85,17 @@ def run_experiment(num_questions, is_random=True, seed=None, base_output_dir="..
     print(f"\n{'='*80}")
     print(f"EXPERIMENT CONFIGURATION")
     print(f"{'='*80}")
-    print(f"Number of questions: {num_questions}")
-    print(f"Sampling method: {'Random' if is_random else 'First N'}")
-    if is_random:
-        print(f"Random seed: {seed}")
+    if start_index is not None or end_index is not None:
+        start = start_index if start_index is not None else 0
+        end = end_index if end_index is not None else "end"
+        print(f"Range: indices {start} to {end}")
+        if end_index is not None:
+            print(f"Number of questions: {end_index - (start_index or 0)}")
+    else:
+        print(f"Number of questions: {num_questions}")
+        print(f"Sampling method: {'Random' if is_random else 'First N'}")
+        if is_random:
+            print(f"Random seed: {seed}")
     print(f"Experiment folder: {experiment_dir}")
     print(f"Original output: {original_file}")
     print(f"Experimental output: {experimental_file}")
@@ -93,9 +106,11 @@ def run_experiment(num_questions, is_random=True, seed=None, base_output_dir="..
         'dataset': 'hotpotqa',
         'data_path': '../data/hotpotqa/hotpot_dev_distractor_v1.json',
         'kg_dir': '../data/hotpotqa/kgs/extract_subkgs',
-        'num_questions': num_questions,
-        'random_sample': is_random,
-        'seed': seed if is_random else None,
+        'num_questions': num_questions if (start_index is None and end_index is None) else None,
+        'random_sample': is_random if (start_index is None and end_index is None) else False,
+        'seed': seed if (is_random and start_index is None and end_index is None) else None,
+        'start_index': start_index,
+        'end_index': end_index,
     }
     
     # Original pipeline arguments
@@ -142,6 +157,8 @@ def run_experiment(num_questions, is_random=True, seed=None, base_output_dir="..
         'num_questions': num_questions,
         'is_random': is_random,
         'seed': seed if is_random else None,
+        'start_index': start_index,
+        'end_index': end_index,
         'experiment_folder': experiment_dir,
         'original_output': original_file,
         'experimental_output': experimental_file,
@@ -187,6 +204,9 @@ Examples:
   
   # Run multiple experiments
   python run_experiments.py --num_questions 100 200 300 --random
+  
+  # Run experiments for range 1k to 2k (indices 1000-1999)
+  python run_experiments.py --start_index 1000 --end_index 2000
         """
     )
     
@@ -194,8 +214,8 @@ Examples:
         '--num_questions',
         type=int,
         nargs='+',
-        required=True,
-        help='Number of questions to test (can specify multiple: 100 200 300)'
+        required=False,
+        help='Number of questions to test (can specify multiple: 100 200 300). Not used when --start_index/--end_index are provided.'
     )
     
     parser.add_argument(
@@ -224,7 +244,38 @@ Examples:
         help='Output directory for results (default: ../output/hotpot)'
     )
     
+    parser.add_argument(
+        '--start_index',
+        type=int,
+        default=None,
+        help='Start index for range selection (0-based, e.g., 1000 for 1k-2k range)'
+    )
+    
+    parser.add_argument(
+        '--end_index',
+        type=int,
+        default=None,
+        help='End index for range selection (exclusive, 0-based, e.g., 2000 for 1k-2k range)'
+    )
+    
     args = parser.parse_args()
+    
+    # Validate arguments
+    if args.start_index is None and args.end_index is None:
+        if args.num_questions is None:
+            parser.error("--num_questions is required when not using --start_index/--end_index")
+    elif args.start_index is not None and args.end_index is not None:
+        if args.start_index >= args.end_index:
+            parser.error("--start_index must be less than --end_index")
+        if args.start_index < 0:
+            parser.error("--start_index must be non-negative")
+    
+    # Set default num_questions if using range (not used but needed for compatibility)
+    if args.num_questions is None:
+        if args.start_index is not None and args.end_index is not None:
+            args.num_questions = [args.end_index - args.start_index]
+        else:
+            args.num_questions = [100]  # Default
     
     # Determine sampling method
     # If --random is specified, use random
@@ -244,14 +295,19 @@ Examples:
     all_success = True
     for num_q in args.num_questions:
         print(f"\n{'#'*80}")
-        print(f"# Running experiment: {num_q} questions ({'random' if is_random else 'first'})")
+        if args.start_index is not None and args.end_index is not None:
+            print(f"# Running experiment: range {args.start_index} to {args.end_index} ({args.end_index - args.start_index} questions)")
+        else:
+            print(f"# Running experiment: {num_q} questions ({'random' if is_random else 'first'})")
         print(f"{'#'*80}\n")
         
         success = run_experiment(
             num_questions=num_q,
             is_random=is_random,
             seed=args.seed,
-            base_output_dir=args.output_dir
+            base_output_dir=args.output_dir,
+            start_index=args.start_index,
+            end_index=args.end_index
         )
         
         if not success:

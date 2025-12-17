@@ -66,12 +66,22 @@ def read_data(args):
         raise ValueError(f'Unknown dataset: {args.dataset}')
     
     # Limit to N questions for testing
-    num_questions = getattr(args, 'num_questions', 100)
+    num_questions = getattr(args, 'num_questions', None)
     random_sample = getattr(args, 'random_sample', False)
     seed = getattr(args, 'seed', None)
+    start_index = getattr(args, 'start_index', None)
+    end_index = getattr(args, 'end_index', None)
     
-    if num_questions and num_questions > 0:
-        original_count = len(data)
+    original_count = len(data)
+    
+    # Priority: range selection > random sampling > first N
+    if start_index is not None or end_index is not None:
+        # Range-based selection
+        start = start_index if start_index is not None else 0
+        end = end_index if end_index is not None else len(data)
+        data = data[start:end]
+        print(f'Selected questions from index {start} to {end-1} ({len(data)} questions from {original_count} total)')
+    elif num_questions and num_questions > 0:
         if random_sample:
             # Random sampling
             if seed is not None:
@@ -537,6 +547,8 @@ if __name__ == '__main__':
     parser.add_argument('--num_questions', type=int, default=100, help='Number of questions to test (default: 100)')
     parser.add_argument('--random_sample', action='store_true', help='Randomly sample questions instead of taking first N')
     parser.add_argument('--seed', type=int, default=42, help='Random seed for reproducibility (default: 42)')
+    parser.add_argument('--start_index', type=int, default=None, help='Start index for range selection (0-based)')
+    parser.add_argument('--end_index', type=int, default=None, help='End index for range selection (exclusive, 0-based)')
     
     # Model arguments
     parser.add_argument('--embed_model_name', type=str, default='mxbai-embed-large', help='Ollama embedding model name')
