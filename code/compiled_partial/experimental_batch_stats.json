@@ -1,0 +1,26 @@
+{
+  "num_batches": 2,
+  "total_questions": 4905,
+  "mean_accuracy": 0.024266112266112267,
+  "median_accuracy": 0.024266112266112267,
+  "std_accuracy": 0.0003763395758498055,
+  "min_accuracy": 0.024,
+  "max_accuracy": 0.024532224532224534,
+  "ci_95_lower": 0.023673214137214137,
+  "ci_95_upper": 0.024859010395010397,
+  "ci_95_margin": 0.0005928981288981298,
+  "batch_details": [
+    {
+      "batch": "../output/hotpot/exp_2500_batch0of3",
+      "total": 2500,
+      "exact_matches": 60,
+      "exact_accuracy": 0.024
+    },
+    {
+      "batch": "../output/hotpot/exp_2500_batch2of3",
+      "total": 2405,
+      "exact_matches": 59,
+      "exact_accuracy": 0.024532224532224534
+    }
+  ]
+}

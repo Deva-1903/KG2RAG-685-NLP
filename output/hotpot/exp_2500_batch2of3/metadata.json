@@ -1,0 +1,12 @@
+{
+  "num_questions": 2500,
+  "batch_id": 2,
+  "total_batches": 3,
+  "start_idx": 5000,
+  "end_idx": 7500,
+  "experiment_folder": "../output/hotpot/exp_2500_batch2of3",
+  "original_output": "../output/hotpot/exp_2500_batch2of3/original.json",
+  "experimental_output": "../output/hotpot/exp_2500_batch2of3/experimental.json",
+  "original_detailed": "../output/hotpot/exp_2500_batch2of3/original_detailed.json",
+  "experimental_detailed": "../output/hotpot/exp_2500_batch2of3/experimental_detailed.json"
+}
