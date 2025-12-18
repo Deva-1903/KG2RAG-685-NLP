@@ -2,6 +2,12 @@
 
 This directory contains **our experimental extensions** to the original KG²RAG framework.
 
+**Developed by:**
+
+- Deva Anand (devaanand@umass.edu)
+- Sharvi Endait (sendait@umass.edu)
+- Aditi Kajale (aditiyogeshk@umass.edu)
+
 ## Overview
 
 We propose two novel improvements:
@@ -45,4 +51,12 @@ python generate_report.py --output_dir ../../output/hotpot
 - `BATCH_EVALUATION_GUIDE.md`: Guide for distributed batch evaluation
 - `PROJECT_IMPLEMENTATION_GUIDE.md`: Implementation details
 
-For detailed setup and usage, see the main `README_DETAILED.md` in the project root.
+For detailed setup and usage, see the main `README.md` in the project root.
+
+## Contact
+
+For questions about the experimental extensions:
+
+- **Deva Anand** - devaanand@umass.edu
+- **Sharvi Endait** - sendait@umass.edu
+- **Aditi Kajale** - aditiyogeshk@umass.edu
