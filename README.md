@@ -196,23 +196,6 @@ For detailed information, see:
 - **[code/experimental/README.md](code/experimental/README.md)** - Experimental extensions documentation
 - **[code/experimental/EXPERIMENT_GUIDE.md](code/experimental/EXPERIMENT_GUIDE.md)** - Experiment guide
 
-## Citation
-
-If you find the repository helpful, please cite the following paper.
-
-```bibtex
-@inproceedings{KG2RAG,
-  title = {Knowledge Graph-Guided Retrieval Augmented Generation},
-  author = {Zhu, Xiangrong and
-            Xie, Yuexiang and
-            Liu, Yi and
-            Li, Yaliang and
-            Hu, Wei},
-  booktitle = {NAACL},
-  year = {2025}
-}
-```
-
 ## Contact
 
 For questions about the experimental extensions, please contact:
