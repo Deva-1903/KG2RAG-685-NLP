@@ -204,4 +204,4 @@ For questions about the experimental extensions, please contact:
 - **Aditi Kajale** - aditiyogeshk@umass.edu
 - **Deva Anand** - devaanand@umass.edu
 
-For questions about the original KG²RAG paper, please contact: xrzhu.nju@gmail.com
+For questions about the original KG²RAG paper -> please contact: xrzhu.nju@gmail.com
